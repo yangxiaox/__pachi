@@ -1,0 +1,2140 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AR	Makefile	/^AR=ar$/;"	m
+AddMulMixin	tools/sgflib/typelib.py	/^class AddMulMixin:$/;"	c
+BIGSTR	uct/plugin/wolf.c	244;"	d	file:
+BINDIR	Makefile	/^BINDIR=$(PREFIX)\/bin$/;"	m
+BOARD_MAX_COORDS	board.h	41;"	d
+BOARD_MAX_GROUPS	board.h	43;"	d
+BOARD_MAX_MOVES	board.h	42;"	d
+BOARD_MAX_SIZE	board.h	20;"	d
+BOARD_PAT3	board.h	33;"	d
+BOARD_SPATHASH_MAXD	board.h	31;"	d
+BOARD_SPATHASH_MAXD	pattern.c	406;"	d	file:
+BOARD_SPATHASH_MAXD	pattern.c	407;"	d	file:
+BSIZE	distributed/protocol.h	96;"	d
+BSIZE	network.c	30;"	d	file:
+BUFFERS_PER_SLAVE	distributed/protocol.h	20;"	d
+BUFFERS_PER_SLAVE_BITS	distributed/protocol.h	19;"	d
+CAPTURE_COUNTSTONES_MAX	pattern.c	17;"	d	file:
+CAPTURE_COUNTSTONES_PAYLOAD_SIZE	pattern.h	48;"	d
+CMDS_SIZE	distributed/protocol.h	93;"	d
+CPU_ONLY	dcnn.cpp	12;"	d	file:
+CUSTOM_CFLAGS	Makefile	/^CUSTOM_CFLAGS?=-Wall -ggdb3 -O3 -std=gnu99 -frename-registers -pthread -Wsign-compare -D_GNU_SOURCE$/;"	m
+CUSTOM_CXXFLAGS	Makefile	/^CUSTOM_CXXFLAGS?=-Wall -ggdb3 -O3$/;"	m
+Collection	tools/sgflib/sgflib.py	/^class Collection(List):$/;"	c
+Complex	tools/sgflib/typelib.py	/^class Complex(Number):$/;"	c
+Container	tools/sgflib/typelib.py	/^class Container(SuperType):$/;"	c
+Cursor	tools/sgflib/sgflib.py	/^class Cursor:$/;"	c
+DCNN_BEST_N	dcnn.h	12;"	d
+DEBUG	chat.c	11;"	d	file:
+DEBUG	dcnn.cpp	1;"	d	file:
+DEBUG	distributed/distributed.c	77;"	d	file:
+DEBUG	distributed/merge.c	11;"	d	file:
+DEBUG	distributed/protocol.c	19;"	d	file:
+DEBUG	fbook.c	6;"	d	file:
+DEBUG	gtp.c	1;"	d	file:
+DEBUG	joseki/base.c	5;"	d	file:
+DEBUG	network.c	3;"	d	file:
+DEBUG	pachi.c	1;"	d	file:
+DEBUG	pattern.c	1;"	d	file:
+DEBUG	patternprob.c	1;"	d	file:
+DEBUG	patternsp.c	1;"	d	file:
+DEBUG	playout.c	1;"	d	file:
+DEBUG	playout/moggy.c	9;"	d	file:
+DEBUG	replay/replay.c	5;"	d	file:
+DEBUG	t-unit/test.c	1;"	d	file:
+DEBUG	t-unit/test_undo.c	1;"	d	file:
+DEBUG	tactics/1lib.c	7;"	d	file:
+DEBUG	tactics/2lib.c	7;"	d	file:
+DEBUG	tactics/dragon.c	7;"	d	file:
+DEBUG	tactics/ladder.c	7;"	d	file:
+DEBUG	tactics/nakade.c	7;"	d	file:
+DEBUG	tactics/nlib.c	7;"	d	file:
+DEBUG	tactics/seki.c	7;"	d	file:
+DEBUG	tactics/selfatari.c	7;"	d	file:
+DEBUG	tactics/util.c	5;"	d	file:
+DEBUG	timeinfo.c	9;"	d	file:
+DEBUG	tools/sgf2gtp.py	/^DEBUG = False$/;"	v
+DEBUG	uct/dynkomi.c	1;"	d	file:
+DEBUG	uct/prior.c	7;"	d	file:
+DEBUG	uct/search.c	11;"	d	file:
+DEBUG	uct/slave.c	36;"	d	file:
+DEBUG	uct/tree.c	9;"	d	file:
+DEBUG	uct/uct.c	8;"	d	file:
+DEBUG	uct/walk.c	9;"	d	file:
+DEBUGL	debug.h	17;"	d
+DEBUGL_	debug.h	10;"	d
+DEBUGL_	debug.h	7;"	d
+DEBUGV	debug.h	25;"	d
+DEBUGVV	debug.h	26;"	d
+DEBUG_MODE	debug.h	11;"	d
+DEBUG_MODE	debug.h	8;"	d
+DEEP_PLAYOUTS_THRESHOLD	uct/tree.c	403;"	d	file:
+DEFAULT_MAX_SLAVES	distributed/distributed.h	74;"	d
+DEFAULT_PATTERN_CONFIG	pattern.c	/^struct pattern_config DEFAULT_PATTERN_CONFIG = {$/;"	v	typeref:struct:pattern_config
+DEFAULT_SHARED_NODES	distributed/distributed.h	90;"	d
+DEFAULT_STATS_HBITS	distributed/distributed.h	83;"	d
+DESCENT_DLEN	uct/walk.c	26;"	d	file:
+DIST_GAMELEN	distributed/distributed.h	94;"	d
+DIST_GAMES	distributed/distributed.c	106;"	d	file:
+DOUBLE_FLOATING	Makefile	/^	DOUBLE_FLOATING=1$/;"	m
+Dictionary	tools/sgflib/typelib.py	/^class Dictionary(Mapping, MutableMixin):$/;"	c
+DirectAccessError	tools/sgflib/sgflib.py	/^class DirectAccessError(Exception):$/;"	c
+DuplicatePropertyError	tools/sgflib/sgflib.py	/^class DuplicatePropertyError(Exception):$/;"	c
+EVALFUN1	uct/plugin/wolf.c	/^	void (*EVALFUN1)(char *javp, char *InfluField);$/;"	m	struct:context	file:
+EXPECTED_FINAL_EMPTY_PERCENT	tactics/util.c	115;"	d	file:
+E_DCNN	pachi.c	/^	E_DCNN,$/;"	e	enum:engine_id	file:
+E_DISTRIBUTED	pachi.c	/^	E_DISTRIBUTED,$/;"	e	enum:engine_id	file:
+E_JOSEKI	pachi.c	/^	E_JOSEKI,$/;"	e	enum:engine_id	file:
+E_MAX	pachi.c	/^	E_MAX,$/;"	e	enum:engine_id	file:
+E_MONTECARLO	pachi.c	/^	E_MONTECARLO,$/;"	e	enum:engine_id	file:
+E_PATTERNPLAY	pachi.c	/^	E_PATTERNPLAY,$/;"	e	enum:engine_id	file:
+E_PATTERNSCAN	pachi.c	/^	E_PATTERNSCAN,$/;"	e	enum:engine_id	file:
+E_RANDOM	pachi.c	/^	E_RANDOM,$/;"	e	enum:engine_id	file:
+E_REPLAY	pachi.c	/^	E_REPLAY,$/;"	e	enum:engine_id	file:
+E_UCT	pachi.c	/^	E_UCT,$/;"	e	enum:engine_id	file:
+EndOfDataParseError	tools/sgflib/sgflib.py	/^class EndOfDataParseError(Exception):$/;"	c
+FB_ONLY	board.h	129;"	d
+FB_ONLY	board.h	131;"	d
+FEATURES	pattern.h	104;"	d
+FEAT_AESCAPE	pattern.h	/^	FEAT_AESCAPE,$/;"	e	enum:feature_id
+FEAT_ATARI	pattern.h	/^	FEAT_ATARI,$/;"	e	enum:feature_id
+FEAT_BORDER	pattern.h	/^	FEAT_BORDER,$/;"	e	enum:feature_id
+FEAT_CAPTURE	pattern.h	/^	FEAT_CAPTURE,$/;"	e	enum:feature_id
+FEAT_CONTIGUITY	pattern.h	/^	FEAT_CONTIGUITY,$/;"	e	enum:feature_id
+FEAT_MAX	pattern.h	/^	FEAT_MAX$/;"	e	enum:feature_id
+FEAT_SELFATARI	pattern.h	/^	FEAT_SELFATARI,$/;"	e	enum:feature_id
+FEAT_SPATIAL	pattern.h	/^	FEAT_SPATIAL,$/;"	e	enum:feature_id
+FINDMOVE2	uct/plugin/wolf.c	/^	void (*FINDMOVE2)(int fa, char *mi, char *mj, floating_t *mxscore, influ_board *SB, byte_board **PChainNo);$/;"	m	struct:context	file:
+FIXP_BITS	fixp.h	16;"	d
+FIXP_SCALE	fixp.h	18;"	d
+FUSEKI_END	distributed/distributed.c	293;"	d	file:
+Float	tools/sgflib/typelib.py	/^class Float(Number):$/;"	c
+GAME_OVER_SLEEP	gtp.c	25;"	d	file:
+GAP_LENGTH	tactics/dragon.c	585;"	d	file:
+GJ_MINGAMES	uct/internal.h	24;"	d
+GJ_THRES	ownermap.h	11;"	d
+GOGUI_CANDIDATES	gogui.h	5;"	d
+GROUP_KEEP_LIBS	board.h	87;"	d
+GROUP_REFILL_LIBS	board.h	90;"	d
+GS_ALIVE	ownermap.h	/^		GS_ALIVE,$/;"	e	enum:group_judgement::gj_state
+GS_DEAD	ownermap.h	/^		GS_DEAD,$/;"	e	enum:group_judgement::gj_state
+GS_NONE	ownermap.h	/^		GS_NONE,$/;"	e	enum:group_judgement::gj_state
+GS_UNKNOWN	ownermap.h	/^		GS_UNKNOWN,$/;"	e	enum:group_judgement::gj_state
+GTP_connection	tools/twogtp.py	/^class GTP_connection:$/;"	c
+GTP_game	tools/twogtp.py	/^class GTP_game:$/;"	c
+GTP_match	tools/twogtp.py	/^class GTP_match:$/;"	c
+GTP_player	tools/twogtp.py	/^class GTP_player:$/;"	c
+GameTree	tools/sgflib/sgflib.py	/^class GameTree(List):$/;"	c
+GameTreeEndError	tools/sgflib/sgflib.py	/^class GameTreeEndError(Exception):$/;"	c
+GameTreeNavigationError	tools/sgflib/sgflib.py	/^class GameTreeNavigationError(Exception):$/;"	c
+GameTreeParseError	tools/sgflib/sgflib.py	/^class GameTreeParseError(Exception):$/;"	c
+HASH_HMIRROR	fbook.c	18;"	d	file:
+HASH_HMIRROR	joseki/joseki.c	72;"	d	file:
+HASH_OCOLOR	joseki/joseki.c	74;"	d	file:
+HASH_VMIRROR	fbook.c	17;"	d	file:
+HASH_VMIRROR	joseki/joseki.c	71;"	d	file:
+HASH_XYFLIP	fbook.c	19;"	d	file:
+HASH_XYFLIP	joseki/joseki.c	73;"	d	file:
+INCLUDES	Makefile	/^INCLUDES=-I.$/;"	m
+INCLUDES	distributed/Makefile	/^INCLUDES=-I..$/;"	m
+INCLUDES	joseki/Makefile	/^INCLUDES=-I..$/;"	m
+INCLUDES	montecarlo/Makefile	/^INCLUDES=-I..$/;"	m
+INCLUDES	patternplay/Makefile	/^INCLUDES=-I..$/;"	m
+INCLUDES	patternscan/Makefile	/^INCLUDES=-I..$/;"	m
+INCLUDES	playout/Makefile	/^INCLUDES=-I..$/;"	m
+INCLUDES	random/Makefile	/^INCLUDES=-I..$/;"	m
+INCLUDES	replay/Makefile	/^INCLUDES=-I..$/;"	m
+INCLUDES	t-unit/Makefile	/^INCLUDES=-I..$/;"	m
+INCLUDES	tactics/Makefile	/^INCLUDES=-I..$/;"	m
+INCLUDES	uct/Makefile	/^INCLUDES=-I..$/;"	m
+INCLUDES	uct/policy/Makefile	/^INCLUDES=-I..\/..$/;"	m
+INSTALL	Makefile	/^INSTALL=\/usr\/bin\/install$/;"	m
+INT_TYPE	tools/sgflib/sgflib.py	/^INT_TYPE 			= type(0)					# constant$/;"	v
+Integer	tools/sgflib/typelib.py	/^class Integer(Number):$/;"	c
+LARGE_TREE_PLAYOUTS	uct/tree.c	402;"	d	file:
+LD	Makefile	/^LD=ld$/;"	m
+LOCALLIBS	Makefile	/^LOCALLIBS=random\/random.a replay\/replay.a patternscan\/patternscan.a patternplay\/patternplay.a joseki\/joseki.a montecarlo\/montecarlo.a uct\/uct.a uct\/policy\/uctpolicy.a playout\/playout.a t-unit\/test.a tactics\/tactics.a distributed\/distributed.a$/;"	m
+LTE_EACH	uct/internal.h	/^		LTE_EACH,$/;"	e	enum:uct::__anon5
+LTE_ROOT	uct/internal.h	/^		LTE_ROOT,$/;"	e	enum:uct::__anon5
+LTE_TOTAL	uct/internal.h	/^		LTE_TOTAL,$/;"	e	enum:uct::__anon5
+LTREE_DEBUG	uct/walk.c	444;"	d	file:
+LTREE_PLAYOUTS_MULTIPLIER	uct/internal.h	89;"	d
+List	tools/sgflib/typelib.py	/^class List(MutableSequence):$/;"	c
+Long	tools/sgflib/typelib.py	/^class Long(Integer):$/;"	c
+MAXBOARDSIZE	uct/plugin/wolf.c	195;"	d	file:
+MAX_BUCKETS	distributed/merge.c	45;"	d	file:
+MAX_BUCKETS	uct/slave.c	261;"	d	file:
+MAX_BYOYOMI_TIME_RATIO	timeinfo.c	30;"	d	file:
+MAX_CHAT_PATTERNS	chat.c	16;"	d	file:
+MAX_CMDS_PER_MOVE	distributed/protocol.c	40;"	d	file:
+MAX_CONNEXIONS	network.c	129;"	d	file:
+MAX_FAST_CMD_WAIT	distributed/distributed.c	119;"	d	file:
+MAX_GAMELEN	playout.h	4;"	d
+MAX_GENMOVES_PER_SLAVE	distributed/protocol.c	655;"	d	file:
+MAX_GENMOVES_WAIT	distributed/distributed.c	122;"	d	file:
+MAX_LINE_LEN	tools/sgflib/sgflib.py	/^MAX_LINE_LEN		= 76						# constant; for line breaks$/;"	v
+MAX_MAINTIME_RATIO	distributed/distributed.c	295;"	d	file:
+MAX_NET_LAG	timeinfo.c	16;"	d	file:
+MAX_PATTERN_AREA	patternsp.h	21;"	d
+MAX_PATTERN_DIST	patternsp.h	18;"	d
+MAX_PLAYOUTS	uct/tree.c	301;"	d	file:
+MAX_SUDDEN_DEATH_RATIO	timeinfo.c	29;"	d	file:
+MAX_VERBOSE_LOGS	debug.h	22;"	d
+MAX_VERBOSE_LOGS	uct/slave.c	35;"	d	file:
+MAX_WAIT	network.c	137;"	d	file:
+MCDEBUGL	montecarlo/internal.h	22;"	d
+MC_GAMELEN	montecarlo/montecarlo.c	35;"	d	file:
+MC_GAMELEN	uct/uct.c	38;"	d	file:
+MC_GAMES	montecarlo/montecarlo.c	34;"	d	file:
+MIDDLE_LADDER_CHECK_COUNTERCAP	tactics/ladder.c	19;"	d	file:
+MIN_EARLY_STOP_WAIT	distributed/distributed.c	126;"	d	file:
+MIN_MOVES_LEFT	tactics/util.h	46;"	d
+MIN_THINK_WITH_LAG	timeinfo.c	23;"	d	file:
+MQL	mq.h	12;"	d
+MQ_GATARI	playout/moggy.c	/^	MQ_GATARI,$/;"	e	enum:mq_tag	file:
+MQ_JOSEKI	playout/moggy.c	/^	MQ_JOSEKI,$/;"	e	enum:mq_tag	file:
+MQ_KO	playout/moggy.c	/^	MQ_KO = 0,$/;"	e	enum:mq_tag	file:
+MQ_L2LIB	playout/moggy.c	/^	MQ_L2LIB,$/;"	e	enum:mq_tag	file:
+MQ_LADDER	playout/moggy.c	45;"	d	file:
+MQ_LATARI	playout/moggy.c	/^	MQ_LATARI,$/;"	e	enum:mq_tag	file:
+MQ_LNLIB	playout/moggy.c	/^	MQ_LNLIB,$/;"	e	enum:mq_tag	file:
+MQ_MAX	playout/moggy.c	/^	MQ_MAX$/;"	e	enum:mq_tag	file:
+MQ_NAKADE	playout/moggy.c	/^	MQ_NAKADE,$/;"	e	enum:mq_tag	file:
+MQ_PAT3	playout/moggy.c	/^	MQ_PAT3,$/;"	e	enum:mq_tag	file:
+Mapping	tools/sgflib/typelib.py	/^class Mapping(Container):$/;"	c
+ModMixin	tools/sgflib/typelib.py	/^class ModMixin:$/;"	c
+MutableMixin	tools/sgflib/typelib.py	/^class MutableMixin:$/;"	c
+MutableSequence	tools/sgflib/typelib.py	/^class MutableSequence(Sequence, MutableMixin):$/;"	c
+NAKADE_MAX	tactics/nakade.c	19;"	d	file:
+NO_REPLY	gtp.c	22;"	d	file:
+Node	tools/sgflib/sgflib.py	/^class Node(Dictionary):$/;"	c
+NodePropertyParseError	tools/sgflib/sgflib.py	/^class NodePropertyParseError(Exception):$/;"	c
+Number	tools/sgflib/typelib.py	/^class Number(SuperType, AddMulMixin, ModMixin):$/;"	c
+OBJS	Makefile	/^OBJS=board.o gtp.o move.o ownermap.o pattern3.o pattern.o patternsp.o patternprob.o playout.o probdist.o random.o stone.o timeinfo.o network.o fbook.o chat.o$/;"	m
+OBJS	distributed/Makefile	/^OBJS=distributed.o protocol.o merge.o$/;"	m
+OBJS	joseki/Makefile	/^OBJS=joseki.o base.o$/;"	m
+OBJS	montecarlo/Makefile	/^OBJS=montecarlo.o$/;"	m
+OBJS	patternplay/Makefile	/^OBJS=patternplay.o$/;"	m
+OBJS	patternscan/Makefile	/^OBJS=patternscan.o$/;"	m
+OBJS	playout/Makefile	/^OBJS=moggy.o light.o$/;"	m
+OBJS	random/Makefile	/^OBJS=random.o$/;"	m
+OBJS	replay/Makefile	/^OBJS=replay.o$/;"	m
+OBJS	t-unit/Makefile	/^OBJS=test.o test_undo.o$/;"	m
+OBJS	tactics/Makefile	/^OBJS=1lib.o 2lib.o nlib.o ladder.o nakade.o selfatari.o util.o dragon.o seki.o$/;"	m
+OBJS	uct/Makefile	/^OBJS=dynkomi.o tree.o uct.o prior.o search.o slave.o walk.o plugins.o$/;"	m
+OBJS	uct/policy/Makefile	/^OBJS=generic.o ucb1.o ucb1amaf.o$/;"	m
+PACHI_BOARD_H	board.h	6;"	d
+PACHI_CHAT_H	chat.h	2;"	d
+PACHI_DCNN_H	dcnn.h	3;"	d
+PACHI_DEBUG_H	debug.h	2;"	d
+PACHI_DISTRIBUTED_DISTRIBUTED_H	distributed/distributed.h	2;"	d
+PACHI_DISTRIBUTED_MERGE_H	distributed/merge.h	2;"	d
+PACHI_DISTRIBUTED_PROTOCOL_H	distributed/protocol.h	2;"	d
+PACHI_ENGINE_H	engine.h	2;"	d
+PACHI_FBOOK_H	fbook.h	2;"	d
+PACHI_FIXP_H	fixp.h	2;"	d
+PACHI_GOGUI_H	gogui.h	2;"	d
+PACHI_GTP_H	gtp.h	2;"	d
+PACHI_JOSEKI_BASE_H	joseki/base.h	2;"	d
+PACHI_JOSEKI_JOSEKI_H	joseki/joseki.h	2;"	d
+PACHI_MONTECARLO_INTERNAL_H	montecarlo/internal.h	2;"	d
+PACHI_MONTECARLO_MONTECARLO_H	montecarlo/montecarlo.h	2;"	d
+PACHI_MOVE_H	move.h	2;"	d
+PACHI_MQ_H	mq.h	2;"	d
+PACHI_NETWORK_H	network.h	2;"	d
+PACHI_OWNERMAP_H	ownermap.h	2;"	d
+PACHI_PATTERN3_H	pattern3.h	2;"	d
+PACHI_PATTERNPLAY_PATTERNPLAY_H	patternplay/patternplay.h	2;"	d
+PACHI_PATTERNPROB_H	patternprob.h	2;"	d
+PACHI_PATTERNSCAN_PATTERNSCAN_H	patternscan/patternscan.h	2;"	d
+PACHI_PATTERNSP_H	patternsp.h	2;"	d
+PACHI_PATTERN_H	pattern.h	2;"	d
+PACHI_PLAYOUT_H	playout.h	2;"	d
+PACHI_PLAYOUT_LIGHT_H	playout/light.h	2;"	d
+PACHI_PLAYOUT_MOGGY_H	playout/moggy.h	2;"	d
+PACHI_PROBDIST_H	probdist.h	2;"	d
+PACHI_RANDOM_H	random.h	2;"	d
+PACHI_RANDOM_RANDOM_H	random/random.h	2;"	d
+PACHI_REPLAY_REPLAY_H	replay/replay.h	2;"	d
+PACHI_STATS_H	stats.h	2;"	d
+PACHI_STONE_H	stone.h	2;"	d
+PACHI_TACTICS_1LIB_H	tactics/1lib.h	2;"	d
+PACHI_TACTICS_2LIB_H	tactics/2lib.h	2;"	d
+PACHI_TACTICS_DRAGON_H	tactics/dragon.h	2;"	d
+PACHI_TACTICS_LADDER_H	tactics/ladder.h	2;"	d
+PACHI_TACTICS_NAKADE_H	tactics/nakade.h	2;"	d
+PACHI_TACTICS_NLIB_H	tactics/nlib.h	2;"	d
+PACHI_TACTICS_SEKI_H	tactics/seki.h	2;"	d
+PACHI_TACTICS_SELFATARI_H	tactics/selfatari.h	2;"	d
+PACHI_TACTICS_UTIL_H	tactics/util.h	2;"	d
+PACHI_TIMEINFO_H	timeinfo.h	2;"	d
+PACHI_T_UNIT_TEST_H	t-unit/test.h	2;"	d
+PACHI_UCT_DYNKOMI_H	uct/dynkomi.h	2;"	d
+PACHI_UCT_INTERNAL_H	uct/internal.h	2;"	d
+PACHI_UCT_PLUGINS_H	uct/plugins.h	2;"	d
+PACHI_UCT_PLUGIN_H	uct/plugin.h	2;"	d
+PACHI_UCT_POLICY_GENERIC_H	uct/policy/generic.h	2;"	d
+PACHI_UCT_PRIOR_H	uct/prior.h	2;"	d
+PACHI_UCT_SEARCH_H	uct/search.h	2;"	d
+PACHI_UCT_SLAVE_H	uct/slave.h	2;"	d
+PACHI_UCT_TREE_H	uct/tree.h	2;"	d
+PACHI_UCT_UCT_H	uct/uct.h	2;"	d
+PACHI_UCT_WALK_H	uct/walk.h	2;"	d
+PACHI_UTIL_H	util.h	2;"	d
+PACHI_VERDEV	version.h	35;"	d
+PACHI_VERNAME	version.h	32;"	d
+PACHI_VERNUM	version.h	4;"	d
+PACHI_VERNUMS	version.h	5;"	d
+PACHI_VERSION	version.h	37;"	d
+PACHI_VERSION_H	version.h	2;"	d
+PAT3_N	playout/moggy.c	55;"	d	file:
+PATH_T_MAX	distributed/distributed.h	17;"	d
+PATTERN_BOARD_SIZE	patternsp.c	91;"	d	file:
+PATTERN_SPEC_MATCH_DEFAULT	pattern.c	/^pattern_spec PATTERN_SPEC_MATCH_DEFAULT = {$/;"	v
+PF_AESCAPE_1STONE	pattern.h	55;"	d
+PF_AESCAPE_CONNECTION	pattern.h	59;"	d
+PF_AESCAPE_LADDER	pattern.h	53;"	d
+PF_AESCAPE_TRAPPED	pattern.h	57;"	d
+PF_ATARI_KO	pattern.h	73;"	d
+PF_ATARI_LADDER	pattern.h	71;"	d
+PF_CAPTURE_1STONE	pattern.h	40;"	d
+PF_CAPTURE_ATARIDEF	pattern.h	36;"	d
+PF_CAPTURE_CONNECTION	pattern.h	44;"	d
+PF_CAPTURE_COUNTSTONES	pattern.h	46;"	d
+PF_CAPTURE_KO	pattern.h	38;"	d
+PF_CAPTURE_LADDER	pattern.h	34;"	d
+PF_CAPTURE_TRAPPED	pattern.h	42;"	d
+PF_MATCH	pattern.c	27;"	d	file:
+PF_SELFATARI_SMART	pattern.h	66;"	d
+PF_SELFATARI_STUPID	pattern.h	65;"	d
+PJ_BLACK	ownermap.h	/^	PJ_BLACK = S_BLACK,$/;"	e	enum:point_judgement
+PJ_DAME	ownermap.h	/^	PJ_DAME = S_NONE,$/;"	e	enum:point_judgement
+PJ_UNKNOWN	ownermap.h	/^	PJ_UNKNOWN = 3,$/;"	e	enum:point_judgement
+PJ_WHITE	ownermap.h	/^	PJ_WHITE = S_WHITE,$/;"	e	enum:point_judgement
+PLAYOUT_DELTA_SAFEMARGIN	uct/search.c	47;"	d	file:
+PLAYOUT_EARLY_BREAK_MIN	uct/search.c	50;"	d	file:
+PLDEBUGL	playout.c	21;"	d	file:
+PLDEBUGL	playout/light.c	12;"	d	file:
+PLDEBUGL	playout/moggy.c	27;"	d	file:
+PREFIX	Makefile	/^PREFIX=\/usr\/local$/;"	m
+PRIfloating	util.h	50;"	d
+PRIfloating	util.h	53;"	d
+PRIhash	board.h	71;"	d
+PRIpath	distributed/distributed.h	16;"	d
+PS_ANY	pattern.c	159;"	d	file:
+PS_PF	pattern.c	160;"	d	file:
+PTH_90ROT	patternsp.c	112;"	d	file:
+PTH_HMIRROR	patternsp.c	111;"	d	file:
+PTH_VMIRROR	patternsp.c	110;"	d	file:
+PTH__ROTATIONS	patternsp.h	82;"	d
+P_DONE_ERROR	gtp.h	/^	P_DONE_ERROR,$/;"	e	enum:parse_code
+P_DONE_OK	gtp.h	/^	P_DONE_OK,$/;"	e	enum:parse_code
+P_ENGINE_RESET	gtp.h	/^	P_ENGINE_RESET,$/;"	e	enum:parse_code
+P_NOREPLY	gtp.h	/^	P_NOREPLY,$/;"	e	enum:parse_code
+P_OK	gtp.h	/^	P_OK,$/;"	e	enum:parse_code
+P_UNKNOWN_COMMAND	gtp.h	/^	P_UNKNOWN_COMMAND,$/;"	e	enum:parse_code
+Property	tools/sgflib/sgflib.py	/^class Property(List):$/;"	c
+PropertyValueParseError	tools/sgflib/sgflib.py	/^class PropertyValueParseError(Exception):$/;"	c
+QUICK_BOARD_CODE	tactics/1lib.c	5;"	d	file:
+QUICK_BOARD_CODE	tactics/2lib.c	5;"	d	file:
+QUICK_BOARD_CODE	tactics/dragon.c	5;"	d	file:
+QUICK_BOARD_CODE	tactics/ladder.c	5;"	d	file:
+QUICK_BOARD_CODE	tactics/nakade.c	5;"	d	file:
+QUICK_BOARD_CODE	tactics/nlib.c	5;"	d	file:
+QUICK_BOARD_CODE	tactics/seki.c	5;"	d	file:
+QUICK_BOARD_CODE	tactics/selfatari.c	5;"	d	file:
+RESERVED_BYOYOMI_PERCENT	timeinfo.c	25;"	d	file:
+RULES_AGA	board.h	/^		RULES_AGA,$/;"	e	enum:board::go_ruleset
+RULES_CHINESE	board.h	/^		RULES_CHINESE, \/* default value *\/$/;"	e	enum:board::go_ruleset
+RULES_JAPANESE	board.h	/^		RULES_JAPANESE,$/;"	e	enum:board::go_ruleset
+RULES_NEW_ZEALAND	board.h	/^		RULES_NEW_ZEALAND,$/;"	e	enum:board::go_ruleset
+RULES_SIMING	board.h	/^		RULES_SIMING,$/;"	e	enum:board::go_ruleset
+RULES_STONES_ONLY	board.h	/^		RULES_STONES_ONLY, \/* do not count eyes *\/$/;"	e	enum:board::go_ruleset
+RootNodeSGFParser	tools/sgflib/sgflib.py	/^class RootNodeSGFParser(SGFParser):$/;"	c
+SCOUNTS_ALLOC	patternscan/patternscan.c	68;"	d	file:
+SELFATARI_3LIB_SUICIDE	tactics/selfatari.h	33;"	d
+SELFATARI_BIG_GROUPS_ONLY	tactics/selfatari.h	34;"	d
+SETPARAM	uct/plugin/wolf.c	/^	void (*SETPARAM)(double sv, double omega, uint16_t mi);$/;"	m	struct:context	file:
+SGFParser	tools/sgflib/sgflib.py	/^class SGFParser:$/;"	c
+SMALL_TREE_PLAYOUTS	uct/tree.c	408;"	d	file:
+SPATIALS_ALLOC	patternsp.c	221;"	d	file:
+STDERR	network.c	28;"	d	file:
+STDIN	network.c	26;"	d	file:
+STDOUT	network.c	27;"	d	file:
+SUBDIRS	Makefile	/^SUBDIRS=random replay patternscan patternplay joseki montecarlo uct uct\/policy playout tactics t-unit distributed$/;"	m
+SYM_DIAG_DOWN	board.h	/^		SYM_DIAG_DOWN,$/;"	e	enum:e_sym
+SYM_DIAG_UP	board.h	/^		SYM_DIAG_UP,$/;"	e	enum:e_sym
+SYM_FULL	board.h	/^		SYM_FULL,$/;"	e	enum:e_sym
+SYM_HORIZ	board.h	/^		SYM_HORIZ,$/;"	e	enum:e_sym
+SYM_NONE	board.h	/^		SYM_NONE$/;"	e	enum:e_sym
+SYM_VERT	board.h	/^		SYM_VERT,$/;"	e	enum:e_sym
+SYS_CFLAGS	Makefile	/^	SYS_CFLAGS?=$/;"	m
+SYS_CFLAGS	Makefile	/^	SYS_CFLAGS?=-DNO_THREAD_LOCAL$/;"	m
+SYS_CFLAGS	Makefile	/^	SYS_CFLAGS?=-march=native$/;"	m
+SYS_LDFLAGS	Makefile	/^	SYS_LDFLAGS?=-pthread -rdynamic$/;"	m
+SYS_LDFLAGS	Makefile	/^	SYS_LDFLAGS?=-pthread$/;"	m
+SYS_LIBS	Makefile	/^	SYS_LIBS:=-lcaffe -lboost_system -lstdc++ $(SYS_LIBS)$/;"	m
+SYS_LIBS	Makefile	/^	SYS_LIBS?=-lm -ldl$/;"	m
+SYS_LIBS	Makefile	/^	SYS_LIBS?=-lm -lrt -ldl$/;"	m
+SYS_LIBS	Makefile	/^	SYS_LIBS?=-lm -lws2_32$/;"	m
+S_BLACK	stone.h	/^	S_BLACK,$/;"	e	enum:stone
+S_MAX	stone.h	/^	S_MAX,$/;"	e	enum:stone
+S_NONE	stone.h	/^	S_NONE,$/;"	e	enum:stone
+S_OFFBOARD	stone.h	/^	S_OFFBOARD,$/;"	e	enum:stone
+S_WHITE	stone.h	/^	S_WHITE,$/;"	e	enum:stone
+Sequence	tools/sgflib/typelib.py	/^class Sequence(Container, AddMulMixin):$/;"	c
+String	tools/sgflib/typelib.py	/^class String(Sequence, ModMixin):$/;"	c
+SuperType	tools/sgflib/typelib.py	/^class SuperType:$/;"	c
+TD_GAMES	timeinfo.h	/^		TD_GAMES, \/\/ Fixed number of simulations to perform.$/;"	e	enum:time_info::time_dimension
+TD_WALLTIME	timeinfo.h	/^		TD_WALLTIME, \/\/ Wall time to spend performing simulations.$/;"	e	enum:time_info::time_dimension
+TIME_EARLY_BREAK_MIN	uct/search.c	53;"	d	file:
+TM_TREE	uct/internal.h	/^		TM_TREE, \/* Tree parallelization w\/o virtual loss. *\/$/;"	e	enum:uct::uct_thread_model
+TM_TREEVL	uct/internal.h	/^		TM_TREEVL, \/* Tree parallelization with virtual loss. *\/$/;"	e	enum:uct::uct_thread_model
+TREE_BUSYWAIT_INTERVAL	uct/search.h	27;"	d
+TREE_HINT_INVALID	uct/tree.h	88;"	d
+TREE_NODE_D_MAX	uct/tree.h	85;"	d
+TRUSTWORTHY_KOMI_PLAYOUTS	uct/dynkomi.c	285;"	d	file:
+TT_MOVE	timeinfo.h	/^		TT_MOVE, \/\/ Time for the next move.$/;"	e	enum:time_info::time_period
+TT_NULL	timeinfo.h	/^		TT_NULL, \/\/ No time limit. Other structure elements are undef.$/;"	e	enum:time_info::time_period
+TT_TOTAL	timeinfo.h	/^		TT_TOTAL, \/\/ Time for the rest of the game. Never seen by engine.$/;"	e	enum:time_info::time_period
+TYPE	tools/sgflib/typelib.py	/^	TYPE = type("")$/;"	v	class:String
+TYPE	tools/sgflib/typelib.py	/^	TYPE = type(())$/;"	v	class:Tuple
+TYPE	tools/sgflib/typelib.py	/^	TYPE = type(0+0j)$/;"	v	class:Complex
+TYPE	tools/sgflib/typelib.py	/^	TYPE = type(0.1)$/;"	v	class:Float
+TYPE	tools/sgflib/typelib.py	/^	TYPE = type(1)$/;"	v	class:Integer
+TYPE	tools/sgflib/typelib.py	/^	TYPE = type(1L)$/;"	v	class:Long
+TYPE	tools/sgflib/typelib.py	/^	TYPE = type([])$/;"	v	class:List
+TYPE	tools/sgflib/typelib.py	/^	TYPE = type({})$/;"	v	class:Dictionary
+Tuple	tools/sgflib/typelib.py	/^class Tuple(Sequence):$/;"	c
+UDEBUGL	uct/internal.h	133;"	d
+URAVE_DEBUG	uct/policy/ucb1amaf.c	104;"	d	file:
+UR_GOGUI_CAN	gogui.h	/^	UR_GOGUI_CAN,$/;"	e	enum:gogui_reporting
+UR_GOGUI_SEQ	gogui.h	/^	UR_GOGUI_SEQ,$/;"	e	enum:gogui_reporting
+UR_GOGUI_WR	gogui.h	/^	UR_GOGUI_WR,$/;"	e	enum:gogui_reporting
+UR_GOGUI_ZERO	gogui.h	/^	UR_GOGUI_ZERO,$/;"	e	enum:gogui_reporting
+UR_JSON	uct/internal.h	/^		UR_JSON,$/;"	e	enum:uct::uct_reporting
+UR_JSON_BIG	uct/internal.h	/^		UR_JSON_BIG,$/;"	e	enum:uct::uct_reporting
+UR_TEXT	uct/internal.h	/^		UR_TEXT,$/;"	e	enum:uct::uct_reporting
+UnknownNode	tools/sgf2gtp.py	/^class UnknownNode(Exception):$/;"	c
+WANT_BOARD_C	board.h	26;"	d
+WIN	Makefile	/^	WIN=1$/;"	m
+WIN_HAVE_NO_REGEX_SUPPORT	Makefile	/^	WIN_HAVE_NO_REGEX_SUPPORT=1$/;"	m
+YOSE_START	distributed/distributed.c	294;"	d	file:
+__abs__	tools/sgflib/typelib.py	/^	def __abs__(self):$/;"	m	class:Number	file:
+__add__	tools/sgflib/typelib.py	/^	def __add__(self, other):$/;"	m	class:AddMulMixin	file:
+__and__	tools/sgflib/typelib.py	/^	def __and__(self, other):$/;"	m	class:Integer	file:
+__cmp__	tools/sgflib/typelib.py	/^	def __cmp__(self, x):$/;"	m	class:SuperType	file:
+__coerce__	tools/sgflib/typelib.py	/^	def __coerce__(self, other):$/;"	m	class:Number	file:
+__complex__	tools/sgflib/typelib.py	/^	def __complex__(self):$/;"	m	class:Number	file:
+__delitem__	tools/sgflib/sgflib.py	/^	def __delitem__(self, key):$/;"	m	class:Node	file:
+__delitem__	tools/sgflib/typelib.py	/^	def __delitem__(self, key):$/;"	m	class:MutableMixin	file:
+__delslice__	tools/sgflib/typelib.py	/^	def __delslice__(self, low, high):$/;"	m	class:MutableSequence	file:
+__div__	tools/sgflib/typelib.py	/^	def __div__(self, other):$/;"	m	class:Number	file:
+__divmod__	tools/sgflib/typelib.py	/^	def __divmod__(self, other):$/;"	m	class:Number	file:
+__float__	tools/sgflib/typelib.py	/^	def __float__(self):$/;"	m	class:Number	file:
+__getattr__	tools/sgflib/typelib.py	/^	def __getattr__(self, name):$/;"	m	class:Complex	file:
+__getitem__	tools/sgflib/sgflib.py	/^	def __getitem__(self, key):$/;"	m	class:Node	file:
+__getitem__	tools/sgflib/typelib.py	/^	def __getitem__(self, key):$/;"	m	class:Container	file:
+__getslice__	tools/sgflib/sgflib.py	/^	def __getslice__(self, low, high):$/;"	m	class:Node	file:
+__getslice__	tools/sgflib/typelib.py	/^	def __getslice__(self, low, high):$/;"	m	class:Sequence	file:
+__hash__	tools/sgflib/typelib.py	/^	def __hash__(self):$/;"	m	class:SuperType	file:
+__hex__	tools/sgflib/typelib.py	/^	def __hex__(self):$/;"	m	class:Integer	file:
+__init__	tools/sgflib/sgflib.py	/^	def __init__(self, data):$/;"	m	class:SGFParser
+__init__	tools/sgflib/sgflib.py	/^	def __init__(self, gametree):$/;"	m	class:Cursor
+__init__	tools/sgflib/sgflib.py	/^	def __init__(self, id, values, name=None):$/;"	m	class:Property
+__init__	tools/sgflib/sgflib.py	/^	def __init__(self, nodelist=None, variations=None):$/;"	m	class:GameTree
+__init__	tools/sgflib/sgflib.py	/^	def __init__(self, plist=[]):$/;"	m	class:Node
+__init__	tools/sgflib/typelib.py	/^	def __init__(self, data=None):$/;"	m	class:SuperType
+__init__	tools/twogtp.py	/^    def __init__(self, command):$/;"	m	class:GTP_connection
+__init__	tools/twogtp.py	/^    def __init__(self, command):$/;"	m	class:GTP_player
+__init__	tools/twogtp.py	/^    def __init__(self, whitecommand, blackcommand, size, komi, handicap,$/;"	m	class:GTP_game
+__init__	tools/twogtp.py	/^    def __init__(self, whitecommand, blackcommand, size, komi, handicap,$/;"	m	class:GTP_match
+__int__	tools/sgflib/typelib.py	/^	def __int__(self):$/;"	m	class:Number	file:
+__invert__	tools/sgflib/typelib.py	/^	def __invert__(self):$/;"	m	class:Integer	file:
+__len__	tools/sgflib/typelib.py	/^	def __len__(self):$/;"	m	class:Container	file:
+__long__	tools/sgflib/typelib.py	/^	def __long__(self):$/;"	m	class:Number	file:
+__lshift__	tools/sgflib/typelib.py	/^	def __lshift__(self, other):$/;"	m	class:Integer	file:
+__mod__	tools/sgflib/typelib.py	/^	def __mod__(self, other):$/;"	m	class:ModMixin	file:
+__mul__	tools/sgflib/typelib.py	/^	def __mul__(self, other):$/;"	m	class:AddMulMixin	file:
+__neg__	tools/sgflib/typelib.py	/^	def __neg__(self):$/;"	m	class:Number	file:
+__nonzero__	tools/sgflib/typelib.py	/^	def __nonzero__(self):$/;"	m	class:Number	file:
+__oct__	tools/sgflib/typelib.py	/^	def __oct__(self):$/;"	m	class:Integer	file:
+__or__	tools/sgflib/typelib.py	/^	def __or__(self, other):$/;"	m	class:Integer	file:
+__pos__	tools/sgflib/typelib.py	/^	def __pos__(self):$/;"	m	class:Number	file:
+__pow__	tools/sgflib/typelib.py	/^	def __pow__(self, other, mod=None):$/;"	m	class:Number	file:
+__radd__	tools/sgflib/typelib.py	/^	def __radd__(self, other):$/;"	m	class:AddMulMixin	file:
+__rand__	tools/sgflib/typelib.py	/^	def __rand__(self, other):$/;"	m	class:Integer	file:
+__rcmp__	tools/sgflib/typelib.py	/^	def __rcmp__(self, x):$/;"	m	class:SuperType	file:
+__rdiv__	tools/sgflib/typelib.py	/^	def __rdiv__(self, other):$/;"	m	class:Number	file:
+__rdivmod__	tools/sgflib/typelib.py	/^	def __rdivmod__(self, other):$/;"	m	class:Number	file:
+__rlshift__	tools/sgflib/typelib.py	/^	def __rlshift__(self, other):$/;"	m	class:Integer	file:
+__rmod__	tools/sgflib/typelib.py	/^	def __rmod__(self, other):$/;"	m	class:ModMixin	file:
+__rmul__	tools/sgflib/typelib.py	/^	def __rmul__(self, other):$/;"	m	class:AddMulMixin	file:
+__ror__	tools/sgflib/typelib.py	/^	def __ror__(self, other):$/;"	m	class:Integer	file:
+__rpow__	tools/sgflib/typelib.py	/^	def __rpow__(self, other):$/;"	m	class:Number	file:
+__rrshift__	tools/sgflib/typelib.py	/^	def __rrshift__(self, other):$/;"	m	class:Integer	file:
+__rshift__	tools/sgflib/typelib.py	/^	def __rshift__(self, other):$/;"	m	class:Integer	file:
+__rsub__	tools/sgflib/typelib.py	/^	def __rsub__(self, other):$/;"	m	class:Number	file:
+__rxor__	tools/sgflib/typelib.py	/^	def __rxor__(self, other):$/;"	m	class:Integer	file:
+__setitem__	tools/sgflib/sgflib.py	/^	def __setitem__(self, key, x):$/;"	m	class:Node	file:
+__setitem__	tools/sgflib/typelib.py	/^	def __setitem__(self, key, x):$/;"	m	class:MutableMixin	file:
+__setslice__	tools/sgflib/typelib.py	/^	def __setslice__(self, low, high, seq):$/;"	m	class:MutableSequence	file:
+__str__	tools/sgflib/sgflib.py	/^	def __str__(self):$/;"	m	class:Collection	file:
+__str__	tools/sgflib/sgflib.py	/^	def __str__(self):$/;"	m	class:GameTree	file:
+__str__	tools/sgflib/sgflib.py	/^	def __str__(self):$/;"	m	class:Node	file:
+__str__	tools/sgflib/sgflib.py	/^	def __str__(self):$/;"	m	class:Property	file:
+__str__	tools/sgflib/typelib.py	/^	def __str__(self):$/;"	m	class:SuperType	file:
+__sub__	tools/sgflib/typelib.py	/^	def __sub__(self, other):$/;"	m	class:Number	file:
+__sync_fetch_and_add	util.h	20;"	d
+__sync_fetch_and_sub	util.h	21;"	d
+__xor__	tools/sgflib/typelib.py	/^	def __xor__(self, other):$/;"	m	class:Integer	file:
+_convert	tools/sgflib/typelib.py	/^	def _convert(self, data):$/;"	m	class:Complex
+_convert	tools/sgflib/typelib.py	/^	def _convert(self, data):$/;"	m	class:Dictionary
+_convert	tools/sgflib/typelib.py	/^	def _convert(self, data):$/;"	m	class:Float
+_convert	tools/sgflib/typelib.py	/^	def _convert(self, data):$/;"	m	class:Integer
+_convert	tools/sgflib/typelib.py	/^	def _convert(self, data):$/;"	m	class:List
+_convert	tools/sgflib/typelib.py	/^	def _convert(self, data):$/;"	m	class:Long
+_convert	tools/sgflib/typelib.py	/^	def _convert(self, data):$/;"	m	class:String
+_convert	tools/sgflib/typelib.py	/^	def _convert(self, data):$/;"	m	class:Tuple
+_convertControlChars	tools/sgflib/sgflib.py	/^	def _convertControlChars(self, text):$/;"	m	class:SGFParser
+_escapeText	tools/sgflib/sgflib.py	/^def _escapeText(text):$/;"	f
+_reset	tools/sgflib/typelib.py	/^	def _reset(self):$/;"	m	class:Complex
+_reset	tools/sgflib/typelib.py	/^	def _reset(self):$/;"	m	class:Dictionary
+_reset	tools/sgflib/typelib.py	/^	def _reset(self):$/;"	m	class:Float
+_reset	tools/sgflib/typelib.py	/^	def _reset(self):$/;"	m	class:Integer
+_reset	tools/sgflib/typelib.py	/^	def _reset(self):$/;"	m	class:List
+_reset	tools/sgflib/typelib.py	/^	def _reset(self):$/;"	m	class:Long
+_reset	tools/sgflib/typelib.py	/^	def _reset(self):$/;"	m	class:String
+_reset	tools/sgflib/typelib.py	/^	def _reset(self):$/;"	m	class:Tuple
+_setChildren	tools/sgflib/sgflib.py	/^	def _setChildren(self):$/;"	m	class:Cursor
+_setFlags	tools/sgflib/sgflib.py	/^	def _setFlags(self):$/;"	m	class:Cursor
+active_slaves	distributed/protocol.c	/^int active_slaves = 0;$/;"	v
+adapt_aport	uct/dynkomi.c	/^	bool adapt_aport;$/;"	m	struct:dynkomi_adaptive	file:
+adapt_base	uct/dynkomi.c	/^	floating_t adapt_base; \/\/ [0,1)$/;"	m	struct:dynkomi_adaptive	file:
+adapt_dir	uct/dynkomi.c	/^	floating_t adapt_dir; \/\/ [-1,1]$/;"	m	struct:dynkomi_adaptive	file:
+adapt_moves	uct/dynkomi.c	/^	int adapt_moves;$/;"	m	struct:dynkomi_adaptive	file:
+adapt_phase	uct/dynkomi.c	/^	floating_t adapt_phase; \/\/ [0,1]$/;"	m	struct:dynkomi_adaptive	file:
+adapt_rate	uct/dynkomi.c	/^	floating_t adapt_rate; \/\/ [1,infty)$/;"	m	struct:dynkomi_adaptive	file:
+adapter	uct/dynkomi.c	/^	floating_t (*adapter)(struct uct_dynkomi *d, struct board *b);$/;"	m	struct:dynkomi_adaptive	file:
+adapter_linear	uct/dynkomi.c	/^adapter_linear(struct uct_dynkomi *d, struct board *b)$/;"	f	file:
+adapter_sigmoid	uct/dynkomi.c	/^adapter_sigmoid(struct uct_dynkomi *d, struct board *b)$/;"	f	file:
+adaptive_permove	uct/dynkomi.c	/^adaptive_permove(struct uct_dynkomi *d, struct board *b, struct tree *tree)$/;"	f	file:
+adaptive_persim	uct/dynkomi.c	/^adaptive_persim(struct uct_dynkomi *d, struct board *b, struct tree *tree, struct tree_node *node)$/;"	f	file:
+addProperty	tools/sgflib/sgflib.py	/^	def addProperty(self, property):$/;"	m	class:Node
+add_chaser_captures	tactics/ladder.c	/^add_chaser_captures(struct board *b, group_t laddered, enum stone lcolor, struct move_queue *ccq,$/;"	f	file:
+add_prior_value	uct/prior.h	/^add_prior_value(struct prior_map *map, coord_t c, floating_t value, int playouts)$/;"	f
+add_to_group	board.c	/^add_to_group(struct board *board, group_t group, coord_t prevstone, coord_t coord, struct board_undo *u)$/;"	f	file:
+alloc_hook	distributed/protocol.h	/^	state_alloc_hook alloc_hook;$/;"	m	struct:slave_state
+allow_losing_pass	uct/internal.h	/^	bool allow_losing_pass;$/;"	m	struct:uct
+alwaysccaprate	playout/moggy.c	/^	unsigned int selfatarirate, eyefillrate, alwaysccaprate;$/;"	m	struct:moggy_policy	file:
+amaf	uct/tree.h	/^	struct move_stats amaf;$/;"	m	struct:tree_node	typeref:struct:tree_node::move_stats
+amaf_prior	uct/internal.h	/^	bool amaf_prior;$/;"	m	struct:uct
+ansi_color_end	tactics/dragon.c	/^static char *ansi_color_end = "\\x1b[0m";$/;"	v	file:
+append	tools/sgflib/typelib.py	/^	def append(self, x):$/;"	m	class:MutableSequence
+append_child	distributed/distributed.h	24;"	d
+append_stats	uct/slave.c	/^append_stats(struct stats_candidate *stats_queue, struct tree_node *node, int stats_count,$/;"	f	file:
+apply_pattern	playout/moggy.c	/^apply_pattern(struct playout_policy *p, struct board *b, struct move *m, struct move *mm, struct move_queue *q, fixp_t *gammas)$/;"	f	file:
+apply_pattern_here	playout/moggy.c	/^apply_pattern_here(struct playout_policy *p, struct board *b, coord_t c, enum stone color, struct move_queue *q, fixp_t *gammas)$/;"	f	file:
+args	tools/sgf2gtp.py	/^args = vars(parser.parse_args())$/;"	v
+args	uct/plugins.c	/^	char *args;$/;"	m	struct:plugin	file:
+args_hook	distributed/protocol.h	/^	getargs_hook args_hook;$/;"	m	struct:slave_state
+asdf	move.c	/^static char asdf[] = "abcdefghjklmnopqrstuvwxyz";$/;"	v	file:
+assess	playout.h	/^	playoutp_assess assess;$/;"	m	struct:playout_policy
+atari_atxy	pattern3.h	84;"	d
+atari_atxy	pattern3.h	89;"	d
+atari_def_no_hopeless	playout/moggy.c	/^	bool atari_def_no_hopeless;$/;"	m	struct:moggy_policy	file:
+atari_miaisafe	playout/moggy.c	/^	bool atari_miaisafe;$/;"	m	struct:moggy_policy	file:
+atarirate	playout/moggy.c	/^	unsigned int lcapturerate, atarirate, nlibrate, ladderrate, capturerate, patternrate, korate, josekirate, nakaderate, eyefixrate;$/;"	m	struct:moggy_policy	file:
+avg_score	uct/tree.h	/^	struct move_stats avg_score;$/;"	m	struct:tree	typeref:struct:tree::move_stats
+b	board.h	/^	enum stone *b; \/* enum stone *\/$/;"	m	struct:board	typeref:enum:board::stone
+b	distributed/protocol.h	/^	struct buf_state b[BUFFERS_PER_SLAVE];$/;"	m	struct:slave_state	typeref:struct:slave_state::buf_state
+b	joseki/joseki.c	/^	struct board *b[16]; \/\/ boards with reversed color, mirrored and rotated$/;"	m	struct:joseki_engine	typeref:struct:joseki_engine::board	file:
+b	probdist.h	/^	struct board *b;$/;"	m	struct:probdist	typeref:struct:probdist::board
+b	uct/plugins.c	/^	struct board *b;$/;"	m	struct:uct_pluginset	typeref:struct:uct_pluginset::board	file:
+b	uct/prior.h	/^	struct board *b;$/;"	m	struct:prior_map	typeref:struct:prior_map::board
+b	uct/search.h	/^	struct board *b;$/;"	m	struct:uct_thread_ctx	typeref:struct:uct_thread_ctx::board
+b19_eqex	uct/prior.c	/^	int even_eqex, policy_eqex, b19_eqex, eye_eqex, ko_eqex, plugin_eqex, joseki_eqex, pattern_eqex;$/;"	m	struct:uct_prior	file:
+banner	uct/internal.h	/^	char *banner;$/;"	m	struct:uct
+base_playouts	uct/search.h	/^	int base_playouts;$/;"	m	struct:uct_search_state
+bdist_max	pattern.h	/^	unsigned int bdist_max;$/;"	m	struct:pattern_config
+best2_ratio	uct/internal.h	/^	double best2_ratio, bestr_ratio;$/;"	m	struct:uct
+best_moves	engine.h	/^	engine_best_moves_t best_moves;$/;"	m	struct:engine
+bestr_ratio	uct/internal.h	/^	double best2_ratio, bestr_ratio;$/;"	m	struct:uct
+big_eye_area	tactics/dragon.c	/^big_eye_area(struct board *b, enum stone color, coord_t around, int *visited)$/;"	f
+bits2	board.h	/^	int bits2; \/* ceiling(log2(size2)) *\/$/;"	m	struct:board
+black	tools/twogtp.py	/^    def black(self, move):$/;"	m	class:GTP_player
+black	tools/twogtp.py	/^black    = ""$/;"	v
+black_owner	uct/tree.h	/^	struct move_stats black_owner; \/\/ owner == black$/;"	m	struct:tree_node	typeref:struct:tree_node::move_stats
+board	board.h	/^struct board {$/;"	s
+board	uct/tree.h	/^	struct board *board;$/;"	m	struct:tree	typeref:struct:tree::board
+board_alloc	board.c	/^board_alloc(struct board *board)$/;"	f	file:
+board_at	board.h	347;"	d
+board_atariable_add	board.c	/^board_atariable_add(struct board *board, group_t group, coord_t lib1, coord_t lib2)$/;"	f	file:
+board_atariable_rm	board.c	/^board_atariable_rm(struct board *board, group_t group, coord_t lib1, coord_t lib2)$/;"	f	file:
+board_atxy	board.h	348;"	d
+board_bits2	board.h	338;"	d
+board_bits2	board.h	340;"	d
+board_bits2	board.h	342;"	d
+board_bits2	board.h	344;"	d
+board_capturable_add	board.c	/^board_capturable_add(struct board *board, group_t group, coord_t lib, bool onestone)$/;"	f	file:
+board_capturable_rm	board.c	/^board_capturable_rm(struct board *board, group_t group, coord_t lib, bool onestone)$/;"	f	file:
+board_clear	board.c	/^board_clear(struct board *board)$/;"	f
+board_cmp	board.c	/^board_cmp(struct board *b1, struct board *b2)$/;"	f
+board_coord_in_symmetry	board.h	/^board_coord_in_symmetry(struct board *b, coord_t c)$/;"	f
+board_copy	board.c	/^board_copy(struct board *b2, struct board *b1)$/;"	f
+board_cprint	board.h	/^typedef char *(*board_cprint)(struct board *b, coord_t c, char *s, char *end, void *data);$/;"	t
+board_done	board.c	/^board_done(struct board *board)$/;"	f
+board_done_noalloc	board.c	/^board_done_noalloc(struct board *board)$/;"	f
+board_dump	t-unit/test_undo.c	/^board_dump(struct board *b)$/;"	f	file:
+board_dump_group	t-unit/test_undo.c	/^board_dump_group(struct board *b, group_t g)$/;"	f	file:
+board_effective_handicap	tactics/util.c	/^board_effective_handicap(struct board *b, int first_move_value)$/;"	f
+board_empty	t-unit/test.c	295;"	d	file:
+board_estimated_moves_left	tactics/util.c	/^board_estimated_moves_left(struct board *b)$/;"	f
+board_fast_score	board.c	/^board_fast_score(struct board *board)$/;"	f
+board_game_portion	uct/dynkomi.c	/^board_game_portion(struct dynkomi_adaptive *a, struct board *b)$/;"	f	file:
+board_get_atari_neighbor	board.h	/^board_get_atari_neighbor(struct board *b, coord_t coord, enum stone group_color)$/;"	f
+board_get_one_point_eye	board.c	/^board_get_one_point_eye(struct board *board, coord_t coord)$/;"	f
+board_group_addlib	board.c	/^board_group_addlib(struct board *board, group_t group, coord_t coord, struct board_undo *u)$/;"	f	file:
+board_group_capture	board.c	/^board_group_capture(struct board *board, group_t group, struct board_undo *u)$/;"	f	file:
+board_group_captured	board.h	368;"	d
+board_group_find_extra_libs	board.c	/^board_group_find_extra_libs(struct board *board, group_t group, struct group *gi, coord_t avoid)$/;"	f	file:
+board_group_info	board.h	367;"	d
+board_group_other_lib	board.h	370;"	d
+board_group_rmlib	board.c	/^board_group_rmlib(struct board *board, group_t group, coord_t coord, struct board_undo *u)$/;"	f	file:
+board_handicap	board.c	/^board_handicap(struct board *board, int stones, FILE *f)$/;"	f
+board_handicap_stone	board.c	/^board_handicap_stone(struct board *board, int x, int y, FILE *f)$/;"	f
+board_hash_commit	board.c	/^board_hash_commit(struct board *board)$/;"	f	file:
+board_hash_update	board.c	/^board_hash_update(struct board *board, coord_t coord, enum stone color)$/;"	f	file:
+board_hprint	board.c	/^board_hprint(struct board *board, FILE *f, board_print_handler handler, void *data)$/;"	f
+board_hprint_row	board.c	/^board_hprint_row(struct board *board, int y, char *s, char *end, board_print_handler handler, void *data)$/;"	f	file:
+board_init	board.c	/^board_init(char *fbookfile)$/;"	f
+board_init_data	board.c	/^board_init_data(struct board *board)$/;"	f	file:
+board_is_eyelike	board.h	/^board_is_eyelike(struct board *board, coord_t coord, enum stone eye_color)$/;"	f
+board_is_false_eyelike	board.c	/^board_is_false_eyelike(struct board *board, coord_t coord, enum stone eye_color)$/;"	f
+board_is_one_point_eye	board.c	/^board_is_one_point_eye(struct board *board, coord_t coord, enum stone eye_color)$/;"	f
+board_is_valid_move	board.h	/^board_is_valid_move(struct board *board, struct move *m)$/;"	f
+board_is_valid_play	board.h	/^board_is_valid_play(struct board *board, enum stone color, coord_t coord)$/;"	f
+board_is_valid_play_no_suicide	board.h	/^board_is_valid_play_no_suicide(struct board *board, enum stone color, coord_t coord)$/;"	f
+board_large	board.h	334;"	d
+board_load	t-unit/test.c	/^board_load(struct board *b, FILE *f, unsigned int size)$/;"	f	file:
+board_local_value	tactics/util.h	/^board_local_value(bool scan_neis, struct board *b, coord_t coord, enum stone color)$/;"	f
+board_official_score	board.c	/^board_official_score(struct board *board, struct move_queue *q)$/;"	f
+board_ownermap	ownermap.h	/^struct board_ownermap {$/;"	s
+board_ownermap_estimate_point	ownermap.c	/^board_ownermap_estimate_point(struct board_ownermap *ownermap, coord_t c)$/;"	f
+board_ownermap_fill	ownermap.c	/^board_ownermap_fill(struct board_ownermap *ownermap, struct board *b)$/;"	f
+board_ownermap_judge_groups	ownermap.c	/^board_ownermap_judge_groups(struct board *b, struct board_ownermap *ownermap, struct group_judgement *judge)$/;"	f
+board_ownermap_judge_point	ownermap.c	/^board_ownermap_judge_point(struct board_ownermap *ownermap, coord_t c, floating_t thres)$/;"	f
+board_ownermap_merge	ownermap.c	/^board_ownermap_merge(int bsize2, struct board_ownermap *dst, struct board_ownermap *src)$/;"	f
+board_permit	board.c	/^board_permit(struct board *b, struct move *m, void *data)$/;"	f
+board_play	board.c	/^board_play(struct board *board, struct move *m)$/;"	f
+board_play_	board.c	/^board_play_(struct board *board, struct move *m, struct board_undo *u)$/;"	f	file:
+board_play_f	board.c	/^board_play_f(struct board *board, struct move *m, int f, struct board_undo *u)$/;"	f	file:
+board_play_in_eye	board.c	/^board_play_in_eye(struct board *board, struct move *m, int f, struct board_undo *u)$/;"	f	file:
+board_play_outside	board.c	/^board_play_outside(struct board *board, struct move *m, int f, struct board_undo *u)$/;"	f	file:
+board_play_random	board.c	/^board_play_random(struct board *b, enum stone color, coord_t *coord, ppr_permit permit, void *permit_data)$/;"	f
+board_playing_ko_threat	board.h	/^board_playing_ko_threat(struct board *b)$/;"	f
+board_print	board.c	/^board_print(struct board *board, FILE *f)$/;"	f
+board_print	engine.h	/^	engine_board_print_t board_print;$/;"	m	struct:engine
+board_print_bottom	board.c	/^board_print_bottom(struct board *board, char *s, char *end, int c)$/;"	f	file:
+board_print_custom	board.c	/^board_print_custom(struct board *board, FILE *f, board_cprint cprint, void *data)$/;"	f
+board_print_dragons	tactics/dragon.c	/^board_print_dragons(struct board *board, FILE *f)$/;"	f
+board_print_handler	board.h	/^typedef char *(*board_print_handler)(struct board *b, coord_t c, void *data);$/;"	t
+board_print_ownermap	ownermap.c	/^board_print_ownermap(struct board *b, FILE *f, struct board_ownermap *ownermap)$/;"	f
+board_print_row	board.c	/^board_print_row(struct board *board, int y, char *s, char *end, board_cprint cprint, void *data)$/;"	f	file:
+board_print_test	t-unit/test.c	/^board_print_test(int level, struct board *b)$/;"	f	file:
+board_print_top	board.c	/^board_print_top(struct board *board, char *s, char *end, int c)$/;"	f	file:
+board_printed	t-unit/test.c	/^static bool board_printed;$/;"	v	file:
+board_quick_cmp	board.c	/^board_quick_cmp(struct board *b1, struct board *b2)$/;"	f
+board_quick_play	board.c	/^board_quick_play(struct board *board, struct move *m, struct board_undo *u)$/;"	f
+board_quick_undo	board.c	/^board_quick_undo(struct board *b, struct move *m, struct board_undo *u)$/;"	f
+board_remove_stone	board.c	/^board_remove_stone(struct board *board, group_t group, coord_t c, struct board_undo *u)$/;"	f	file:
+board_resize	board.c	/^board_resize(struct board *board, int size)$/;"	f
+board_safe_to_play	board.h	/^board_safe_to_play(struct board *b, coord_t coord, enum stone color)$/;"	f
+board_set_rules	board.c	/^board_set_rules(struct board *board, char *name)$/;"	f
+board_setup	board.c	/^board_setup(struct board *b)$/;"	f	file:
+board_size	board.h	319;"	d
+board_size	board.h	323;"	d
+board_size2	board.h	320;"	d
+board_size2	board.h	324;"	d
+board_small	board.h	335;"	d
+board_stats_print	montecarlo/montecarlo.c	/^board_stats_print(struct board *board, struct move_stat *moves, FILE *f)$/;"	f
+board_stone_radar	tactics/util.c	/^board_stone_radar(struct board *b, coord_t coord, int distance)$/;"	f
+board_symmetry	board.h	/^struct board_symmetry {$/;"	s
+board_symmetry_update	board.c	/^board_symmetry_update(struct board *b, struct board_symmetry *symmetry, coord_t c)$/;"	f
+board_trait_queue	board.c	/^board_trait_queue(struct board *board, coord_t coord)$/;"	f	file:
+board_trait_recompute	board.c	/^board_trait_recompute(struct board *board, coord_t coord)$/;"	f	file:
+board_trait_safe	board.c	/^board_trait_safe(struct board *board, coord_t coord, enum stone color)$/;"	f	file:
+board_traits_recompute	board.c	/^board_traits_recompute(struct board *board)$/;"	f	file:
+board_tromp_taylor_iter	board.c	/^board_tromp_taylor_iter(struct board *board, int *ownermap)$/;"	f	file:
+board_try_random_move	board.c	/^board_try_random_move(struct board *b, enum stone color, coord_t *coord, int f, ppr_permit permit, void *permit_data)$/;"	f	file:
+board_undo	board.c	/^int board_undo(struct board *board)$/;"	f
+board_undo	board.h	/^struct board_undo {$/;"	s
+board_undo_stone	board.c	/^board_undo_stone(struct board *b, struct board_undo *u, struct move *m)$/;"	f	file:
+board_undo_stress_test	t-unit/test_undo.c	/^board_undo_stress_test(struct board *board, char *arg)$/;"	f
+board_undo_suicide	board.c	/^board_undo_suicide(struct board *b, struct board_undo *u, struct move *m)$/;"	f	file:
+boardsize	tools/twogtp.py	/^    def boardsize(self, size):$/;"	m	class:GTP_player
+bold_colors	tactics/dragon.c	/^static char *bold_colors[] = {$/;"	v	file:
+bounded_komi	uct/dynkomi.c	/^bounded_komi(struct dynkomi_adaptive *a, struct board *b,$/;"	f	file:
+breaking_3_stone_seki	tactics/seki.c	/^breaking_3_stone_seki(struct board *b, coord_t coord, enum stone color)$/;"	f
+bsize	fbook.h	/^	int bsize;$/;"	m	struct:fbook
+bsize	joseki/base.h	/^	int bsize;$/;"	m	struct:joseki_dict
+bsize2digit	uct/plugin/wolf.c	/^bsize2digit(int size)$/;"	f
+btraits	board.h	/^struct btraits {$/;"	s
+bucket_count	uct/slave.c	/^static int bucket_count[MAX_BUCKETS];$/;"	v	file:
+buf	distributed/protocol.h	/^	void *buf;$/;"	m	struct:buf_state
+buf_state	distributed/protocol.h	/^struct buf_state {$/;"	s
+buffer_hook	distributed/protocol.h	/^typedef void (*buffer_hook)(void *buf, int size);$/;"	t
+byoyomi_periods	timeinfo.h	/^			int byoyomi_periods;$/;"	m	struct:time_info::__anon1::__anon2
+byoyomi_stones	timeinfo.h	/^			int byoyomi_stones;$/;"	m	struct:time_info::__anon1::__anon2
+byoyomi_stones_max	timeinfo.h	/^			int byoyomi_stones_max;$/;"	m	struct:time_info::__anon1::__anon2
+byoyomi_time	timeinfo.h	/^			double byoyomi_time;$/;"	m	struct:time_info::__anon1::__anon2
+byoyomi_time_max	timeinfo.h	/^			double byoyomi_time_max;$/;"	m	struct:time_info::__anon1::__anon2
+byte_board	uct/plugin/wolf.c	/^typedef char byte_board[MAXBOARDSIZE+2][MAXBOARDSIZE+2]; \/\/ The array indices are 1-based!$/;"	t	file:
+cached_dict	patternprob.c	/^static struct pattern_pdict *cached_dict;$/;"	v	typeref:struct:pattern_pdict	file:
+cached_dict	patternsp.c	/^static struct spatial_dict *cached_dict;$/;"	v	typeref:struct:spatial_dict	file:
+calloc2	util.h	84;"	d
+can_atari_group	tactics/2lib.c	/^can_atari_group(struct board *b, group_t group, enum stone owner,$/;"	f
+can_be_rescued	tactics/1lib.c	/^can_be_rescued(struct board *b, group_t group, enum stone color, int tag)$/;"	f	file:
+can_capture	tactics/1lib.c	/^can_capture(struct board *b, group_t g, enum stone to_play)$/;"	f	file:
+can_capture_2lib_group	tactics/2lib.c	/^can_capture_2lib_group(struct board *b, group_t g, enum stone color,$/;"	f
+can_countercapture	tactics/1lib.c	/^can_countercapture(struct board *b, group_t group, struct move_queue *q, int tag)$/;"	f
+can_countercapture_any	tactics/1lib.c	/^can_countercapture_any(struct board *b, group_t group, struct move_queue *q, int tag)$/;"	f
+can_escape_instead	tactics/selfatari.c	/^can_escape_instead(struct board *b, enum stone color, coord_t to, struct selfatari_state *s)$/;"	f	file:
+can_play_on_lib	tactics/1lib.c	/^can_play_on_lib(struct board *b, group_t g, enum stone to_play)$/;"	f	file:
+canadian	timeinfo.h	/^			bool canadian; \/\/ time_left field meaning changes$/;"	m	struct:time_info::__anon1::__anon2
+cap	board.h	/^	unsigned cap:3;$/;"	m	struct:btraits
+cap1	board.h	/^	unsigned cap1:3;$/;"	m	struct:btraits
+cap_stone_denom	playout/moggy.c	/^	int cap_stone_denom;$/;"	m	struct:moggy_policy	file:
+cap_stone_max	playout/moggy.c	/^	int cap_stone_min, cap_stone_max;$/;"	m	struct:moggy_policy	file:
+cap_stone_min	playout/moggy.c	/^	int cap_stone_min, cap_stone_max;$/;"	m	struct:moggy_policy	file:
+capcheckall	playout/moggy.c	/^	bool capcheckall;$/;"	m	struct:moggy_policy	file:
+capture_would_make_extra_eye	tactics/selfatari.c	/^capture_would_make_extra_eye(struct board *b, enum stone color, coord_t to, struct selfatari_state *s)$/;"	f	file:
+capturerate	playout/moggy.c	/^	unsigned int lcapturerate, atarirate, nlibrate, ladderrate, capturerate, patternrate, korate, josekirate, nakaderate, eyefixrate;$/;"	m	struct:moggy_policy	file:
+captures	board.h	/^	int captures; \/* number of stones captured *\/$/;"	m	struct:board_undo
+captures	board.h	/^	int captures[S_MAX];$/;"	m	struct:board
+capturing_group_is_snapback	tactics/1lib.c	/^capturing_group_is_snapback(struct board *b, group_t group)$/;"	f	file:
+cfg_distances	tactics/util.c	/^cfg_distances(struct board *b, coord_t start, int *distances, int maxdist)$/;"	f
+cfg_one	tactics/util.c	56;"	d	file:
+cfg_one	tactics/util.c	76;"	d	file:
+cfgd_eqex	uct/prior.c	/^	int cfgdn; int *cfgd_eqex;$/;"	m	struct:uct_prior	file:
+cfgdn	uct/prior.c	/^	int cfgdn; int *cfgd_eqex;$/;"	m	struct:uct_prior	file:
+char2stone	stone.h	/^char2stone(char s)$/;"	f
+chaser_capture_escapes	tactics/ladder.c	/^chaser_capture_escapes(struct board *b, group_t laddered, enum stone lcolor, struct move_queue *ccq)$/;"	f	file:
+chat	chat.c	/^static struct chat {$/;"	s	file:
+chat	engine.h	/^	engine_chat_t chat;$/;"	m	struct:engine
+chat_done	chat.c	/^void chat_done() {$/;"	f
+chat_done	chat.c	/^void chat_done() {}$/;"	f
+chat_init	chat.c	/^void chat_init(char *chat_file) {$/;"	f
+chat_init	chat.c	/^void chat_init(char *chat_file) {}$/;"	f
+chat_table	chat.c	/^} *chat_table;$/;"	v	typeref:struct:chat	file:
+check_libs_consistency	board.c	/^check_libs_consistency(struct board *board, group_t g)$/;"	f	file:
+check_pat3_consistency	board.c	/^check_pat3_consistency(struct board *board, coord_t coord)$/;"	f	file:
+check_throw_in_or_inside_capture	tactics/selfatari.c	417;"	d	file:
+check_throwin	tactics/selfatari.c	/^check_throwin(struct board *b, enum stone color, coord_t to, struct selfatari_state *s)$/;"	f	file:
+checked_calloc	util.h	/^checked_calloc(size_t nmemb, size_t size, const char *filename, unsigned int line, const char *func)$/;"	f
+checked_malloc	util.h	/^checked_malloc(size_t size, char *filename, unsigned int line, const char *func)$/;"	f
+children	uct/tree.h	/^	struct tree_node *parent, *sibling, *children;$/;"	m	struct:tree_node	typeref:struct:tree_node::
+choose	playout.h	/^	playoutp_choose choose;$/;"	m	struct:playout_policy
+choose	uct/internal.h	/^	uctp_choose choose;$/;"	m	struct:uct_policy
+clear	tools/sgflib/typelib.py	/^	def clear(self):$/;"	m	class:Mapping
+clear_receive_queue	distributed/protocol.c	/^clear_receive_queue(void)$/;"	f
+clen	board.h	133;"	d
+client	distributed/protocol.h	/^	struct in_addr client; \/\/ for debugging only$/;"	m	struct:slave_state	typeref:struct:slave_state::in_addr
+cmd_cond	distributed/protocol.c	/^static pthread_cond_t cmd_cond = PTHREAD_COND_INITIALIZER;$/;"	v	file:
+cmd_count	distributed/protocol.c	/^static int cmd_count = 0;$/;"	v	file:
+cmd_history	distributed/protocol.c	/^static struct cmd_history {$/;"	s	file:
+col2num	tools/sgf2gtp.py	/^def col2num(column, board_size):$/;"	f
+collisions	distributed/distributed.h	/^	long collisions;$/;"	m	struct:hash_counts
+collisions	patternsp.h	/^	int fills, collisions;$/;"	m	struct:spatial_dict
+color	move.h	/^	enum stone color;$/;"	m	struct:move	typeref:enum:move::stone
+color	uct/search.h	/^	enum stone color;$/;"	m	struct:uct_thread_ctx	typeref:enum:uct_thread_ctx::stone
+color_mask	patternscan/patternscan.c	/^	int color_mask;$/;"	m	struct:patternscan	file:
+colors	board.h	/^	char colors[S_MAX];$/;"	m	struct:neighbor_colors
+comment	engine.h	/^	char *comment;$/;"	m	struct:engine
+competition	patternscan/patternscan.c	/^	bool competition;$/;"	m	struct:patternscan	file:
+conjugate	tools/sgflib/typelib.py	/^	def conjugate(self):$/;"	m	class:Complex
+connected	tactics/dragon.c	/^	int *connected;$/;"	m	struct:surrounded_data	file:
+consider	uct/prior.h	/^	bool *consider;$/;"	m	struct:prior_map
+context	uct/plugin/example.c	/^struct context {$/;"	s	file:
+context	uct/plugin/wolf.c	/^struct context {$/;"	s	file:
+coord	board.h	/^	uint8_t (*coord)[2];$/;"	m	struct:board
+coord	move.h	/^	coord_t coord;$/;"	m	struct:move
+coord	uct/tree.h	/^	short coord;$/;"	m	struct:tree_node
+coord2bstr	move.c	/^coord2bstr(char *buf, coord_t c, struct board *board)$/;"	f
+coord2digit	uct/plugin/wolf.c	/^coord2digit(enum stone color, int coord)$/;"	f
+coord2gtp	tools/board_print_to_gtp	/^sub coord2gtp$/;"	s
+coord2sgf	tools/board_print_to_sgf	/^sub coord2sgf$/;"	s
+coord2sstr	move.c	/^coord2sstr(coord_t c, struct board *board)$/;"	f
+coord2str	move.c	/^coord2str(coord_t c, struct board *board)$/;"	f
+coord_cmp	uct/slave.c	/^coord_cmp(const void *p1, const void *p2)$/;"	f	file:
+coord_copy	move.h	/^coord_copy(coord_t c)$/;"	f
+coord_done	move.h	/^coord_done(coord_t *c)$/;"	f
+coord_dx	move.h	17;"	d
+coord_dy	move.h	18;"	d
+coord_edge_distance	tactics/util.h	/^coord_edge_distance(coord_t c, struct board *b)$/;"	f
+coord_gridcular_distance	tactics/util.h	/^coord_gridcular_distance(coord_t c1, coord_t c2, struct board *b)$/;"	f
+coord_init	move.h	/^coord_init(int x, int y, int size)$/;"	f
+coord_is_8adjecent	move.h	26;"	d
+coord_is_adjecent	move.h	25;"	d
+coord_pass	move.h	/^coord_pass()$/;"	f
+coord_path	distributed/distributed.h	/^	path_t coord_path;$/;"	m	struct:incr_stats
+coord_path	uct/slave.c	/^	path_t coord_path;$/;"	m	struct:stats_candidate	file:
+coord_path	uct/slave.c	/^	path_t coord_path;$/;"	m	struct:tree_hash	file:
+coord_quadrant	move.h	32;"	d
+coord_resign	move.h	/^coord_resign()$/;"	f
+coord_t	move.h	/^typedef int coord_t;$/;"	t
+coord_transform	fbook.c	/^coord_transform(struct board *b, coord_t coord, int i)$/;"	f	file:
+coord_x	move.h	14;"	d
+coord_xy	move.h	13;"	d
+coord_y	move.h	15;"	d
+coords_to_sgf	tools/twogtp.py	/^def coords_to_sgf(size, board_coords):$/;"	f
+copy	tools/sgflib/typelib.py	/^	def copy(self):$/;"	m	class:Mapping
+count	tools/sgflib/typelib.py	/^	def count(self, x):$/;"	m	class:MutableSequence
+count_eyes	tactics/dragon.c	/^count_eyes(struct board *b, enum stone color, coord_t lib, void *data)$/;"	f	file:
+count_libs	tactics/dragon.c	/^count_libs(struct board *b, enum stone color, coord_t c, void *data)$/;"	f	file:
+cprint_group	board.c	/^cprint_group(struct board *board, coord_t c, char *s, char *end, void *data)$/;"	f	file:
+cputime	tools/twogtp.py	/^    def cputime(self):$/;"	m	class:GTP_game
+cputime	tools/twogtp.py	/^    def cputime(self):$/;"	m	class:GTP_player
+crit_amaf	uct/policy/ucb1amaf.c	/^	bool crit_amaf;$/;"	m	struct:ucb1_policy_amaf	file:
+crit_lvalue	uct/policy/ucb1amaf.c	/^	bool crit_lvalue;$/;"	m	struct:ucb1_policy_amaf	file:
+crit_min_playouts	uct/policy/ucb1amaf.c	/^	int crit_min_playouts;$/;"	m	struct:ucb1_policy_amaf	file:
+crit_negative	uct/policy/ucb1amaf.c	/^	bool crit_negative;$/;"	m	struct:ucb1_policy_amaf	file:
+crit_negflip	uct/policy/ucb1amaf.c	/^	bool crit_negflip;$/;"	m	struct:ucb1_policy_amaf	file:
+crit_plthres_coef	uct/policy/ucb1amaf.c	/^	floating_t crit_plthres_coef;$/;"	m	struct:ucb1_policy_amaf	file:
+crit_rave	uct/policy/ucb1amaf.c	/^	floating_t crit_rave;$/;"	m	struct:ucb1_policy_amaf	file:
+ctrltrans	tools/sgflib/sgflib.py	/^	ctrltrans 			= string.maketrans("\\000\\001\\002\\003\\004\\005\\006\\007" +$/;"	v	class:SGFParser
+ctx	uct/search.h	/^	struct uct_thread_ctx *ctx;$/;"	m	struct:uct_search_state	typeref:struct:uct_search_state::uct_thread_ctx
+cursor	tools/sgflib/sgflib.py	/^	def cursor(self):$/;"	m	class:GameTree
+cursor	tools/sgflib/sgflib.py	/^	def cursor(self, gamenum=0):$/;"	m	class:Collection
+d	board.h	/^	int d;$/;"	m	struct:board_symmetry
+d	uct/tree.h	/^	unsigned char d;$/;"	m	struct:tree_node
+data	engine.h	/^	void *data;$/;"	m	struct:engine
+data	playout.h	/^	void *data;$/;"	m	struct:playout_policy
+data	tactics/dragon.c	/^	void *data;$/;"	m	struct:foreach_lib_data	file:
+data	uct/dynkomi.h	/^	void *data;$/;"	m	struct:uct_dynkomi
+data	uct/internal.h	/^	void *data;$/;"	m	struct:uct_policy
+data	uct/plugins.c	/^	void *data;$/;"	m	struct:plugin	file:
+dcnn_eqex	uct/prior.c	/^	int dcnn_eqex;$/;"	m	struct:uct_prior	file:
+dcnn_genmove	dcnn.cpp	/^dcnn_genmove(struct engine *e, struct board *b, struct time_info *ti, enum stone color, bool pass_all_alive)$/;"	f	file:
+dcnn_get_moves	dcnn.cpp	/^dcnn_get_moves(struct board *b, enum stone color, float result[])$/;"	f
+dcnn_init	dcnn.cpp	/^dcnn_init()$/;"	f
+dcnn_init	dcnn.h	26;"	d
+dcnn_quiet_caffe	dcnn.cpp	/^dcnn_quiet_caffe(int argc, char *argv[])$/;"	f
+dcnn_quiet_caffe	dcnn.h	25;"	d
+dead_group_list	engine.h	/^	engine_dead_group_list_t dead_group_list;$/;"	m	struct:engine
+dead_group_list	uct/uct.c	/^dead_group_list(struct uct *u, struct board *b, struct move_queue *mq, float thres)$/;"	f	file:
+debug	tools/twogtp.py	/^debug = 0$/;"	v
+debug_after	uct/internal.h	/^	} debug_after;$/;"	m	struct:uct	typeref:struct:uct::__anon6
+debug_boardprint	pachi.c	/^bool debug_boardprint = true;$/;"	v
+debug_level	joseki/joseki.c	/^	int debug_level;$/;"	m	struct:joseki_engine	file:
+debug_level	montecarlo/internal.h	/^	int debug_level;$/;"	m	struct:montecarlo
+debug_level	pachi.c	/^int debug_level = 3;$/;"	v
+debug_level	patternplay/patternplay.c	/^	int debug_level;$/;"	m	struct:patternplay	file:
+debug_level	patternscan/patternscan.c	/^	int debug_level;$/;"	m	struct:patternscan	file:
+debug_level	playout.h	/^	int debug_level;$/;"	m	struct:playout_policy
+debug_level	replay/replay.c	/^	int debug_level;$/;"	m	struct:replay	file:
+debug_level	uct/internal.h	/^	int debug_level;$/;"	m	struct:uct
+dec_neighbor_count_at	board.h	357;"	d
+default_reply	chat.c	/^static char default_reply[] = "I know all those words, but that sentence makes no sense to me";$/;"	v	file:
+default_sstate	distributed/protocol.c	/^struct slave_state default_sstate;$/;"	v	typeref:struct:slave_state
+default_ti	distributed/distributed.c	/^static const struct time_info default_ti = {$/;"	v	typeref:struct:time_info	file:
+default_ti	uct/search.c	/^static struct time_info default_ti;$/;"	v	typeref:struct:time_info	file:
+default_ti_init	uct/search.c	/^default_ti_init(void)$/;"	f	file:
+defense_is_hopeless	tactics/2lib.c	/^defense_is_hopeless(struct board *b, group_t group, enum stone owner,$/;"	f	file:
+depth	uct/tree.h	/^	unsigned short depth; \/\/ just for statistics$/;"	m	struct:tree_node
+descend	uct/internal.h	/^	uctp_descend descend;$/;"	m	struct:uct_policy
+descents	uct/tree.h	/^	signed char descents;$/;"	m	struct:tree_node
+desired	timeinfo.h	/^	} desired;$/;"	m	struct:time_stop	typeref:union:time_stop::__anon3
+die	network.c	/^die(char *msg)$/;"	f	file:
+die	t-predict/predict	/^die()$/;"	f
+dim	timeinfo.h	/^	} dim;$/;"	m	struct:time_info	typeref:enum:time_info::time_dimension
+dirty	board.h	/^	bool dirty:1;$/;"	m	struct:btraits
+discard	joseki/joseki.c	/^	bool discard;$/;"	m	struct:joseki_engine	file:
+discard_bin_args	uct/slave.c	/^discard_bin_args(char *args)$/;"	f	file:
+displayed	chat.c	/^	bool displayed;$/;"	m	struct:chat	file:
+dist	patternsp.h	/^	unsigned char dist;$/;"	m	struct:spatial
+distance_rave	uct/policy/ucb1amaf.c	/^	int distance_rave;$/;"	m	struct:ucb1_policy_amaf	file:
+distances	uct/prior.h	/^	int *distances;$/;"	m	struct:prior_map
+distributed	distributed/distributed.c	/^struct distributed {$/;"	s	file:
+distributed_chat	distributed/distributed.c	/^distributed_chat(struct engine *e, struct board *b, bool opponent, char *from, char *cmd)$/;"	f	file:
+distributed_dead_group_list	distributed/distributed.c	/^distributed_dead_group_list(struct engine *e, struct board *b, struct move_queue *mq)$/;"	f	file:
+distributed_genmove	distributed/distributed.c	/^distributed_genmove(struct engine *e, struct board *b, struct time_info *ti,$/;"	f	file:
+distributed_notify	distributed/distributed.c	/^distributed_notify(struct engine *e, struct board *b, int id, char *cmd, char *args, char **reply)$/;"	f	file:
+distributed_state_init	distributed/distributed.c	/^distributed_state_init(char *arg, struct board *b)$/;"	f	file:
+dlh	uct/plugin/wolf.c	/^	void *dlh;$/;"	m	struct:context	file:
+dlh	uct/plugins.c	/^	void *dlh;$/;"	m	struct:plugin	file:
+dnei	board.h	/^	int nei8[8], dnei[4];$/;"	m	struct:board
+done	engine.h	/^	engine_done_t done;$/;"	m	struct:engine
+done	playout.h	/^	playoutp_done done;$/;"	m	struct:playout_policy
+done	uct/dynkomi.h	/^	uctd_done done;$/;"	m	struct:uct_dynkomi
+done	uct/internal.h	/^	uctp_done done;$/;"	m	struct:uct_policy
+done	uct/plugins.c	/^	void (*done)(void *data);$/;"	m	struct:plugin	file:
+double_to_fixp	fixp.h	20;"	d
+dragon_at	tactics/dragon.c	/^dragon_at(struct board *b, coord_t to)$/;"	f
+dragon_at_handler	tactics/dragon.c	/^dragon_at_handler(struct board *b, enum stone color, group_t g, void *data)$/;"	f	file:
+dragon_is_safe	tactics/dragon.c	/^dragon_is_safe(struct board *b, group_t g, enum stone color)$/;"	f
+dragon_is_safe_full	tactics/dragon.c	/^dragon_is_safe_full(struct board *b, group_t g, enum stone color, int *visited, int *eyes)$/;"	f
+dragon_is_surrounded	tactics/dragon.c	/^dragon_is_surrounded(struct board *b, coord_t to)$/;"	f
+dragon_liberties	tactics/dragon.c	/^dragon_liberties(struct board *b, enum stone color, coord_t to)$/;"	f
+dragon_print	tactics/dragon.c	/^dragon_print(struct board *board, FILE *f, group_t dragon)$/;"	f
+drop_step	uct/dynkomi.c	/^	floating_t drop_step;$/;"	m	struct:dynkomi_linear	file:
+dumpthres	uct/internal.h	/^	double dumpthres;$/;"	m	struct:uct
+dynkomi	uct/internal.h	/^	struct uct_dynkomi *dynkomi;$/;"	m	struct:uct	typeref:struct:uct::uct_dynkomi
+dynkomi_adaptive	uct/dynkomi.c	/^struct dynkomi_adaptive {$/;"	s	file:
+dynkomi_interval	uct/internal.h	/^	int dynkomi_interval;$/;"	m	struct:uct
+dynkomi_linear	uct/dynkomi.c	/^struct dynkomi_linear {$/;"	s	file:
+dynkomi_mask	uct/internal.h	/^	int dynkomi_mask;$/;"	m	struct:uct
+e_sym	board.h	/^enum e_sym {$/;"	g
+elo_stats	t-play/autotest/autotest-show	/^elo_stats() {$/;"	f
+endgame_contest	tools/twogtp.py	/^    def endgame_contest(self, sgfbase):$/;"	m	class:GTP_match
+endgame_filelist	tools/twogtp.py	/^    endgame_filelist = []$/;"	v
+endgame_filelist	tools/twogtp.py	/^    endgame_filelist = params$/;"	v
+endgame_start_at	tools/twogtp.py	/^endgame_start_at = 0$/;"	v
+enemies	board.h	/^	struct undo_enemy enemies[4];$/;"	m	struct:board_undo	typeref:struct:board_undo::undo_enemy
+enemy_stone_at	tactics/dragon.c	96;"	d	file:
+enemy_stone_atxy	tactics/dragon.c	99;"	d	file:
+engine	engine.h	/^struct engine {$/;"	s
+engine_best_moves_t	engine.h	/^typedef void (*engine_best_moves_t)(struct engine *e, struct board *b, enum stone color);$/;"	t
+engine_board_print	engine.h	/^engine_board_print(struct engine *e, struct board *b, FILE *f)$/;"	f
+engine_board_print_t	engine.h	/^typedef void (*engine_board_print_t)(struct engine *e, struct board *b, FILE *f);$/;"	t
+engine_chat_t	engine.h	/^typedef char *(*engine_chat_t)(struct engine *e, struct board *b, bool in_game, char *from, char *cmd);$/;"	t
+engine_dcnn_init	dcnn.cpp	/^engine_dcnn_init(char *arg, struct board *b)$/;"	f
+engine_dead_group_list_t	engine.h	/^typedef void (*engine_dead_group_list_t)(struct engine *e, struct board *b, struct move_queue *mq);$/;"	t
+engine_distributed_init	distributed/distributed.c	/^engine_distributed_init(char *arg, struct board *b)$/;"	f
+engine_done	engine.h	/^engine_done(struct engine *e)$/;"	f
+engine_done_t	engine.h	/^typedef void (*engine_done_t)(struct engine *e);$/;"	t
+engine_evaluate_t	engine.h	/^typedef void (*engine_evaluate_t)(struct engine *e, struct board *b, struct time_info *ti, floating_t *vals, enum stone color);$/;"	t
+engine_genmove_t	engine.h	/^typedef coord_t *(*engine_genmove_t)(struct engine *e, struct board *b, struct time_info *ti, enum stone color, bool pass_all_alive);$/;"	t
+engine_genmoves_t	engine.h	/^typedef char *(*engine_genmoves_t)(struct engine *e, struct board *b, struct time_info *ti, enum stone color,$/;"	t
+engine_id	pachi.c	/^enum engine_id {$/;"	g	file:
+engine_init	pachi.c	/^static struct engine *(*engine_init[E_MAX])(char *arg, struct board *b) = {$/;"	v	typeref:struct:engine_init	file:
+engine_joseki_done	joseki/joseki.c	/^engine_joseki_done(struct engine *e)$/;"	f
+engine_joseki_init	joseki/joseki.c	/^engine_joseki_init(char *arg, struct board *b)$/;"	f
+engine_live_gfx_hook_t	engine.h	/^typedef void (*engine_live_gfx_hook_t)(struct engine *e);$/;"	t
+engine_montecarlo_init	montecarlo/montecarlo.c	/^engine_montecarlo_init(char *arg, struct board *b)$/;"	f
+engine_notify_play_t	engine.h	/^typedef char *(*engine_notify_play_t)(struct engine *e, struct board *b, struct move *m, char *enginearg);$/;"	t
+engine_notify_t	engine.h	/^typedef enum parse_code (*engine_notify_t)(struct engine *e, struct board *b, int id, char *cmd, char *args, char **reply);$/;"	t	typeref:enum:engine_notify_t
+engine_owner_map_t	engine.h	/^typedef float (*engine_owner_map_t)(struct engine *e, struct board *b, coord_t c);$/;"	t
+engine_patternplay_init	patternplay/patternplay.c	/^engine_patternplay_init(char *arg, struct board *b)$/;"	f
+engine_patternscan_init	patternscan/patternscan.c	/^engine_patternscan_init(char *arg, struct board *b)$/;"	f
+engine_random_init	random/random.c	/^engine_random_init(char *arg, struct board *b)$/;"	f
+engine_replay_init	replay/replay.c	/^engine_replay_init(char *arg, struct board *b)$/;"	f
+engine_result_t	engine.h	/^typedef char *(*engine_result_t)(struct engine *e, struct board *b);$/;"	t
+engine_stop_t	engine.h	/^typedef void (*engine_stop_t)(struct engine *e);$/;"	t
+engine_uct_init	uct/uct.c	/^engine_uct_init(char *arg, struct board *b)$/;"	f
+engine_undo_t	engine.h	/^typedef char *(*engine_undo_t)(struct engine *e, struct board *b);$/;"	t
+eqex	uct/plugin/example.c	/^	int eqex;$/;"	m	struct:context	file:
+eqex	uct/plugin/wolf.c	/^	int eqex;$/;"	m	struct:context	file:
+eqex	uct/prior.c	/^	int eqex;$/;"	m	struct:uct_prior	file:
+equiv_rave	uct/policy/ucb1amaf.c	/^	unsigned int equiv_rave;$/;"	m	struct:ucb1_policy_amaf	file:
+es	board.h	/^	void *es;$/;"	m	struct:board
+evaluate	engine.h	/^	engine_evaluate_t evaluate;$/;"	m	struct:engine
+evaluate	uct/internal.h	/^	uctp_evaluate evaluate;$/;"	m	struct:uct_policy
+even_eqex	uct/prior.c	/^	int even_eqex, policy_eqex, b19_eqex, eye_eqex, ko_eqex, plugin_eqex, joseki_eqex, pattern_eqex;$/;"	m	struct:uct_prior	file:
+examine_enemy_groups	tactics/selfatari.c	/^examine_enemy_groups(struct board *b, enum stone color, coord_t to, struct selfatari_state *s)$/;"	f	file:
+examine_friendly_groups	tactics/selfatari.c	/^examine_friendly_groups(struct board *b, enum stone color, coord_t to, struct selfatari_state *s, int flags)$/;"	f	file:
+exec_cmd	tools/twogtp.py	/^    def exec_cmd(self, cmd):$/;"	m	class:GTP_connection
+expand_p	uct/internal.h	/^	int expand_p;$/;"	m	struct:uct
+explore_p	uct/policy/ucb1.c	/^	floating_t explore_p;$/;"	m	struct:ucb1_policy	file:
+explore_p	uct/policy/ucb1amaf.c	/^	floating_t explore_p;$/;"	m	struct:ucb1_policy_amaf	file:
+extend	tools/sgflib/typelib.py	/^	def extend(self, x):$/;"	m	class:MutableSequence
+extra_komi	uct/tree.h	/^	floating_t extra_komi;$/;"	m	struct:tree
+eye_eqex	uct/prior.c	/^	int even_eqex, policy_eqex, b19_eqex, eye_eqex, ko_eqex, plugin_eqex, joseki_eqex, pattern_eqex;$/;"	m	struct:uct_prior	file:
+eye_fix_check	playout/moggy.c	/^eye_fix_check(struct playout_policy *p, struct board *b, struct move *m, enum stone to_play, struct move_queue *q)$/;"	f	file:
+eyefillrate	playout/moggy.c	/^	unsigned int selfatarirate, eyefillrate, alwaysccaprate;$/;"	m	struct:moggy_policy	file:
+eyefixrate	playout/moggy.c	/^	unsigned int lcapturerate, atarirate, nlibrate, ladderrate, capturerate, patternrate, korate, josekirate, nakaderate, eyefixrate;$/;"	m	struct:moggy_policy	file:
+eyes	tactics/dragon.c	/^	int *eyes;$/;"	m	struct:safe_data	file:
+f	pattern.h	/^	struct feature f[FEATURES];$/;"	m	struct:pattern	typeref:struct:pattern::feature
+f	tactics/dragon.c	/^	foreach_in_connected_groups_t f;$/;"	m	struct:foreach_lib_data	file:
+fast_alloc	uct/internal.h	/^	bool fast_alloc;$/;"	m	struct:uct
+fast_frandom	random.c	/^fast_frandom(void)$/;"	f
+fast_getseed	random.c	/^fast_getseed(void)$/;"	f
+fast_irandom	random.h	/^fast_irandom(unsigned int max)$/;"	f
+fast_random	random.c	/^fast_random(unsigned int max)$/;"	f
+fast_sqrt	uct/policy/ucb1amaf.c	/^static inline floating_t fast_sqrt(unsigned int x)$/;"	f	file:
+fast_srandom	random.c	/^fast_srandom(unsigned long seed_)$/;"	f
+fbcache	fbook.c	/^static struct fbook *fbcache;$/;"	v	typeref:struct:fbook	file:
+fbook	board.h	/^	struct fbook *fbook;$/;"	m	struct:board	typeref:struct:board::fbook
+fbook	fbook.h	/^struct fbook {$/;"	s
+fbook_check	fbook.c	/^fbook_check(struct board *board)$/;"	f
+fbook_done	fbook.c	/^void fbook_done(struct fbook *fbook)$/;"	f
+fbook_hash_bits	fbook.h	17;"	d
+fbook_hash_mask	fbook.h	18;"	d
+fbook_init	fbook.c	/^fbook_init(char *filename, struct board *b)$/;"	f
+fbookfile	board.h	/^	char *fbookfile;$/;"	m	struct:board
+feature	pattern.h	/^struct feature {$/;"	s
+feature2str	pattern.c	/^feature2str(char *str, struct feature *f)$/;"	f
+feature_id	pattern.h	/^enum feature_id {$/;"	g
+feature_info	pattern.c	/^static const struct feature_info {$/;"	s	file:
+feature_name	pattern.c	/^feature_name(enum feature_id f)$/;"	f
+feature_payloads	pattern.c	/^feature_payloads(struct pattern_setup *pat, enum feature_id f)$/;"	f
+features	pattern.c	/^} features[FEAT_MAX] = {$/;"	v	typeref:struct:feature_info	file:
+filename_base	tools/sgf2gtp.py	/^                    filename_base = in_filename$/;"	v
+filename_base	tools/sgf2gtp.py	/^                    filename_base = in_filename[:-3]$/;"	v
+fillboard_check	playout/moggy.c	/^fillboard_check(struct playout_policy *p, struct board *b)$/;"	f	file:
+fillboardtries	playout/moggy.c	/^	unsigned int fillboardtries;$/;"	m	struct:moggy_policy	file:
+fills	patternsp.h	/^	int fills, collisions;$/;"	m	struct:spatial_dict
+filter_buffers	distributed/merge.c	/^filter_buffers(struct slave_state *sstate, struct incr_stats **next,$/;"	f	file:
+fin	tools/sgf2gtp.py	/^            fin = open(in_filename, 'r')$/;"	v
+final_score	tools/twogtp.py	/^    def final_score(self):$/;"	m	class:GTP_player
+find_dcnn_best_moves	dcnn.cpp	/^find_dcnn_best_moves(struct board *b, float *r, coord_t *best, float *best_r)$/;"	f
+find_hash	distributed/distributed.h	40;"	d
+finish_cond	uct/search.c	/^static pthread_cond_t finish_cond = PTHREAD_COND_INITIALIZER;$/;"	v	file:
+finish_mutex	uct/search.c	/^static pthread_mutex_t finish_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+finish_serializer	uct/search.c	/^static pthread_mutex_t finish_serializer = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+finish_thread	uct/search.c	/^static volatile int finish_thread;$/;"	v	file:
+fixp_t	fixp.h	/^typedef uint_fast32_t fixp_t;$/;"	t
+fixp_to_double	fixp.h	21;"	d
+flen	board.h	134;"	d
+flip_coord	uct/tree.c	/^flip_coord(struct board *b, coord_t c,$/;"	f	file:
+floating_t	util.h	49;"	d
+floating_t	util.h	52;"	d
+force_reply	distributed/distributed.h	96;"	d
+force_seed	uct/internal.h	/^	int force_seed;$/;"	m	struct:uct
+foreach_8neighbor	board.h	558;"	d
+foreach_8neighbor_end	board.h	564;"	d
+foreach_connected_group	tactics/dragon.c	/^foreach_connected_group(struct board *b, enum stone color, coord_t to,$/;"	f	file:
+foreach_connected_group_	tactics/dragon.c	/^foreach_connected_group_(struct board *b, enum stone color, group_t g, $/;"	f	file:
+foreach_connected_group_t	tactics/dragon.c	/^typedef int (*foreach_connected_group_t)(struct board *b, enum stone color, group_t g, void *data);$/;"	t	file:
+foreach_diag_neighbor	board.h	568;"	d
+foreach_diag_neighbor_end	board.h	574;"	d
+foreach_free_point	board.h	525;"	d
+foreach_free_point_end	board.h	530;"	d
+foreach_in_connected_groups	tactics/dragon.c	/^foreach_in_connected_groups(struct board *b, enum stone color, coord_t to, $/;"	f	file:
+foreach_in_connected_groups_	tactics/dragon.c	/^foreach_in_connected_groups_(struct board *b, enum stone color, group_t g, $/;"	f	file:
+foreach_in_connected_groups_t	tactics/dragon.c	/^typedef int (*foreach_in_connected_groups_t)(struct board *b, enum stone color, coord_t c, void *data);$/;"	t	file:
+foreach_in_group	board.h	534;"	d
+foreach_in_group_end	board.h	540;"	d
+foreach_lib_data	tactics/dragon.c	/^struct foreach_lib_data {$/;"	s	file:
+foreach_lib_handler	tactics/dragon.c	/^foreach_lib_handler(struct board *b, enum stone color, group_t g, void *data)$/;"	f	file:
+foreach_lib_in_connected_groups	tactics/dragon.c	/^foreach_lib_in_connected_groups(struct board *b, enum stone color, coord_t to,$/;"	f	file:
+foreach_neighbor	board.h	547;"	d
+foreach_point	board.h	514;"	d
+foreach_point_and_pass	board.h	518;"	d
+foreach_point_end	board.h	522;"	d
+fout	tools/sgf2gtp.py	/^                fout = open(out_filename, 'w')$/;"	v
+fout	tools/sgf2gtp.py	/^                fout = sys.stdout$/;"	v
+fpu	uct/policy/ucb1.c	/^	floating_t fpu;$/;"	m	struct:ucb1_policy	file:
+fpu	uct/policy/ucb1amaf.c	/^	floating_t fpu;$/;"	m	struct:ucb1_policy_amaf	file:
+friend_has_no_libs	tactics/selfatari.c	/^	bool friend_has_no_libs;$/;"	m	struct:selfatari_state	file:
+from	chat.c	/^	char from[20];$/;"	m	struct:chat	file:
+fullchoose	playout/moggy.c	/^	bool fullchoose;$/;"	m	struct:moggy_policy	file:
+fullmem	uct/search.h	/^	bool fullmem;$/;"	m	struct:uct_search_state
+fuseki_end	uct/internal.h	/^	int fuseki_end;$/;"	m	struct:uct
+g	board.h	/^	group_t *g;$/;"	m	struct:board
+game	playout.h	/^	coord_t game[MAX_GAMELEN];$/;"	m	struct:playout_amafmap
+game_baselen	playout.h	/^	int game_baselen;$/;"	m	struct:playout_amafmap
+gamelen	montecarlo/internal.h	/^	int gamelen;$/;"	m	struct:montecarlo
+gamelen	playout.h	/^	int gamelen;$/;"	m	struct:playout_amafmap
+gamelen	playout.h	/^	unsigned int gamelen; \/* Maximal # of moves in playout. *\/$/;"	m	struct:playout_setup
+gamelen	uct/internal.h	/^	int games, gamelen;$/;"	m	struct:uct
+gameno	patternscan/patternscan.c	/^	int gameno;$/;"	m	struct:patternscan	file:
+games	montecarlo/internal.h	/^	int games;$/;"	m	struct:move_stat
+games	timeinfo.h	/^		int games; \/\/ TD_GAMES$/;"	m	union:time_info::__anon1
+games	tools/twogtp.py	/^games   = 1$/;"	v
+games	uct/internal.h	/^	int games, gamelen;$/;"	m	struct:uct
+games	uct/search.h	/^	int games;$/;"	m	struct:uct_thread_ctx
+gen_spat_dict	patternscan/patternscan.c	/^	bool gen_spat_dict;$/;"	m	struct:patternscan	file:
+generic_chat	chat.c	/^*generic_chat(struct board *b, bool opponent, char *from, char *cmd, enum stone color, coord_t move,$/;"	f
+generic_done	uct/dynkomi.c	/^generic_done(struct uct_dynkomi *d)$/;"	f	file:
+genmove	engine.h	/^	engine_genmove_t genmove;$/;"	m	struct:engine
+genmove	tools/twogtp.py	/^    def genmove(self, color):$/;"	m	class:GTP_player
+genmoves	engine.h	/^	engine_genmoves_t genmoves;$/;"	m	struct:engine
+genmoves_args	distributed/distributed.c	/^genmoves_args(char *args, enum stone color, int played,$/;"	f	file:
+gentbook1	tools/gentbook.sh	/^gentbook1()$/;"	f
+get	tools/sgflib/typelib.py	/^	def get(self, key, default=None):$/;"	m	class:Mapping
+get_atr	tools/sgf2gtp.py	/^def get_atr(node, atr):$/;"	f
+get_binary_arg	distributed/protocol.c	/^get_binary_arg(struct slave_state *sstate, char *cmd, int cmd_size, int *bin_size)$/;"	f
+get_free_buf	distributed/protocol.c	/^get_free_buf(struct slave_state *sstate)$/;"	f	file:
+get_neighbors	tactics/nakade.c	/^get_neighbors(struct board *b, coord_t *area, int area_n, int *neighbors, int *ptbynei)$/;"	f	file:
+get_new_stats	distributed/merge.c	/^get_new_stats(struct incr_stats *buf, struct slave_state *sstate, int cmd_id)$/;"	f	file:
+get_position_from_engine	tools/twogtp.py	/^    def get_position_from_engine(self, engine):$/;"	m	class:GTP_game
+get_program_name	tools/twogtp.py	/^    def get_program_name(self):$/;"	m	class:GTP_player
+get_random_seed	tools/twogtp.py	/^    def get_random_seed(self):$/;"	m	class:GTP_player
+get_replies	distributed/protocol.c	/^get_replies(double time_limit, int min_replies)$/;"	f
+get_reply	distributed/protocol.c	/^get_reply(FILE *f, struct in_addr client, char *reply, void *bin_reply, int *bin_size)$/;"	f	file:
+get_setup	tools/sgf2gtp.py	/^def get_setup(node, atr):$/;"	f
+get_value	distributed/distributed.c	113;"	d	file:
+getargs_hook	distributed/protocol.h	/^typedef int (*getargs_hook)(void *buf, struct slave_state *sstate, int cmd_id);$/;"	t
+gi	board.h	/^	struct group *gi;$/;"	m	struct:board	typeref:struct:board::group
+gi_allocsize	board.c	33;"	d	file:
+gi_granularity	board.c	32;"	d	file:
+gj_state	ownermap.h	/^	enum gj_state {$/;"	g	struct:group_judgement
+global_atari_check	playout/moggy.c	/^global_atari_check(struct playout_policy *p, struct board *b, enum stone to_play, struct move_queue *q)$/;"	f	file:
+go_ruleset	board.h	/^	enum go_ruleset {$/;"	g	struct:board
+gogui_analyze_commands	gtp.c	/^static char *gogui_analyze_commands =$/;"	v	file:
+gogui_best_moves	gtp.c	/^gogui_best_moves(struct board *b, struct engine *engine, char *arg, bool winrates)$/;"	f	file:
+gogui_gfx_buf	gtp.c	/^char gogui_gfx_buf[5000];$/;"	v
+gogui_live_gfx	gtp.c	/^enum gogui_reporting gogui_live_gfx = 0;$/;"	v	typeref:enum:gogui_reporting
+gogui_owner_map	gtp.c	/^gogui_owner_map(struct board *b, struct engine *engine, char *reply)$/;"	f	file:
+gogui_reporting	gogui.h	/^enum gogui_reporting {$/;"	g
+gogui_set_live_gfx	gtp.c	/^gogui_set_live_gfx(struct engine *engine, char *arg)$/;"	f	file:
+green_zone	uct/dynkomi.c	/^	floating_t green_zone;$/;"	m	struct:dynkomi_linear	file:
+group	board.h	/^	group_t	     group;$/;"	m	struct:undo_merge
+group	board.h	/^	group_t      group;$/;"	m	struct:undo_enemy
+group	board.h	/^struct group {$/;"	s
+group_2lib_capture_check	tactics/2lib.c	/^group_2lib_capture_check(struct board *b, group_t group, enum stone to_play, struct move_queue *q, int tag, bool use_miaisafe, bool use_def_no_hopeless)$/;"	f
+group_2lib_check	tactics/2lib.c	/^group_2lib_check(struct board *b, group_t group, enum stone to_play, struct move_queue *q, int tag, bool use_miaisafe, bool use_def_no_hopeless)$/;"	f
+group_at	board.h	350;"	d
+group_atari_check	tactics/1lib.c	/^group_atari_check(unsigned int alwaysccaprate, struct board *b, group_t group, enum stone to_play,$/;"	f
+group_atxy	board.h	351;"	d
+group_base	board.h	365;"	d
+group_is_onestone	board.h	366;"	d
+group_judgement	ownermap.h	/^struct group_judgement {$/;"	s
+group_neighbors	tactics/dragon.c	/^group_neighbors(struct board *b, coord_t to, group_t *neighbors)$/;"	f	file:
+group_nlib_defense_check	tactics/nlib.c	/^group_nlib_defense_check(struct board *b, group_t group, enum stone to_play, struct move_queue *q, int tag)$/;"	f
+group_stone_count	board.h	/^group_stone_count(struct board *b, group_t group, int max)$/;"	f
+group_t	board.h	/^typedef coord_t group_t;$/;"	t
+groupcts	tactics/selfatari.c	/^	int groupcts[S_MAX];$/;"	m	struct:selfatari_state	file:
+groupids	tactics/selfatari.c	/^	group_t groupids[S_MAX][4];$/;"	m	struct:selfatari_state	file:
+groupneis	tactics/selfatari.c	/^	coord_t groupneis[S_MAX][4];$/;"	m	struct:selfatari_state	file:
+groupnext_at	board.h	362;"	d
+groupnext_atxy	board.h	363;"	d
+groups_of_status	ownermap.c	/^groups_of_status(struct board *b, struct group_judgement *judge, enum gj_state s, struct move_queue *mq)$/;"	f
+gs	ownermap.h	/^	} *gs; \/\/ [bsize2]$/;"	m	struct:group_judgement	typeref:enum:group_judgement::gj_state
+gtp_cmd	distributed/protocol.c	/^static char *gtp_cmd = NULL;$/;"	v	file:
+gtp_cmds	distributed/protocol.c	/^static char gtp_cmds[CMDS_SIZE];$/;"	v	file:
+gtp_error	gtp.c	/^gtp_error(int id, ...)$/;"	f
+gtp_final_score	gtp.c	/^gtp_final_score(struct board *board, struct engine *engine, char *reply, int len)$/;"	f	file:
+gtp_flush	gtp.c	/^gtp_flush(void)$/;"	f
+gtp_id	distributed/protocol.c	/^	int gtp_id;$/;"	m	struct:cmd_history	file:
+gtp_is_valid	gtp.c	/^gtp_is_valid(struct engine *e, const char *cmd)$/;"	f
+gtp_output	gtp.c	/^gtp_output(char prefix, int id, va_list params)$/;"	f
+gtp_parse	gtp.c	/^gtp_parse(struct board *board, struct engine *engine, struct time_info *ti, char *buf)$/;"	f
+gtp_predict_move	gtp.c	/^gtp_predict_move(struct board *board, struct engine *engine, struct time_info *ti,$/;"	f	file:
+gtp_prefix	gtp.c	/^gtp_prefix(char prefix, int id)$/;"	f
+gtp_replies	distributed/protocol.c	/^char **gtp_replies;$/;"	v
+gtp_reply	gtp.c	/^gtp_reply(int id, ...)$/;"	f
+h	board.h	/^	hash_t *h;$/;"	m	struct:board
+h_counts	distributed/merge.c	/^static struct hash_counts h_counts;$/;"	v	typeref:struct:hash_counts	file:
+h_counts	uct/slave.c	/^static struct hash_counts h_counts;$/;"	v	typeref:struct:hash_counts	file:
+handicap	board.h	/^	int handicap;$/;"	m	struct:board
+handicap	fbook.h	/^	int handicap;$/;"	m	struct:fbook
+handicap	tools/twogtp.py	/^    def handicap(self, handicap, handicap_type):$/;"	m	class:GTP_player
+handicap	tools/twogtp.py	/^handicap = 0$/;"	v
+handicap_type	tools/twogtp.py	/^handicap_type = "fixed"$/;"	v
+handicap_value	uct/dynkomi.c	/^	int handicap_value[S_MAX];$/;"	m	struct:dynkomi_linear	file:
+has_key	tools/sgflib/typelib.py	/^	def has_key(self, key):$/;"	m	class:Mapping
+hash	pattern3.h	/^	struct pattern2p hash[pattern3_hash_size];$/;"	m	struct:pattern3s	typeref:struct:pattern3s::pattern2p
+hash	patternsp.h	/^	uint32_t hash[1 << spatial_hash_bits];$/;"	m	struct:spatial_dict
+hash	uct/tree.h	/^	hash_t hash;$/;"	m	struct:tree_node
+hash3_t	board.h	/^typedef uint32_t hash3_t; \/\/ 3x3 pattern hash$/;"	t
+hash3_to_hash	pattern3.h	/^hash3_to_hash(hash3_t pat)$/;"	f
+hash_at	board.h	372;"	d
+hash_counts	distributed/distributed.h	/^struct hash_counts {$/;"	s
+hash_mask	distributed/distributed.h	19;"	d
+hash_t	board.h	/^typedef uint64_t hash_t;$/;"	t
+hashes	fbook.h	/^	hash_t hashes[1<<fbook_hash_bits];$/;"	m	struct:fbook
+have_group_in	tactics/dragon.c	/^have_group_in(group_t g, group_t *groups, int ngroups)$/;"	f	file:
+hbits	uct/tree.h	/^	int hbits;$/;"	m	struct:tree
+hints	uct/tree.h	/^	unsigned char hints;$/;"	m	struct:tree_node
+history	distributed/protocol.c	/^} history[MAX_GAMELEN][MAX_CMDS_PER_MOVE];$/;"	v	typeref:struct:cmd_history	file:
+history_hash_bits	board.h	275;"	d
+history_hash_mask	board.h	276;"	d
+history_hash_next	board.h	278;"	d
+history_hash_prev	board.h	277;"	d
+hook_data	playout.h	/^	void *hook_data; \/\/ for hook to reference its state$/;"	m	struct:playout_setup
+horiz_gap	tactics/dragon.c	627;"	d	file:
+htable	uct/tree.h	/^	struct tree_hash *htable;$/;"	m	struct:tree	typeref:struct:tree::tree_hash
+i	tools/twogtp.py	/^        i = i + 1$/;"	v
+i	tools/twogtp.py	/^    i = 0$/;"	v
+id	pattern.h	/^	enum feature_id id:8;$/;"	m	struct:feature	typeref:enum:feature::feature_id
+ignore_gtp	timeinfo.h	/^	bool ignore_gtp;$/;"	m	struct:time_info
+immediate_liberty_count	board.h	358;"	d
+inc_neighbor_count_at	board.h	356;"	d
+incr	distributed/distributed.h	/^	struct move_stats incr;$/;"	m	struct:incr_stats	typeref:struct:incr_stats::move_stats
+incr_stats	distributed/distributed.h	/^struct incr_stats {$/;"	s
+index	tools/sgflib/typelib.py	/^	def index(self, x):$/;"	m	class:MutableSequence
+indicator	uct/dynkomi.c	/^	floating_t (*indicator)(struct uct_dynkomi *d, struct board *b, struct tree *tree, enum stone color);$/;"	m	struct:dynkomi_adaptive	file:
+influ_board	uct/plugin/wolf.c	/^typedef floating_t influ_board[MAXBOARDSIZE][MAXBOARDSIZE];$/;"	t	file:
+info	board.h	/^	struct group info;$/;"	m	struct:undo_enemy	typeref:struct:undo_enemy::group
+info	board.h	/^	struct group info;$/;"	m	struct:undo_merge	typeref:struct:undo_merge::group
+init	uct/plugins.c	/^	void *(*init)(char *args, struct board *b, int seed);$/;"	m	struct:plugin	file:
+init_endgame_contest_game	tools/twogtp.py	/^    def init_endgame_contest_game(self):$/;"	m	class:GTP_game
+init_engine	pachi.c	/^static struct engine *init_engine(enum engine_id engine, char *e_arg, struct board *b)$/;"	f	file:
+init_selfatari_state	tactics/selfatari.c	/^init_selfatari_state(struct board *b, enum stone color, coord_t to, struct selfatari_state *s)$/;"	f	file:
+initial_extra_komi	uct/internal.h	/^	floating_t initial_extra_komi;$/;"	m	struct:uct
+insert	tools/sgflib/typelib.py	/^	def insert(self, i, x):$/;"	m	class:MutableSequence
+insert_buf	distributed/protocol.c	/^insert_buf(struct slave_state *sstate, void *buf, int size)$/;"	f	file:
+insert_hook	distributed/protocol.h	/^	buffer_hook insert_hook;$/;"	m	struct:slave_state
+inserted	board.h	/^	coord_t	inserted;$/;"	m	struct:board_undo
+inserts	distributed/distributed.h	/^	long inserts;$/;"	m	struct:hash_counts
+is_bad_nakade	tactics/selfatari.c	/^is_bad_nakade(struct board *b, enum stone color, coord_t to, coord_t lib2, struct selfatari_state *s)$/;"	f	file:
+is_bad_selfatari	tactics/selfatari.h	/^is_bad_selfatari(struct board *b, enum stone color, coord_t to)$/;"	f
+is_bad_selfatari_slow	tactics/selfatari.c	/^is_bad_selfatari_slow(struct board *b, enum stone color, coord_t to, int flags)$/;"	f
+is_border_ladder	tactics/ladder.c	/^is_border_ladder(struct board *b, coord_t coord, group_t laddered, enum stone lcolor)$/;"	f
+is_controlled_eye_point	tactics/dragon.c	/^is_controlled_eye_point(struct board *b, coord_t to, enum stone color)$/;"	f
+is_expanded	uct/tree.h	/^	bool is_expanded;$/;"	m	struct:tree_node
+is_gamestart	gtp.h	21;"	d
+is_horiz_gap	tactics/dragon.c	/^is_horiz_gap(struct board *b, enum stone color, int *connected, int lx, int ly,   int y, int dx)$/;"	f	file:
+is_known_command	tools/twogtp.py	/^    def is_known_command(self, command):$/;"	m	class:GTP_player
+is_ko_capture	playout.h	/^	bool is_ko_capture[MAX_GAMELEN];$/;"	m	struct:playout_amafmap
+is_ladder	tactics/ladder.h	/^is_ladder(struct board *b, coord_t coord, group_t laddered, bool test_middle)$/;"	f
+is_ladder_any	tactics/ladder.h	/^is_ladder_any(struct board *b, coord_t coord, group_t laddered, bool test_middle)$/;"	f
+is_middle_ladder	tactics/ladder.c	/^is_middle_ladder(struct board *b, coord_t coord, group_t laddered, enum stone lcolor)$/;"	f
+is_middle_ladder_any	tactics/ladder.c	/^is_middle_ladder_any(struct board *b, coord_t coord, group_t laddered, enum stone lcolor)$/;"	f
+is_neighbor_group	tactics/selfatari.c	/^is_neighbor_group(struct board *b, enum stone color, group_t g, struct selfatari_state *s)$/;"	f	file:
+is_pachi_slave	distributed/protocol.c	/^is_pachi_slave(FILE *f, struct in_addr *client)$/;"	f	file:
+is_pass	move.h	22;"	d
+is_pass_move	tools/sgf2gtp.py	/^def is_pass_move(coord, board_size):$/;"	f
+is_private	network.c	/^is_private(struct in_addr *in)$/;"	f	file:
+is_real_one_point_eye	tactics/dragon.c	/^is_real_one_point_eye(struct board *b, coord_t to, enum stone color)$/;"	f	file:
+is_real_two_point_eye	tactics/dragon.c	/^is_real_two_point_eye(struct board *b, coord_t to, enum stone color, coord_t *pother)$/;"	f	file:
+is_really_bad_selfatari	tactics/selfatari.h	/^is_really_bad_selfatari(struct board *b, enum stone color, coord_t to)$/;"	f
+is_repeated	gtp.h	23;"	d
+is_reset	gtp.h	22;"	d
+is_resign	move.h	23;"	d
+is_selfatari	tactics/selfatari.h	/^is_selfatari(struct board *b, enum stone color, coord_t to)$/;"	f
+is_vert_gap	tactics/dragon.c	/^is_vert_gap(struct board *b, enum stone color, int *connected, int lx, int ly,    int x, int dy) $/;"	f	file:
+items	probdist.h	/^	fixp_t *items; \/\/ [bsize2], [i] = P(pick==i)$/;"	m	struct:probdist
+items	tools/sgflib/typelib.py	/^	def items(self):$/;"	m	class:Mapping
+jdict	joseki/joseki.c	/^	struct joseki_dict *jdict;$/;"	m	struct:joseki_engine	typeref:struct:joseki_engine::joseki_dict	file:
+jdict	montecarlo/internal.h	/^	struct joseki_dict *jdict;$/;"	m	struct:montecarlo	typeref:struct:montecarlo::joseki_dict
+jdict	playout/moggy.c	/^	struct joseki_dict *jdict;$/;"	m	struct:moggy_policy	typeref:struct:moggy_policy::joseki_dict	file:
+jdict	replay/replay.c	/^	struct joseki_dict *jdict;$/;"	m	struct:replay	typeref:struct:replay::joseki_dict	file:
+jdict	uct/internal.h	/^	struct joseki_dict *jdict;$/;"	m	struct:uct	typeref:struct:uct::joseki_dict
+joseki_check	playout/moggy.c	/^joseki_check(struct playout_policy *p, struct board *b, enum stone to_play, struct move_queue *q)$/;"	f	file:
+joseki_dict	joseki/base.h	/^struct joseki_dict {$/;"	s
+joseki_done	joseki/base.c	/^joseki_done(struct joseki_dict *jd)$/;"	f
+joseki_engine	joseki/joseki.c	/^struct joseki_engine {$/;"	s	file:
+joseki_eqex	uct/prior.c	/^	int even_eqex, policy_eqex, b19_eqex, eye_eqex, ko_eqex, plugin_eqex, joseki_eqex, pattern_eqex;$/;"	m	struct:uct_prior	file:
+joseki_genmove	joseki/joseki.c	/^joseki_genmove(struct engine *e, struct board *b, struct time_info *ti, enum stone color, bool pass_all_alive)$/;"	f	file:
+joseki_hash_bits	joseki/base.h	16;"	d
+joseki_hash_mask	joseki/base.h	17;"	d
+joseki_init	joseki/base.c	/^joseki_init(int bsize)$/;"	f
+joseki_load	joseki/base.c	/^joseki_load(int bsize)$/;"	f
+joseki_pattern	joseki/base.h	/^struct joseki_pattern {$/;"	s
+joseki_play	joseki/joseki.c	/^joseki_play(struct engine *e, struct board *b, struct move *m, char *enginearg)$/;"	f	file:
+joseki_state_init	joseki/joseki.c	/^joseki_state_init(char *arg)$/;"	f
+josekirate	playout/moggy.c	/^	unsigned int lcapturerate, atarirate, nlibrate, ladderrate, capturerate, patternrate, korate, josekirate, nakaderate, eyefixrate;$/;"	m	struct:moggy_policy	file:
+keep_on_clear	engine.h	/^	bool keep_on_clear;$/;"	m	struct:engine
+keys	tools/sgflib/typelib.py	/^	def keys(self):$/;"	m	class:Mapping
+known_commands	gtp.c	/^known_commands(struct engine *engine)$/;"	f	file:
+known_commands_base	gtp.c	/^static char *known_commands_base =$/;"	v	file:
+ko	board.h	/^	struct move ko;$/;"	m	struct:board	typeref:struct:board::move
+ko	board.h	/^	struct move ko;$/;"	m	struct:board_undo	typeref:struct:board_undo::move
+ko_eqex	uct/prior.c	/^	int even_eqex, policy_eqex, b19_eqex, eye_eqex, ko_eqex, plugin_eqex, joseki_eqex, pattern_eqex;$/;"	m	struct:uct_prior	file:
+ko_length	uct/policy/ucb1amaf.c	/^static inline int ko_length(bool *ko_capture_map, int map_length)$/;"	f	file:
+koage	playout/moggy.c	/^	int koage;$/;"	m	struct:moggy_policy	file:
+komi	board.h	/^	floating_t komi;$/;"	m	struct:board
+komi	tools/twogtp.py	/^        komi = "0.5"$/;"	v
+komi	tools/twogtp.py	/^        komi = "5.5"$/;"	v
+komi	tools/twogtp.py	/^    def komi(self, komi):$/;"	m	class:GTP_player
+komi	tools/twogtp.py	/^komi     = ""$/;"	v
+komi_by_color	uct/dynkomi.h	29;"	d
+komi_by_score	uct/dynkomi.c	/^komi_by_score(struct uct_dynkomi *d, struct board *b, struct tree *tree, enum stone color)$/;"	f	file:
+komi_by_value	uct/dynkomi.c	/^komi_by_value(struct uct_dynkomi *d, struct board *b, struct tree *tree, enum stone color)$/;"	f	file:
+komi_ratchet	uct/dynkomi.c	/^	floating_t komi_ratchet;$/;"	m	struct:dynkomi_adaptive	file:
+komi_ratchet	uct/dynkomi.c	/^	floating_t komi_ratchet;$/;"	m	struct:dynkomi_linear	file:
+komi_ratchet_age	uct/dynkomi.c	/^	int komi_ratchet_age;$/;"	m	struct:dynkomi_adaptive	file:
+komi_ratchet_maxage	uct/dynkomi.c	/^	int komi_ratchet_maxage;$/;"	m	struct:dynkomi_adaptive	file:
+korate	playout/moggy.c	/^	unsigned int lcapturerate, atarirate, nlibrate, ladderrate, capturerate, patternrate, korate, josekirate, nakaderate, eyefixrate;$/;"	m	struct:moggy_policy	file:
+ladderrate	playout/moggy.c	/^	unsigned int lcapturerate, atarirate, nlibrate, ladderrate, capturerate, patternrate, korate, josekirate, nakaderate, eyefixrate;$/;"	m	struct:moggy_policy	file:
+lag_adjust	timeinfo.c	/^lag_adjust(double *time, double net_lag)$/;"	f
+large_stats	distributed/distributed.c	/^struct large_stats {$/;"	s	file:
+large_stats_add_result	distributed/distributed.c	/^large_stats_add_result(struct large_stats *s, floating_t result, long playouts)$/;"	f	file:
+last	board.h	/^	coord_t	     last;  $/;"	m	struct:undo_merge
+last_dynkomi	uct/search.h	/^	int last_dynkomi;$/;"	m	struct:uct_search_state
+last_ko	board.h	/^	struct move last_ko;$/;"	m	struct:board_undo	typeref:struct:board_undo::move
+last_ko_age	board.h	/^	int	    last_ko_age;$/;"	m	struct:board_undo
+last_move	board.h	/^	struct move last_move;$/;"	m	struct:board	typeref:struct:board::move
+last_move2	board.h	/^	struct move last_move2; \/* second-to-last move *\/$/;"	m	struct:board	typeref:struct:board::move
+last_move2	board.h	/^	struct move last_move2;$/;"	m	struct:board_undo	typeref:struct:board_undo::move
+last_print	uct/search.h	/^	int last_print;$/;"	m	struct:uct_search_state
+last_processed	distributed/protocol.h	/^	int last_processed;$/;"	m	struct:slave_state
+last_selfatari	playout/moggy.c	/^	coord_t last_selfatari[S_MAX];$/;"	m	struct:moggy_state	file:
+lcapturerate	playout/moggy.c	/^	unsigned int lcapturerate, atarirate, nlibrate, ladderrate, capturerate, patternrate, korate, josekirate, nakaderate, eyefixrate;$/;"	m	struct:moggy_policy	file:
+lead_moves	uct/dynkomi.c	/^	int lead_moves;$/;"	m	struct:dynkomi_adaptive	file:
+leaf_coord	distributed/distributed.h	23;"	d
+len	timeinfo.h	/^	} len;$/;"	m	struct:time_info	typeref:union:time_info::__anon1
+length	tactics/ladder.c	/^static __thread int length = 0;$/;"	v	file:
+level	uct/internal.h	/^		int level;$/;"	m	struct:uct::__anon6
+lib	board.h	/^	coord_t lib[GROUP_KEEP_LIBS];$/;"	m	struct:group
+libs	board.h	/^	int libs;$/;"	m	struct:group
+likely	util.h	56;"	d
+linear_permove	uct/dynkomi.c	/^linear_permove(struct uct_dynkomi *d, struct board *b, struct tree *tree)$/;"	f	file:
+linear_persim	uct/dynkomi.c	/^linear_persim(struct uct_dynkomi *d, struct board *b, struct tree *tree, struct tree_node *node)$/;"	f	file:
+linear_simple	uct/dynkomi.c	/^linear_simple(struct dynkomi_linear *l, struct board *b, enum stone color)$/;"	f	file:
+list_stones	tools/twogtp.py	/^    def list_stones(self, color):$/;"	m	class:GTP_player
+live_gfx_hook	engine.h	/^	engine_live_gfx_hook_t live_gfx_hook;$/;"	m	struct:engine
+lnode	uct/internal.h	/^	struct tree_node *lnode; \/* Local tree. *\/$/;"	m	struct:uct_descent	typeref:struct:uct_descent::tree_node
+lnode	uct/walk.c	/^	struct tree_node *lnode;$/;"	m	struct:uct_playout_callback	typeref:struct:uct_playout_callback::tree_node	file:
+loaded_spatials	patternscan/patternscan.c	/^	int loaded_spatials;$/;"	m	struct:patternscan	file:
+loadsgf	tools/twogtp.py	/^    def loadsgf(self, endgamefile, move_number):$/;"	m	class:GTP_player
+loadsym	uct/plugin/wolf.c	364;"	d	file:
+loadsym	uct/plugins.c	103;"	d	file:
+local_2lib_capture_check	playout/moggy.c	/^local_2lib_capture_check(struct playout_policy *p, struct board *b, struct move *m, struct move_queue *q)$/;"	f	file:
+local_2lib_check	playout/moggy.c	/^local_2lib_check(struct playout_policy *p, struct board *b, struct move *m, struct move_queue *q)$/;"	f	file:
+local_atari_check	playout/moggy.c	/^local_atari_check(struct playout_policy *p, struct board *b, struct move *m, struct move_queue *q)$/;"	f	file:
+local_ladder_check	playout/moggy.c	/^local_ladder_check(struct playout_policy *p, struct board *b, struct move *m, struct move_queue *q)$/;"	f	file:
+local_nlib_check	playout/moggy.c	/^local_nlib_check(struct playout_policy *p, struct board *b, struct move *m, struct move_queue *q)$/;"	f	file:
+local_tree	uct/internal.h	/^	bool local_tree;$/;"	m	struct:uct
+local_tree_aging	uct/internal.h	/^	floating_t local_tree_aging;$/;"	m	struct:uct
+local_tree_allseq	uct/internal.h	/^	bool local_tree_allseq;$/;"	m	struct:uct
+local_tree_depth_decay	uct/internal.h	/^	floating_t local_tree_depth_decay;$/;"	m	struct:uct
+local_tree_eval	uct/internal.h	/^	} local_tree_eval;$/;"	m	struct:uct	typeref:enum:uct::__anon5
+local_tree_neival	uct/internal.h	/^	bool local_tree_neival;$/;"	m	struct:uct
+local_tree_rootchoose	uct/internal.h	/^	bool local_tree_rootchoose;$/;"	m	struct:uct
+local_value	uct/walk.c	/^local_value(struct uct *u, struct board *b, coord_t coord, enum stone color)$/;"	f	file:
+log_lock	distributed/protocol.c	/^static pthread_mutex_t log_lock = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+log_thread	network.c	/^log_thread(void *arg)$/;"	f	file:
+logline	distributed/protocol.c	/^logline(struct in_addr *client, char *prefix, char *s)$/;"	f
+lookups	distributed/distributed.h	/^	long lookups;$/;"	m	struct:hash_counts
+losing_komi_ratchet	uct/dynkomi.c	/^	bool losing_komi_ratchet; \/\/ ratchet even losing komi$/;"	m	struct:dynkomi_adaptive	file:
+losing_komi_stop	uct/dynkomi.c	/^	floating_t losing_komi_stop;$/;"	m	struct:dynkomi_adaptive	file:
+loss_threshold	montecarlo/internal.h	/^	int loss_threshold;$/;"	m	struct:montecarlo
+ltree_aging	uct/tree.h	/^	floating_t ltree_aging;$/;"	m	struct:tree
+ltree_black	uct/tree.h	/^	struct tree_node *ltree_black;$/;"	m	struct:tree	typeref:struct:tree::tree_node
+ltree_rave	uct/policy/ucb1amaf.c	/^	floating_t ltree_rave;$/;"	m	struct:ucb1_policy_amaf	file:
+ltree_white	uct/tree.h	/^	struct tree_node *ltree_white;$/;"	m	struct:tree	typeref:struct:tree::tree_node
+main	pachi.c	/^int main(int argc, char *argv[])$/;"	f
+main_time	timeinfo.h	/^			double main_time;$/;"	m	struct:time_info::__anon1::__anon2
+mainline	tools/sgflib/sgflib.py	/^	def mainline(self):$/;"	m	class:GameTree
+makeNode	tools/sgflib/sgflib.py	/^	def makeNode(self, plist):$/;"	m	class:GameTree
+makeProperty	tools/sgflib/sgflib.py	/^	def makeProperty(self, id, valuelist):$/;"	m	class:Node
+malloc2	util.h	83;"	d
+map	ownermap.h	/^	sig_atomic_t (*map)[S_MAX]; \/\/ [board_size2(b)]$/;"	m	struct:board_ownermap
+mark_connected	tactics/dragon.c	/^mark_connected(struct board *b,  enum stone color, coord_t c, void *data)$/;"	f	file:
+match	chat.c	/^	bool match;$/;"	m	struct:chat	file:
+match	tools/twogtp.py	/^match = GTP_match(white, black, size, komi, handicap, handicap_type,$/;"	v
+max_buf_size	distributed/protocol.h	/^	int max_buf_size;$/;"	m	struct:slave_state
+max_depth	uct/tree.h	/^	int max_depth;$/;"	m	struct:tree
+max_losing_komi	uct/dynkomi.c	/^	floating_t max_losing_komi;$/;"	m	struct:dynkomi_adaptive	file:
+max_maintime_ratio	uct/internal.h	/^	floating_t max_maintime_ratio;$/;"	m	struct:uct
+max_merged_nodes	distributed/protocol.h	/^	int max_merged_nodes;$/;"	m	struct:slave_state
+max_parent_path	distributed/distributed.h	25;"	d
+max_pruned_size	uct/internal.h	/^	unsigned long max_pruned_size;$/;"	m	struct:uct
+max_pruned_size	uct/tree.h	/^	unsigned long max_pruned_size;$/;"	m	struct:tree
+max_slaves	distributed/distributed.c	/^	int max_slaves;$/;"	m	struct:distributed	file:
+max_slaves	uct/internal.h	/^	int max_slaves; \/* Optional, -1 if not set *\/$/;"	m	struct:uct
+max_tree_size	uct/internal.h	/^	unsigned long max_tree_size;$/;"	m	struct:uct
+max_tree_size	uct/tree.h	/^	unsigned long max_tree_size; \/\/ maximum byte size for entire tree, > 0 only for fast_alloc$/;"	m	struct:tree
+maxwin	chat.c	/^	double maxwin;$/;"	m	struct:chat	file:
+mercymin	playout.h	/^	int mercymin;$/;"	m	struct:playout_setup
+mercymin	uct/internal.h	/^	int mercymin;$/;"	m	struct:uct
+merge_groups	board.c	/^merge_groups(struct board *board, group_t group_to, group_t group_from, struct board_undo *u)$/;"	f	file:
+merge_init	distributed/merge.c	/^merge_init(struct slave_state *sstate, int shared_nodes, int stats_hbits, int max_slaves)$/;"	f
+merge_insert_hook	distributed/merge.c	/^merge_insert_hook(struct incr_stats *buf, int size)$/;"	f	file:
+merge_new_stats	distributed/merge.c	/^merge_new_stats(struct slave_state *sstate, int min, int max,$/;"	f	file:
+merge_print_stats	distributed/merge.c	/^merge_print_stats(int total_hnodes)$/;"	f
+merge_state_alloc	distributed/merge.c	/^merge_state_alloc(struct slave_state *sstate)$/;"	f	file:
+merged	board.h	/^	struct undo_merge merged[4];$/;"	m	struct:board_undo	typeref:struct:board_undo::undo_merge
+merged	distributed/protocol.h	/^	int *merged;$/;"	m	struct:slave_state
+miai_2lib	tactics/2lib.c	/^miai_2lib(struct board *b, group_t group, enum stone color)$/;"	f	file:
+middle_ladder	playout/moggy.c	/^	bool middle_ladder;$/;"	m	struct:moggy_policy	file:
+middle_ladder_chase	tactics/ladder.c	/^middle_ladder_chase(struct board *b, group_t laddered, enum stone lcolor, struct move_queue *ccq,$/;"	f	file:
+middle_ladder_walk	tactics/ladder.c	/^middle_ladder_walk(struct board *b, group_t laddered, enum stone lcolor,$/;"	f	file:
+min_coord	distributed/merge.c	/^min_coord(struct incr_stats **next, int min, int max)$/;"	f	file:
+minwin	chat.c	/^	double minwin;$/;"	m	struct:chat	file:
+moggy_patterns_src	playout/moggy.c	/^static char moggy_patterns_src[PAT3_N][11] = {$/;"	v	file:
+moggy_patterns_src_n	playout/moggy.c	186;"	d	file:
+moggy_policy	playout/moggy.c	/^struct moggy_policy {$/;"	s	file:
+moggy_state	playout/moggy.c	/^struct moggy_state {$/;"	s	file:
+montecarlo	montecarlo/internal.h	/^struct montecarlo {$/;"	s
+montecarlo_done	montecarlo/montecarlo.c	/^montecarlo_done(struct engine *e)$/;"	f	file:
+montecarlo_genmove	montecarlo/montecarlo.c	/^montecarlo_genmove(struct engine *e, struct board *b, struct time_info *ti, enum stone color, bool pass_all_alive)$/;"	f	file:
+montecarlo_state_init	montecarlo/montecarlo.c	/^montecarlo_state_init(char *arg, struct board *b)$/;"	f
+move	move.h	/^struct move {$/;"	s
+move	mq.h	/^	coord_t move[MQL];$/;"	m	struct:move_queue
+move_cmp	move.h	/^move_cmp(struct move *m1, struct move *m2)$/;"	f
+move_number	distributed/distributed.h	98;"	d
+move_queue	mq.h	/^struct move_queue {$/;"	s
+move_stat	montecarlo/internal.h	/^struct move_stat {$/;"	s
+move_stats	stats.h	/^struct move_stats {$/;"	s
+movecnt	fbook.h	/^	int movecnt;$/;"	m	struct:fbook
+moves	board.h	/^	int moves;$/;"	m	struct:board
+moves	fbook.h	/^	coord_t moves[1<<fbook_hash_bits];$/;"	m	struct:fbook
+moves	joseki/base.h	/^	coord_t *moves[2];$/;"	m	struct:joseki_pattern
+moves	mq.h	/^	unsigned int moves;$/;"	m	struct:move_queue
+moves	uct/dynkomi.c	/^	int moves[S_MAX];$/;"	m	struct:dynkomi_linear	file:
+mq_add	mq.h	/^mq_add(struct move_queue *q, coord_t c, unsigned char tag)$/;"	f
+mq_append	mq.h	/^mq_append(struct move_queue *qd, struct move_queue *qs)$/;"	f
+mq_gamma_add	mq.h	/^mq_gamma_add(struct move_queue *q, fixp_t *gammas, coord_t c, double gamma, unsigned char tag)$/;"	f
+mq_gamma_pick	mq.h	/^mq_gamma_pick(struct move_queue *q, fixp_t *gammas)$/;"	f
+mq_gamma_print	mq.h	/^mq_gamma_print(struct move_queue *q, fixp_t *gammas, struct board *b, char *label)$/;"	f
+mq_has	mq.h	/^mq_has(struct move_queue *q, coord_t c)$/;"	f
+mq_nodup	mq.h	/^mq_nodup(struct move_queue *q)$/;"	f
+mq_pick	mq.h	/^mq_pick(struct move_queue *q)$/;"	f
+mq_print	mq.h	/^mq_print(struct move_queue *q, struct board *b, char *label)$/;"	f
+mq_prob	playout/moggy.c	/^	double mq_prob[MQ_MAX], tenuki_prob;$/;"	m	struct:moggy_policy	file:
+mq_tag	playout/moggy.c	/^enum mq_tag {$/;"	g	file:
+mq_tagged_choose	playout/moggy.c	/^mq_tagged_choose(struct playout_policy *p, struct board *b, enum stone to_play, struct move_queue *q)$/;"	f	file:
+my_color	uct/internal.h	/^	enum stone my_color;$/;"	m	struct:uct	typeref:enum:uct::stone
+my_last_move	distributed/distributed.c	/^	struct move my_last_move;$/;"	m	struct:distributed	typeref:struct:distributed::move	file:
+my_last_stats	distributed/distributed.c	/^	struct move_stats my_last_stats;$/;"	m	struct:distributed	typeref:struct:distributed::move_stats	file:
+n	board.h	/^	struct neighbor_colors *n;$/;"	m	struct:board	typeref:struct:board::neighbor_colors
+n	pattern.h	/^	int n;$/;"	m	struct:pattern
+n	uct/tree.c	/^	struct tree_node *n;$/;"	m	struct:subtree_ctx	typeref:struct:subtree_ctx::tree_node	file:
+n_plugins	uct/plugins.c	/^	int n_plugins;$/;"	m	struct:uct_pluginset	file:
+nakade_area	tactics/nakade.c	/^nakade_area(struct board *b, coord_t around, enum stone color, coord_t *area)$/;"	f	file:
+nakade_check	playout/moggy.c	/^nakade_check(struct playout_policy *p, struct board *b, struct move *m, enum stone to_play)$/;"	f	file:
+nakade_dead_shape	tactics/nakade.c	/^nakade_dead_shape(struct board *b, coord_t around, enum stone color)$/;"	f
+nakade_making_dead_shape	tactics/selfatari.c	/^nakade_making_dead_shape(struct board *b, enum stone color, coord_t to, int stones)$/;"	f	file:
+nakade_point	tactics/nakade.c	/^nakade_point(struct board *b, coord_t around, enum stone color)$/;"	f
+nakade_point_	tactics/nakade.c	/^nakade_point_(coord_t *area, int area_n, int *neighbors, int *ptbynei)$/;"	f	file:
+nakaderate	playout/moggy.c	/^	unsigned int lcapturerate, atarirate, nlibrate, ladderrate, capturerate, patternrate, korate, josekirate, nakaderate, eyefixrate;$/;"	m	struct:moggy_policy	file:
+name	engine.h	/^	char *name;$/;"	m	struct:engine
+name	pattern.c	/^	char *name;$/;"	m	struct:feature_info	file:
+needs_more_lib	tactics/selfatari.c	/^	group_t needs_more_lib;$/;"	m	struct:selfatari_state	file:
+needs_more_lib_except	tactics/selfatari.c	/^	coord_t needs_more_lib_except;$/;"	m	struct:selfatari_state	file:
+nei8	board.h	/^	int nei8[8], dnei[4];$/;"	m	struct:board
+neighbor_colors	board.h	/^struct neighbor_colors {$/;"	s
+neighbor_count_at	board.h	354;"	d
+neighbor_is_safe	tactics/dragon.c	/^neighbor_is_safe(struct board *b, group_t g)$/;"	f
+nenemies	board.h	/^	int nenemies;$/;"	m	struct:board_undo
+net	dcnn.cpp	/^static shared_ptr<Net<float> > net;$/;"	v	file:
+new_cmd	distributed/protocol.c	/^new_cmd(struct board *b, char *cmd, char *args)$/;"	f
+new_group	board.c	/^new_group(struct board *board, coord_t coord, struct board_undo *u)$/;"	f	file:
+newest_buf	distributed/protocol.h	/^	int newest_buf;$/;"	m	struct:slave_state
+next	patternprob.h	/^	struct pattern_prob *next;$/;"	m	struct:pattern_prob	typeref:struct:pattern_prob::pattern_prob
+next	tools/sgflib/sgflib.py	/^	def next(self, varnum=0):$/;"	m	class:Cursor
+next_at	board.h	/^	coord_t next_at;$/;"	m	struct:board_undo
+next_cmd	distributed/protocol.c	/^	char *next_cmd;$/;"	m	struct:cmd_history	file:
+next_command	distributed/protocol.c	/^next_command(int cmd_id)$/;"	f	file:
+next_tok	gtp.c	297;"	d	file:
+next_tok	gtp.c	809;"	d	file:
+nlib_count	playout/moggy.c	/^	int nlib_count;$/;"	m	struct:moggy_policy	file:
+nlibrate	playout/moggy.c	/^	unsigned int lcapturerate, atarirate, nlibrate, ladderrate, capturerate, patternrate, korate, josekirate, nakaderate, eyefixrate;$/;"	m	struct:moggy_policy	file:
+nmerged	board.h	/^	int nmerged;$/;"	m	struct:board_undo
+nmerged_tmp	board.h	/^	int nmerged_tmp;$/;"	m	struct:board_undo
+no_komi_at_game_end	uct/dynkomi.c	/^	bool no_komi_at_game_end;$/;"	m	struct:dynkomi_adaptive	file:
+no_pattern_match	patternscan/patternscan.c	/^	bool no_pattern_match;$/;"	m	struct:patternscan	file:
+no_stone_at	tactics/dragon.c	94;"	d	file:
+no_stone_atxy	tactics/dragon.c	97;"	d	file:
+no_suicide	replay/replay.c	/^	int no_suicide;$/;"	m	struct:replay	file:
+no_tbook	uct/internal.h	/^	bool no_tbook;$/;"	m	struct:uct
+node	uct/internal.h	/^	struct tree_node *node; \/* Main tree. *\/$/;"	m	struct:uct_descent	typeref:struct:uct_descent::tree_node
+node	uct/slave.c	/^	struct tree_node *node;$/;"	m	struct:stats_candidate	typeref:struct:stats_candidate::tree_node	file:
+node	uct/slave.c	/^	struct tree_node *node;$/;"	m	struct:tree_hash	typeref:struct:tree_hash::tree_node	file:
+node_coord	uct/tree.h	75;"	d
+node_not_found	uct/slave.c	/^static long node_not_found = 0;$/;"	v	file:
+nodes	uct/tree.h	/^	void *nodes; \/\/ nodes buffer, only for fast_alloc$/;"	m	struct:tree
+nodes_size	uct/tree.h	/^	volatile unsigned long nodes_size; \/\/ byte size of all allocated nodes$/;"	m	struct:tree
+normal_colors	tactics/dragon.c	/^static char *normal_colors[] = {$/;"	v	file:
+not_playing	chat.c	/^static char not_playing[] = "I'm winning big without playing";$/;"	v	file:
+notify	engine.h	/^	engine_notify_t notify;$/;"	m	struct:engine
+notify_play	engine.h	/^	engine_notify_play_t notify_play;$/;"	m	struct:engine
+nscounts	patternscan/patternscan.c	/^	unsigned int nscounts;$/;"	m	struct:patternscan	file:
+nspatials	patternsp.h	/^	unsigned int nspatials; \/* Number of records. *\/$/;"	m	struct:spatial_dict
+occupied	distributed/distributed.h	/^	long occupied;$/;"	m	struct:hash_counts
+one	tools/sgf-analyse.pl	/^sub one {$/;"	s
+open_client_connection	network.c	/^open_client_connection(char *port_name)$/;"	f	file:
+open_connection	network.c	/^open_connection(struct port_info *info)$/;"	f	file:
+open_gtp_connection	network.c	/^open_gtp_connection(int *socket, char *port)$/;"	f
+open_log_connection	network.c	/^open_log_connection(struct port_info *info)$/;"	f	file:
+open_log_port	network.c	/^open_log_port(char *port)$/;"	f
+open_server_connection	network.c	/^open_server_connection(int socket, struct in_addr *client)$/;"	f
+orange_zone	uct/dynkomi.c	/^	floating_t orange_zone;$/;"	m	struct:dynkomi_linear	file:
+out_filename	tools/sgf2gtp.py	/^                out_filename = filename_base + 'gtp'$/;"	v
+output_stats	distributed/merge.c	/^output_stats(struct incr_stats *buf, struct slave_state *sstate,$/;"	f	file:
+own_stone_at	tactics/dragon.c	95;"	d	file:
+own_stone_atxy	tactics/dragon.c	98;"	d	file:
+owner	distributed/protocol.h	/^	int owner;$/;"	m	struct:buf_state
+owner_map	engine.h	/^	engine_owner_map_t owner_map;$/;"	m	struct:engine
+ownermap	uct/internal.h	/^	struct board_ownermap ownermap;$/;"	m	struct:uct	typeref:struct:uct::board_ownermap
+p	board.h	/^	coord_t *p;$/;"	m	struct:board
+p	patternprob.h	/^	struct pattern p;$/;"	m	struct:pattern_prob	typeref:struct:pattern_prob::pattern
+p3hashes	pattern3.h	/^hash_t p3hashes[8][2][S_MAX];$/;"	v
+p3hashes_init	pattern3.c	/^p3hashes_init(void)$/;"	f	file:
+pachi_plugin_done	uct/plugin/example.c	/^pachi_plugin_done(void *data)$/;"	f
+pachi_plugin_done	uct/plugin/wolf.c	/^pachi_plugin_done(void *data)$/;"	f
+pachi_plugin_init	uct/plugin/example.c	/^pachi_plugin_init(char *arg, struct board *b, int seed)$/;"	f
+pachi_plugin_init	uct/plugin/wolf.c	/^pachi_plugin_init(char *arg, struct board *b, int seed)$/;"	f
+pachi_plugin_prior	uct/plugin/example.c	/^pachi_plugin_prior(void *data, struct tree_node *node, struct prior_map *map, int eqex)$/;"	f
+pachi_plugin_prior	uct/plugin/wolf.c	/^pachi_plugin_prior(void *data, struct tree_node *node, struct prior_map *map, int eqex)$/;"	f
+pairing	t-play/autotest/autotest-show	/^pairing() { pknown="$pknown$(pairid "$@") "; }$/;"	f
+pairing	t-play/autotest/autotest-worker	/^pairing() {$/;"	f
+pairing_param	t-play/autotest/autotest-worker	/^pairing_param() { # Accessor method$/;"	f
+pairing_status	t-play/autotest/autotest-show	/^pairing_status() {$/;"	f
+parent	uct/tree.h	/^	struct tree_node *parent, *sibling, *children;$/;"	m	struct:tree_node	typeref:struct:tree_node::tree_node
+parent_leaf	uct/slave.c	/^static long parent_leaf = 0;$/;"	v	file:
+parent_not_found	uct/slave.c	/^static long parent_not_found = 0;$/;"	v	file:
+parent_path	distributed/distributed.h	22;"	d
+parity	uct/prior.h	/^	int parity;$/;"	m	struct:prior_map
+parse	tools/sgflib/sgflib.py	/^	def parse(self):$/;"	m	class:SGFParser
+parseGameTree	tools/sgflib/sgflib.py	/^	def parseGameTree(self):$/;"	m	class:SGFParser
+parseNode	tools/sgflib/sgflib.py	/^	def parseNode(self):$/;"	m	class:RootNodeSGFParser
+parseNode	tools/sgflib/sgflib.py	/^	def parseNode(self):$/;"	m	class:SGFParser
+parseOneGame	tools/sgflib/sgflib.py	/^	def parseOneGame(self):$/;"	m	class:SGFParser
+parsePropertyValue	tools/sgflib/sgflib.py	/^	def parsePropertyValue(self):$/;"	m	class:SGFParser
+parseVariations	tools/sgflib/sgflib.py	/^	def parseVariations(self):$/;"	m	class:SGFParser
+parse_code	gtp.h	/^enum parse_code {$/;"	g
+parser	tools/sgf2gtp.py	/^parser = argparse.ArgumentParser( formatter_class=argparse.RawDescriptionHelpFormatter,$/;"	v
+pass	move.h	/^static coord_t pass = -1;$/;"	v
+pass_all_alive	uct/internal.h	/^	bool pass_all_alive; \/* Current value *\/$/;"	m	struct:uct
+pass_is_safe	tactics/util.c	/^pass_is_safe(struct board *b, enum stone color, struct move_queue *mq)$/;"	f
+pat	patternplay/patternplay.c	/^	struct pattern_setup pat;$/;"	m	struct:patternplay	typeref:struct:patternplay::pattern_setup	file:
+pat	patternscan/patternscan.c	/^	struct pattern_setup pat;$/;"	m	struct:patternscan	typeref:struct:patternscan::pattern_setup	file:
+pat	uct/internal.h	/^	struct pattern_setup pat;$/;"	m	struct:uct	typeref:struct:uct::pattern_setup
+pat3_gammas	playout/moggy.c	/^	double pat3_gammas[PAT3_N];$/;"	m	struct:moggy_policy	file:
+pat_90rot	pattern3.c	/^pat_90rot(hash3_t pat)$/;"	f	file:
+pat_hmirror	pattern3.c	/^pat_hmirror(hash3_t pat)$/;"	f	file:
+pat_vmirror	pattern3.c	/^pat_vmirror(hash3_t pat)$/;"	f	file:
+path	uct/plugins.c	/^	char *path;$/;"	m	struct:plugin	file:
+path2sstr	distributed/distributed.c	/^path2sstr(path_t path, struct board *b)$/;"	f
+path_t	distributed/distributed.h	/^typedef int64_t path_t;$/;"	t
+pattern	pattern.h	/^struct pattern {$/;"	s
+pattern	pattern3.h	/^	hash3_t pattern;$/;"	m	struct:pattern2p
+pattern2	playout/moggy.c	/^	bool pattern2;$/;"	m	struct:moggy_policy	file:
+pattern2p	pattern3.h	/^struct pattern2p {$/;"	s
+pattern2spatial	patternprob.h	/^pattern2spatial(struct pattern_pdict *dict, struct pattern *p)$/;"	f
+pattern2str	pattern.c	/^pattern2str(char *str, struct pattern *p)$/;"	f
+pattern3_hash	pattern3.h	/^pattern3_hash(struct board *b, coord_t c)$/;"	f
+pattern3_hash_bits	pattern3.h	32;"	d
+pattern3_hash_mask	pattern3.h	34;"	d
+pattern3_hash_size	pattern3.h	33;"	d
+pattern3_move_here	pattern3.h	/^pattern3_move_here(struct pattern3s *p, struct board *b, struct move *m, char *idx)$/;"	f
+pattern3_reverse	pattern3.h	/^pattern3_reverse(hash3_t pat)$/;"	f
+pattern3_transpose	pattern3.c	/^pattern3_transpose(hash3_t pat, hash3_t (*transp)[8])$/;"	f
+pattern3s	pattern3.h	/^struct pattern3s {$/;"	s
+pattern3s_init	pattern3.c	/^pattern3s_init(struct pattern3s *p, char src[][11], int src_n)$/;"	f
+pattern_config	pattern.h	/^struct pattern_config {$/;"	s
+pattern_eq	pattern.h	/^pattern_eq(struct pattern *p1, struct pattern *p2)$/;"	f
+pattern_eqex	uct/prior.c	/^	int even_eqex, policy_eqex, b19_eqex, eye_eqex, ko_eqex, plugin_eqex, joseki_eqex, pattern_eqex;$/;"	m	struct:uct_prior	file:
+pattern_gen	pattern3.c	/^pattern_gen(struct pattern3s *p, int pi, hash3_t pat, char *src, int srclen, int fixed_color)$/;"	f	file:
+pattern_match	pattern.c	/^pattern_match(struct pattern_config *pc, pattern_spec ps,$/;"	f
+pattern_match_aescape	pattern.c	/^pattern_match_aescape(struct pattern_config *pc, pattern_spec ps,$/;"	f	file:
+pattern_match_atari	pattern.c	/^pattern_match_atari(struct pattern_config *pc, pattern_spec ps,$/;"	f	file:
+pattern_match_capture	pattern.c	/^pattern_match_capture(struct pattern_config *pc, pattern_spec ps,$/;"	f	file:
+pattern_match_spatial	pattern.c	/^pattern_match_spatial(struct pattern_config *pc, pattern_spec ps,$/;"	f
+pattern_match_spatial_outer	pattern.c	/^pattern_match_spatial_outer(struct pattern_config *pc, pattern_spec ps,$/;"	f
+pattern_pdict	patternprob.h	/^struct pattern_pdict {$/;"	s
+pattern_pdict_init	patternprob.c	/^pattern_pdict_init(char *filename, struct pattern_config *pc)$/;"	f
+pattern_prob	patternprob.h	/^pattern_prob(struct pattern_pdict *dict, struct pattern *p)$/;"	f
+pattern_prob	patternprob.h	/^struct pattern_prob {$/;"	s
+pattern_rate_moves	patternprob.c	/^pattern_rate_moves(struct pattern_setup *pat,$/;"	f
+pattern_record	pattern3.c	/^pattern_record(struct pattern3s *p, int pi, char *str, hash3_t pat, int fixed_color)$/;"	f	file:
+pattern_setup	pattern.h	/^struct pattern_setup {$/;"	s
+pattern_spec	pattern.h	/^typedef uint16_t pattern_spec[FEAT_MAX];$/;"	t
+patternplay	patternplay/patternplay.c	/^struct patternplay {$/;"	s	file:
+patternplay_evaluate	patternplay/patternplay.c	/^patternplay_evaluate(struct engine *e, struct board *b, struct time_info *ti, floating_t *vals, enum stone color)$/;"	f
+patternplay_genmove	patternplay/patternplay.c	/^patternplay_genmove(struct engine *e, struct board *b, struct time_info *ti, enum stone color, bool pass_all_alive)$/;"	f	file:
+patternplay_state_init	patternplay/patternplay.c	/^patternplay_state_init(char *arg)$/;"	f
+patternrate	playout/moggy.c	/^	unsigned int lcapturerate, atarirate, nlibrate, ladderrate, capturerate, patternrate, korate, josekirate, nakaderate, eyefixrate;$/;"	m	struct:moggy_policy	file:
+patterns	joseki/base.h	/^	struct joseki_pattern *patterns;$/;"	m	struct:joseki_dict	typeref:struct:joseki_dict::joseki_pattern
+patterns	playout/moggy.c	/^	struct pattern3s patterns;$/;"	m	struct:moggy_policy	typeref:struct:moggy_policy::pattern3s	file:
+patterns_gen	pattern3.c	/^patterns_gen(struct pattern3s *p, char src[][11], int src_n)$/;"	f	file:
+patterns_init	pattern.c	/^patterns_init(struct pattern_setup *pat, char *arg, bool will_append, bool load_prob)$/;"	f
+patterns_load	pattern3.c	/^patterns_load(char src[][11], int src_n, char *filename)$/;"	f	file:
+patternscan	patternscan/patternscan.c	/^struct patternscan {$/;"	s	file:
+patternscan_done	patternscan/patternscan.c	/^patternscan_done(struct engine *e)$/;"	f
+patternscan_genmove	patternscan/patternscan.c	/^patternscan_genmove(struct engine *e, struct board *b, struct time_info *ti, enum stone color, bool pass_all_alive)$/;"	f	file:
+patternscan_play	patternscan/patternscan.c	/^patternscan_play(struct engine *e, struct board *b, struct move *m, char *enginearg)$/;"	f	file:
+patternscan_state_init	patternscan/patternscan.c	/^patternscan_state_init(char *arg)$/;"	f
+payload	pattern.h	/^	unsigned int payload:24;$/;"	m	struct:feature
+payloads	pattern.c	/^	int payloads;$/;"	m	struct:feature_info	file:
+pc	pattern.h	/^	struct pattern_config pc;$/;"	m	struct:pattern_setup	typeref:struct:pattern_setup::pattern_config
+pc	patternprob.h	/^	struct pattern_config *pc;$/;"	m	struct:pattern_pdict	typeref:struct:pattern_pdict::pattern_config
+pd	pattern.h	/^	struct pattern_pdict *pd;$/;"	m	struct:pattern_setup	typeref:struct:pattern_setup::pattern_pdict
+period	timeinfo.h	/^	} period;$/;"	m	struct:time_info	typeref:enum:time_info::time_period
+permit	playout.h	/^	playoutp_permit permit;$/;"	m	struct:playout_policy
+permit_handler	playout.c	/^permit_handler(struct board *b, struct move *m, void *data)$/;"	f	file:
+permit_hook	t-unit/test_undo.c	/^permit_hook(struct playout_policy *playout_policy, struct board *b, struct move *m, bool alt)$/;"	f	file:
+permit_move	playout/moggy.c	1039;"	d	file:
+permove	uct/dynkomi.h	/^	uctd_permove permove;$/;"	m	struct:uct_dynkomi
+persim	uct/dynkomi.h	/^	uctd_persim persim;$/;"	m	struct:uct_dynkomi
+pick_dragon_color	tactics/dragon.c	/^pick_dragon_color(int i, bool bold, bool white_ok)$/;"	f
+pick_random_last_move	t-unit/test.c	/^pick_random_last_move(struct board *b, enum stone to_play)$/;"	f	file:
+play	tools/twogtp.py	/^    def play(self, games, sgfbase):$/;"	m	class:GTP_match
+play	tools/twogtp.py	/^    def play(self, sgffile):$/;"	m	class:GTP_game
+play_one_neighbor	board.c	/^play_one_neighbor(struct board *board,$/;"	f	file:
+play_random_game	playout.c	/^play_random_game(struct playout_setup *setup,$/;"	f
+play_random_move	playout.c	/^play_random_move(struct playout_setup *setup,$/;"	f
+played_all	uct/internal.h	/^	int played_all; \/* games played by all slaves *\/$/;"	m	struct:uct
+played_games	gtp.c	/^static int played_games = 0;$/;"	v	file:
+played_own	uct/internal.h	/^	int played_own;$/;"	m	struct:uct
+player	t-play/autotest/autotest-show	/^player() { :; }$/;"	f
+player	t-play/autotest/autotest-worker	/^player() {$/;"	f
+player_param	t-play/autotest/autotest-worker	/^player_param() { # Accessor method$/;"	f
+playout	montecarlo/internal.h	/^	struct playout_policy *playout;$/;"	m	struct:montecarlo	typeref:struct:montecarlo::playout_policy
+playout	replay/replay.c	/^	struct playout_policy *playout;$/;"	m	struct:replay	typeref:struct:replay::playout_policy	file:
+playout	uct/internal.h	/^	struct playout_policy *playout;$/;"	m	struct:uct	typeref:struct:uct::playout_policy
+playout_amaf	uct/internal.h	/^	bool playout_amaf;$/;"	m	struct:uct
+playout_amaf_cutoff	uct/internal.h	/^	int playout_amaf_cutoff;$/;"	m	struct:uct
+playout_amafmap	playout.h	/^struct playout_amafmap {$/;"	s
+playout_check_move	playout.c	/^playout_check_move(struct playout_policy *p, struct board *b, coord_t coord, enum stone color)$/;"	f	file:
+playout_incr	uct/slave.c	/^	int playout_incr;$/;"	m	struct:stats_candidate	file:
+playout_light_choose	playout/light.c	/^playout_light_choose(struct playout_policy *p, struct playout_setup *s, struct board *b, enum stone to_play)$/;"	f
+playout_light_init	playout/light.c	/^playout_light_init(char *arg, struct board *b)$/;"	f
+playout_moggy_assess	playout/moggy.c	/^playout_moggy_assess(struct playout_policy *p, struct prior_map *map, int games)$/;"	f	file:
+playout_moggy_assess_group	playout/moggy.c	/^playout_moggy_assess_group(struct playout_policy *p, struct prior_map *map, group_t g, int games)$/;"	f	file:
+playout_moggy_assess_one	playout/moggy.c	/^playout_moggy_assess_one(struct playout_policy *p, struct prior_map *map, coord_t coord, int games)$/;"	f	file:
+playout_moggy_fullchoose	playout/moggy.c	/^playout_moggy_fullchoose(struct playout_policy *p, struct playout_setup *s, struct board *b, enum stone to_play)$/;"	f	file:
+playout_moggy_init	playout/moggy.c	/^playout_moggy_init(char *arg, struct board *b, struct joseki_dict *jdict)$/;"	f
+playout_moggy_permit	playout/moggy.c	/^playout_moggy_permit(struct playout_policy *p, struct board *b, struct move *m, bool alt)$/;"	f	file:
+playout_moggy_seqchoose	playout/moggy.c	/^playout_moggy_seqchoose(struct playout_policy *p, struct playout_setup *s, struct board *b, enum stone to_play)$/;"	f	file:
+playout_moggy_setboard	playout/moggy.c	/^playout_moggy_setboard(struct playout_policy *playout_policy, struct board *b)$/;"	f	file:
+playout_permit	playout.c	/^playout_permit(struct playout_policy *p, struct board *b, coord_t coord, enum stone color)$/;"	f
+playout_permit_move	playout.c	/^playout_permit_move(struct playout_policy *p, struct board *b, struct move *m, bool alt)$/;"	f	file:
+playout_policy	playout.h	/^struct playout_policy {$/;"	s
+playout_policy_done	playout.c	/^playout_policy_done(struct playout_policy *p)$/;"	f
+playout_setup	playout.h	/^struct playout_setup {$/;"	s
+playouth_postpolicy	playout.h	/^typedef coord_t (*playouth_postpolicy)(struct playout_policy *playout_policy, struct playout_setup *setup, struct board *b, enum stone color);$/;"	t
+playouth_prepolicy	playout.h	/^typedef coord_t (*playouth_prepolicy)(struct playout_policy *playout_policy, struct playout_setup *setup, struct board *b, enum stone color);$/;"	t
+playoutp_assess	playout.h	/^typedef void (*playoutp_assess)(struct playout_policy *playout_policy, struct prior_map *map, int games);$/;"	t
+playoutp_choose	playout.h	/^typedef coord_t (*playoutp_choose)(struct playout_policy *playout_policy, struct playout_setup *playout_setup, struct board *b, enum stone to_play);$/;"	t
+playoutp_done	playout.h	/^typedef void (*playoutp_done)(struct playout_policy *playout_policy);$/;"	t
+playoutp_permit	playout.h	/^typedef bool (*playoutp_permit)(struct playout_policy *playout_policy, struct board *b, struct move *m, bool alt);$/;"	t
+playoutp_setboard	playout.h	/^typedef void (*playoutp_setboard)(struct playout_policy *playout_policy, struct board *b);$/;"	t
+playouts	distributed/distributed.c	/^	long playouts; \/\/ # of playouts$/;"	m	struct:large_stats	file:
+playouts	ownermap.h	/^	sig_atomic_t playouts;$/;"	m	struct:board_ownermap
+playouts	stats.h	/^	int playouts; \/\/ # of playouts$/;"	m	struct:move_stats
+playouts	timeinfo.h	/^		int playouts; \/\/ TD_GAMES$/;"	m	union:time_stop::__anon3
+playouts	timeinfo.h	/^		int playouts; \/\/ TD_GAMES$/;"	m	union:time_stop::__anon4
+playouts	uct/internal.h	/^		int playouts;$/;"	m	struct:uct::__anon6
+plugin	uct/plugins.c	/^struct plugin {$/;"	s	file:
+plugin_eqex	uct/prior.c	/^	int even_eqex, policy_eqex, b19_eqex, eye_eqex, ko_eqex, plugin_eqex, joseki_eqex, pattern_eqex;$/;"	m	struct:uct_prior	file:
+plugin_load	uct/plugins.c	/^plugin_load(struct uct_pluginset *ps, char *path, char *args)$/;"	f
+plugin_prior	uct/plugins.c	/^plugin_prior(struct uct_pluginset *ps, struct tree_node *node, struct prior_map *map, int eqex)$/;"	f
+plugins	uct/internal.h	/^	struct uct_pluginset *plugins;$/;"	m	struct:uct	typeref:struct:uct::uct_pluginset
+plugins	uct/plugins.c	/^	struct plugin *plugins;$/;"	m	struct:uct_pluginset	typeref:struct:uct_pluginset::plugin	file:
+pluginset_done	uct/plugins.c	/^pluginset_done(struct uct_pluginset *ps)$/;"	f
+pluginset_init	uct/plugins.c	/^pluginset_init(struct board *b)$/;"	f
+pmseed	random.c	/^static __thread unsigned long pmseed = 29264;$/;"	v	file:
+point_judgement	ownermap.h	/^enum point_judgement {$/;"	g
+points	patternsp.h	/^	unsigned char points[MAX_PATTERN_AREA \/ 4];$/;"	m	struct:spatial
+policy	uct/internal.h	/^	struct uct_policy *policy;$/;"	m	struct:uct	typeref:struct:uct::uct_policy
+policy_eqex	uct/prior.c	/^	int even_eqex, policy_eqex, b19_eqex, eye_eqex, ko_eqex, plugin_eqex, joseki_eqex, pattern_eqex;$/;"	m	struct:uct_prior	file:
+policy_permit	t-unit/test_undo.c	/^static playoutp_permit policy_permit = NULL;$/;"	v	file:
+policy_ucb1_init	uct/policy/ucb1.c	/^policy_ucb1_init(struct uct *u, char *arg)$/;"	f
+policy_ucb1amaf_init	uct/policy/ucb1amaf.c	/^policy_ucb1amaf_init(struct uct *u, char *arg, struct board *board)$/;"	f
+pondering	uct/internal.h	/^	bool pondering; \/* Actually pondering now *\/$/;"	m	struct:uct
+pondering_opt	uct/internal.h	/^	bool pondering_opt; \/* User wants pondering *\/$/;"	m	struct:uct
+pop	tools/sgflib/typelib.py	/^	def pop(self, i=-1):$/;"	m	class:MutableSequence
+port	network.c	/^	char *port;$/;"	m	struct:port_info	file:
+port_info	network.c	/^struct port_info {$/;"	s	file:
+port_listen	network.c	/^port_listen(char *port, int max_connections)$/;"	f
+postpolicy_hook	playout.h	/^	playouth_postpolicy postpolicy_hook;$/;"	m	struct:playout_setup
+ppr_permit	board.h	/^typedef bool (*ppr_permit)(struct board *b, struct move *m, void *data);$/;"	t
+preg	chat.c	/^	regex_t preg;$/;"	m	struct:chat	file:
+prepolicy_hook	playout.h	/^	playouth_prepolicy prepolicy_hook;$/;"	m	struct:playout_setup
+prevent_reply	distributed/distributed.h	97;"	d
+previous	tools/sgflib/sgflib.py	/^	def previous(self):$/;"	m	class:Cursor
+print_dcnn_best_moves	dcnn.cpp	/^print_dcnn_best_moves(struct tree_node *node, struct board *b,$/;"	f
+print_dead_groups	uct/uct.c	/^print_dead_groups(struct uct *u, struct board *b, struct move_queue *mq)$/;"	f	file:
+print_dragons	tactics/dragon.c	/^print_dragons(struct board *board, coord_t c, void *data)$/;"	f	file:
+print_extra_dead_group	uct/uct.c	/^print_extra_dead_group(struct board *b, group_t g, int found)$/;"	f	file:
+print_game_step	tools/sgf2gtp.py	/^    def print_game_step(coord):$/;"	f	function:process_gametree
+print_handler	tactics/dragon.c	/^print_handler(struct board *board, coord_t c, void *data)$/;"	f	file:
+print_interval	uct/search.h	/^	int print_interval;$/;"	m	struct:uct_search_state
+printgame	joseki/sgfvar2gtp.pl	/^sub printgame$/;"	s
+printhook	ownermap.c	/^printhook(struct board *board, coord_t c, char *s, char *end, void *data)$/;"	f	file:
+prior	uct/internal.h	/^	struct uct_prior *prior;$/;"	m	struct:uct	typeref:struct:uct::uct_prior
+prior	uct/internal.h	/^	uctp_prior prior;$/;"	m	struct:uct_policy
+prior	uct/plugins.c	/^	void (*prior)(void *data, struct tree_node *node, struct prior_map *map, int eqex);$/;"	m	struct:plugin	file:
+prior	uct/prior.h	/^	struct move_stats *prior;$/;"	m	struct:prior_map	typeref:struct:prior_map::move_stats
+prior	uct/tree.h	/^	struct move_stats prior;$/;"	m	struct:tree_node	typeref:struct:tree_node::move_stats
+prior_map	uct/prior.h	/^struct prior_map {$/;"	s
+prob	patternprob.h	/^	floating_t prob;$/;"	m	struct:pattern_prob
+prob2elo	t-play/autotest/autotest-show	/^prob2elo() {$/;"	f
+probdist	probdist.h	/^struct probdist {$/;"	s
+probdist_alloca	probdist.h	28;"	d
+probdist_mute	probdist.h	/^probdist_mute(struct probdist *pd, coord_t c)$/;"	f
+probdist_one	probdist.h	34;"	d
+probdist_pick	probdist.c	/^probdist_pick(struct probdist *restrict pd, coord_t *restrict ignore)$/;"	f
+probdist_set	probdist.h	/^probdist_set(struct probdist *pd, coord_t c, fixp_t val)$/;"	f
+probdist_total	probdist.h	37;"	d
+process_gametree	tools/sgf2gtp.py	/^def process_gametree(gametree, fout):$/;"	f
+process_pattern	patternscan/patternscan.c	/^process_pattern(struct patternscan *ps, struct board *b, struct move *m, char **str)$/;"	f	file:
+process_reply	distributed/protocol.c	/^process_reply(int reply_id, char *reply, char *reply_buf,$/;"	f	file:
+process_sgf_file	tools/sgf2gtp.py	/^def process_sgf_file(fin, fout):$/;"	f
+profiling_noinline	board.c	29;"	d	file:
+propertySearch	tools/sgflib/sgflib.py	/^	def propertySearch(self, pid, getall=0):$/;"	m	class:GameTree
+protocol_init	distributed/protocol.c	/^protocol_init(char *slave_port, char *proxy_port, int max_slaves)$/;"	f
+protocol_lock	distributed/protocol.c	/^protocol_lock(void)$/;"	f
+protocol_unlock	distributed/protocol.c	/^protocol_unlock(void)$/;"	f
+proxy_port	distributed/distributed.c	/^	char *proxy_port;$/;"	m	struct:distributed	file:
+proxy_thread	distributed/protocol.c	/^proxy_thread(void *arg)$/;"	f	file:
+prun_get	t-play/autotest/autotest-worker	/^prun_get() {$/;"	f
+prune_ladders	uct/prior.c	/^	bool prune_ladders;$/;"	m	struct:uct_prior	file:
+pruning_threshold	uct/internal.h	/^	unsigned long pruning_threshold;$/;"	m	struct:uct
+pruning_threshold	uct/tree.h	/^	unsigned long pruning_threshold;$/;"	m	struct:tree
+ps	board.h	/^	void *ps;$/;"	m	struct:board
+ps	pattern.h	/^	pattern_spec ps;$/;"	m	struct:pattern_setup
+ptcoord	patternsp.h	/^struct ptcoord { short x, y; } ptcoords[MAX_PATTERN_AREA];$/;"	s
+ptcoords	patternsp.c	/^struct ptcoord ptcoords[MAX_PATTERN_AREA];$/;"	v	typeref:struct:ptcoord
+ptcoords	patternsp.h	/^struct ptcoord { short x, y; } ptcoords[MAX_PATTERN_AREA];$/;"	v	typeref:struct:ptcoord
+ptcoords_at	patternsp.h	85;"	d
+ptcoords_init	patternsp.c	/^ptcoords_init(void)$/;"	f	file:
+pthashes	patternsp.c	/^hash_t pthashes[PTH__ROTATIONS][MAX_PATTERN_AREA][S_MAX];$/;"	v
+pthashes	patternsp.h	/^hash_t pthashes[PTH__ROTATIONS][MAX_PATTERN_AREA][S_MAX];$/;"	v
+pthashes_init	patternsp.c	/^pthashes_init(void)$/;"	f	file:
+ptind	patternsp.c	/^unsigned int ptind[MAX_PATTERN_DIST + 2];$/;"	v
+ptind	patternsp.h	/^unsigned int ptind[MAX_PATTERN_DIST + 2];$/;"	v
+pu	uct/tree.h	/^	struct move_stats pu;$/;"	m	struct:tree_node	typeref:struct:tree_node::move_stats
+qinc	tactics/util.c	42;"	d	file:
+queue_age	distributed/protocol.c	/^int queue_age = 0;$/;"	v
+queue_index	distributed/protocol.h	/^	int queue_index;$/;"	m	struct:buf_state
+queue_length	distributed/protocol.c	/^int queue_length = 0;$/;"	v
+queue_max_length	distributed/protocol.c	/^static int queue_max_length;$/;"	v	file:
+quicked	board.h	/^	int quicked;$/;"	m	struct:board
+quit	tools/twogtp.py	/^    def quit(self):$/;"	m	class:GTP_game
+quit	tools/twogtp.py	/^    def quit(self):$/;"	m	class:GTP_player
+random_genmove	random/random.c	/^random_genmove(struct engine *e, struct board *b, struct time_info *ti, enum stone color, bool pass_all_alive)$/;"	f	file:
+random_init	random.c	/^random_init(void)$/;"	f	file:
+random_policy	uct/internal.h	/^	struct uct_policy *random_policy;$/;"	m	struct:uct	typeref:struct:uct::uct_policy
+random_policy_chance	uct/internal.h	/^	int random_policy_chance;$/;"	m	struct:uct
+reCharsToEscape	tools/sgflib/sgflib.py	/^reCharsToEscape = re.compile(r'\\]|\\\\')			# characters that need to be \\escaped$/;"	v
+reEscape	tools/sgflib/sgflib.py	/^	reEscape 			= re.compile(r'\\\\')$/;"	v	class:SGFParser
+reGameTreeEnd	tools/sgflib/sgflib.py	/^	reGameTreeEnd 		= re.compile(r'\\s*\\)')$/;"	v	class:SGFParser
+reGameTreeNext	tools/sgflib/sgflib.py	/^	reGameTreeNext 		= re.compile(r'\\s*(;|\\(|\\))')$/;"	v	class:SGFParser
+reGameTreeStart	tools/sgflib/sgflib.py	/^	reGameTreeStart 	= re.compile(r'\\s*\\(')$/;"	v	class:SGFParser
+reLineBreak	tools/sgflib/sgflib.py	/^	reLineBreak 		= re.compile(r'\\r\\n?|\\n\\r?')	# CR, LF, CR\/LF, LF\/CR$/;"	v	class:SGFParser
+reNodeContents	tools/sgflib/sgflib.py	/^	reNodeContents 		= re.compile(r'\\s*([A-Za-z]+(?=\\s*\\[))')$/;"	v	class:SGFParser
+rePropertyEnd	tools/sgflib/sgflib.py	/^	rePropertyEnd 		= re.compile(r'\\]')$/;"	v	class:SGFParser
+rePropertyStart	tools/sgflib/sgflib.py	/^	rePropertyStart 	= re.compile(r'\\s*\\[')$/;"	v	class:SGFParser
+real_board_size	board.h	321;"	d
+real_board_size	board.h	325;"	d
+real_eye_endpoint	tactics/dragon.c	/^real_eye_endpoint(struct board *board, coord_t to, enum stone color)$/;"	f	file:
+receive_queue	distributed/protocol.c	/^struct buf_state **receive_queue;$/;"	v	typeref:struct:buf_state
+receive_stats	uct/slave.c	/^receive_stats(struct uct *u, int size)$/;"	f	file:
+record_amaf_move	uct/walk.c	/^record_amaf_move(struct playout_amafmap *amaf, coord_t coord, bool is_ko_capture)$/;"	f	file:
+record_local_sequence	uct/walk.c	/^record_local_sequence(struct uct *u, struct tree *t, struct board *endb,$/;"	f	file:
+recurse	joseki/sgfvar2gtp.pl	/^sub recurse$/;"	s
+regex	chat.c	/^	char regex[100];$/;"	m	struct:chat	file:
+remove	tools/sgflib/typelib.py	/^	def remove(self, x):$/;"	m	class:MutableSequence
+replay	replay/replay.c	/^struct replay {$/;"	s	file:
+replay_done	replay/replay.c	/^replay_done(struct engine *e)$/;"	f	file:
+replay_genmove	replay/replay.c	/^replay_genmove(struct engine *e, struct board *b, struct time_info *ti, enum stone color, bool pass_all_alive)$/;"	f	file:
+replay_sample_moves	replay/replay.c	/^replay_sample_moves(struct engine *e, struct board *b, enum stone color, $/;"	f
+replay_state_init	replay/replay.c	/^replay_state_init(char *arg, struct board *b)$/;"	f
+reply	chat.c	/^	char reply[300]; \/\/ in printf format with one param (100*winrate)$/;"	m	struct:chat	file:
+reply_cond	distributed/protocol.c	/^static pthread_cond_t reply_cond = PTHREAD_COND_INITIALIZER;$/;"	v	file:
+reply_count	distributed/protocol.c	/^int reply_count = 0;$/;"	v
+reply_disabled	distributed/distributed.h	99;"	d
+report_incr_stats	uct/slave.c	/^report_incr_stats(struct uct *u, int *stats_size)$/;"	f	file:
+report_stats	uct/slave.c	/^report_stats(struct uct *u, struct board *b, coord_t c,$/;"	f	file:
+reportfreq	uct/internal.h	/^	int reportfreq;$/;"	m	struct:uct
+reporting	uct/internal.h	/^	} reporting;$/;"	m	struct:uct	typeref:enum:uct::uct_reporting
+reset	tools/sgflib/sgflib.py	/^	def reset(self):$/;"	m	class:Cursor
+reset_state	uct/uct.c	/^reset_state(struct uct *u)$/;"	f	file:
+resign	move.h	/^static coord_t resign = -2;$/;"	v
+resign_ratio	montecarlo/internal.h	/^	floating_t resign_ratio;$/;"	m	struct:montecarlo
+resign_threshold	uct/internal.h	/^	floating_t resign_threshold, sure_win_threshold;$/;"	m	struct:uct
+restore_enemies	board.c	/^restore_enemies(struct board *b, struct board_undo *u, struct move *m)$/;"	f	file:
+restore_suicide	board.c	/^restore_suicide(struct board *b, struct board_undo *u, struct move *m)$/;"	f	file:
+result	engine.h	/^	engine_result_t result;$/;"	m	struct:engine
+result	tools/twogtp.py	/^    def result(self):$/;"	m	class:GTP_game
+results	tools/twogtp.py	/^    results = match.endgame_contest(sgfbase)$/;"	v
+rev2	pattern3.c	42;"	d	file:
+rev2	pattern3.c	50;"	d	file:
+rev3	pattern3.c	41;"	d	file:
+rev3	pattern3.c	49;"	d	file:
+reverse	tools/sgflib/typelib.py	/^	def reverse(self):$/;"	m	class:MutableSequence
+root	uct/tree.h	/^	struct tree_node *root;$/;"	m	struct:tree	typeref:struct:tree::tree_node
+root_color	uct/tree.h	/^	enum stone root_color;$/;"	m	struct:tree	typeref:enum:tree::stone
+root_symmetry	uct/tree.h	/^	struct board_symmetry root_symmetry;$/;"	m	struct:tree	typeref:struct:tree::board_symmetry
+root_virtual_win	uct/policy/ucb1amaf.c	/^	int root_virtual_win;$/;"	m	struct:ucb1_policy_amaf	file:
+rootbased	uct/dynkomi.c	/^	bool rootbased;$/;"	m	struct:dynkomi_linear	file:
+rowtotals	probdist.h	/^	fixp_t *rowtotals; \/\/ [bsize], [i] = sum of items in row i$/;"	m	struct:probdist
+rules	board.h	/^	} rules;$/;"	m	struct:board	typeref:enum:board::go_ruleset
+runs	replay/replay.c	/^	int runs;$/;"	m	struct:replay	file:
+safe	board.h	/^	bool safe:1;$/;"	m	struct:btraits
+safe_data	tactics/dragon.c	/^struct safe_data {$/;"	s	file:
+scale_value	uct/walk.c	/^scale_value(struct uct *u, struct board *b, enum stone node_color, struct tree_node *significant[2], int result)$/;"	f	file:
+scan	tools/autobook/autobook2fbook.sh	/^scan() {$/;"	f
+scmp	distributed/distributed.c	/^scmp(const void *p1, const void *p2)$/;"	f	file:
+score	tools/twogtp.py	/^    def score(self):$/;"	m	class:GTP_player
+score	uct/dynkomi.h	/^	struct move_stats score;$/;"	m	struct:uct_dynkomi	typeref:struct:uct_dynkomi::move_stats
+score_step	uct/dynkomi.c	/^	int score_step;$/;"	m	struct:dynkomi_adaptive	file:
+score_step_byavg	uct/dynkomi.c	/^	floating_t score_step_byavg; \/\/ use portion of average score as increment$/;"	m	struct:dynkomi_adaptive	file:
+scounts	patternscan/patternscan.c	/^	int *scounts;$/;"	m	struct:patternscan	file:
+seed	pachi.c	/^int seed;$/;"	v
+seed	uct/search.h	/^	unsigned long seed;$/;"	m	struct:uct_thread_ctx
+seed_key	random.c	/^static pthread_key_t seed_key;$/;"	v	file:
+select_best_move	distributed/distributed.c	/^select_best_move(struct board *b, struct large_stats *stats, int *played,$/;"	f	file:
+select_best_stats	uct/slave.c	/^select_best_stats(struct stats_candidate *stats_queue, int stats_count,$/;"	f	file:
+selfTest1	tools/sgflib/sgflib.py	/^def selfTest1(onConsole=0):$/;"	f
+selfTest2	tools/sgflib/sgflib.py	/^def selfTest2(onConsole=0):$/;"	f
+selfatari	uct/plugin/example.c	/^	bool selfatari;$/;"	m	struct:context	file:
+selfatari_cousin	tactics/selfatari.c	/^selfatari_cousin(struct board *b, enum stone color, coord_t coord, group_t *bygroup)$/;"	f
+selfatari_other	playout/moggy.c	/^	bool selfatari_other;$/;"	m	struct:moggy_policy	file:
+selfatari_state	tactics/selfatari.c	/^struct selfatari_state {$/;"	s	file:
+selfatarirate	playout/moggy.c	/^	unsigned int selfatarirate, eyefillrate, alwaysccaprate;$/;"	m	struct:moggy_policy	file:
+send_command	distributed/protocol.c	/^send_command(char *to_send, void *bin_buf, int *bin_size,$/;"	f	file:
+set_handicap	tools/twogtp.py	/^    def set_handicap(self, handicap):$/;"	m	class:GTP_game
+set_ko	t-unit/test.c	/^set_ko(struct board *b, char *arg)$/;"	f	file:
+set_neighbor_count_at	board.h	355;"	d
+set_random_seed	tools/twogtp.py	/^    def set_random_seed(self, seed):$/;"	m	class:GTP_player
+setboard	playout.h	/^	playoutp_setboard setboard;$/;"	m	struct:playout_policy
+setboard_randomok	playout.h	/^	bool setboard_randomok;$/;"	m	struct:playout_policy
+setup_dynkomi	uct/uct.c	/^setup_dynkomi(struct uct *u, struct board *b, enum stone to_play)$/;"	f	file:
+setup_nakade	tactics/selfatari.c	/^setup_nakade(struct board *b, enum stone color, coord_t to, struct selfatari_state *s)$/;"	f	file:
+setup_nakade_big_group_only	tactics/selfatari.c	/^setup_nakade_big_group_only(struct board *b, enum stone color, coord_t to, struct selfatari_state *s)$/;"	f	file:
+setup_state	uct/uct.c	/^setup_state(struct uct *u, struct board *b, enum stone color)$/;"	f	file:
+sgameno	patternscan/patternscan.c	/^	int *sgameno;$/;"	m	struct:patternscan	file:
+sgf_attr	tools/pattern_byplayer.sh	/^sgf_attr() {$/;"	f
+sgfbase	tools/twogtp.py	/^sgfbase = "twogtp"$/;"	v
+shared_levels	uct/internal.h	/^	int shared_levels;$/;"	m	struct:uct
+shared_nodes	distributed/distributed.c	/^	int shared_nodes;$/;"	m	struct:distributed	file:
+shared_nodes	uct/internal.h	/^	int shared_nodes;$/;"	m	struct:uct
+show_suicide_info	t-unit/test_undo.c	/^show_suicide_info(struct board *b, struct board *orig, coord_t c, enum stone color)$/;"	f	file:
+showboard	tools/twogtp.py	/^    def showboard(self):$/;"	m	class:GTP_player
+sibling	uct/tree.h	/^	struct tree_node *parent, *sibling, *children;$/;"	m	struct:tree_node	typeref:struct:tree_node::
+significant_threshold	uct/internal.h	/^	int significant_threshold;$/;"	m	struct:uct
+size	board.h	/^	int size; \/* Including S_OFFBOARD margin - see below. *\/$/;"	m	struct:board
+size	distributed/protocol.h	/^	int size;$/;"	m	struct:buf_state
+size	joseki/joseki.c	/^	int size;$/;"	m	struct:joseki_engine	file:
+size	tools/twogtp.py	/^size     = "19"$/;"	v
+size2	board.h	/^	int size2; \/* size^2 *\/$/;"	m	struct:board
+slave	uct/internal.h	/^	bool slave; \/* Act as slave in distributed engine. *\/$/;"	m	struct:uct
+slave_index	uct/internal.h	/^	int slave_index; \/* 0..max_slaves-1, or -1 if not set *\/$/;"	m	struct:uct
+slave_lock	distributed/protocol.c	/^static pthread_mutex_t slave_lock = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+slave_loop	distributed/protocol.c	/^slave_loop(FILE *f, char *reply_buf, struct slave_state *sstate, bool resend)$/;"	f	file:
+slave_port	distributed/distributed.c	/^	char *slave_port;$/;"	m	struct:distributed	file:
+slave_sock	distributed/protocol.h	/^	int slave_sock;$/;"	m	struct:slave_state
+slave_state	distributed/protocol.h	/^struct slave_state {$/;"	s
+slave_state_alloc	distributed/protocol.c	/^slave_state_alloc(struct slave_state *sstate)$/;"	f	file:
+slave_thread	distributed/protocol.c	/^slave_thread(void *arg)$/;"	f	file:
+slaves	distributed/distributed.c	/^	int slaves;$/;"	m	struct:distributed	file:
+slaves_quit	distributed/distributed.c	/^	bool slaves_quit;$/;"	m	struct:distributed	file:
+sleep	util.h	19;"	d
+socket	network.c	/^	int socket;$/;"	m	struct:port_info	file:
+sort	tools/sgflib/typelib.py	/^	def sort(self, func=None):$/;"	m	class:MutableSequence
+spat_dict	pattern.h	/^	struct spatial_dict *spat_dict;$/;"	m	struct:pattern_config	typeref:struct:pattern_config::spatial_dict
+spat_largest	pattern.h	/^	bool spat_largest;$/;"	m	struct:pattern_config
+spat_max	pattern.h	/^	unsigned int spat_min, spat_max;$/;"	m	struct:pattern_config
+spat_min	pattern.h	/^	unsigned int spat_min, spat_max;$/;"	m	struct:pattern_config
+spat_split_sizes	patternscan/patternscan.c	/^	bool spat_split_sizes;$/;"	m	struct:patternscan	file:
+spat_threshold	patternscan/patternscan.c	/^	int spat_threshold;$/;"	m	struct:patternscan	file:
+spatial	patternsp.h	/^struct spatial {$/;"	s
+spatial2str	patternsp.c	/^spatial2str(struct spatial *s)$/;"	f
+spatial_cmp	patternsp.c	/^spatial_cmp(struct spatial *s1, struct spatial *s2)$/;"	f	file:
+spatial_dict	patternsp.h	/^struct spatial_dict {$/;"	s
+spatial_dict_addc	patternsp.c	/^spatial_dict_addc(struct spatial_dict *dict, struct spatial *s)$/;"	f	file:
+spatial_dict_addh	patternsp.c	/^spatial_dict_addh(struct spatial_dict *dict, hash_t hash, unsigned int id)$/;"	f
+spatial_dict_filename	patternsp.c	/^const char *spatial_dict_filename = "patterns.spat";$/;"	v
+spatial_dict_get	patternsp.h	/^spatial_dict_get(struct spatial_dict *dict, int dist, hash_t hash)$/;"	f
+spatial_dict_hashstats	patternsp.c	/^spatial_dict_hashstats(struct spatial_dict *dict)$/;"	f
+spatial_dict_init	patternsp.c	/^spatial_dict_init(bool will_append, bool hash)$/;"	f
+spatial_dict_load	patternsp.c	/^spatial_dict_load(struct spatial_dict *dict, FILE *f, bool hash)$/;"	f	file:
+spatial_dict_put	patternsp.c	/^spatial_dict_put(struct spatial_dict *dict, struct spatial *s, hash_t h)$/;"	f
+spatial_dict_read	patternsp.c	/^spatial_dict_read(struct spatial_dict *dict, char *buf, bool hash)$/;"	f	file:
+spatial_dict_writeinfo	patternsp.c	/^spatial_dict_writeinfo(struct spatial_dict *dict, FILE *f)$/;"	f
+spatial_from_board	patternsp.c	/^spatial_from_board(struct pattern_config *pc, struct spatial *s,$/;"	f
+spatial_hash	patternsp.c	/^spatial_hash(unsigned int rotation, struct spatial *s)$/;"	f
+spatial_hash_bits	patternsp.h	101;"	d
+spatial_hash_mask	patternsp.h	102;"	d
+spatial_init	patternsp.c	/^spatial_init(void)$/;"	f	file:
+spatial_point_at	patternsp.h	61;"	d
+spatial_write	patternsp.c	/^spatial_write(struct spatial_dict *dict, struct spatial *s, unsigned int id, FILE *f)$/;"	f
+spatials	patternsp.h	/^	struct spatial *spatials; \/* Actual records. *\/$/;"	m	struct:spatial_dict	typeref:struct:spatial_dict::spatial
+spawn_thread_manager	uct/search.c	/^spawn_thread_manager(void *ctx_)$/;"	f	file:
+spawn_worker	uct/search.c	/^spawn_worker(void *ctx_)$/;"	f	file:
+start_time	distributed/protocol.c	/^static double start_time;$/;"	v	file:
+state_alloc_hook	distributed/protocol.h	/^typedef void (*state_alloc_hook)(struct slave_state *sstate);$/;"	t
+stats_add_result	stats.h	/^stats_add_result(struct move_stats *s, floating_t result, int playouts)$/;"	f
+stats_candidate	uct/slave.c	/^struct stats_candidate {$/;"	s	file:
+stats_delay	uct/internal.h	/^	double stats_delay; \/* stored in seconds *\/$/;"	m	struct:uct
+stats_hbits	distributed/distributed.c	/^	int stats_hbits;$/;"	m	struct:distributed	file:
+stats_hbits	distributed/protocol.h	/^	int stats_hbits;$/;"	m	struct:slave_state
+stats_hbits	uct/internal.h	/^	int stats_hbits;$/;"	m	struct:uct
+stats_htable	distributed/protocol.h	/^	struct incr_stats *stats_htable;$/;"	m	struct:slave_state	typeref:struct:slave_state::incr_stats
+stats_id	distributed/protocol.h	/^	int stats_id;$/;"	m	struct:slave_state
+stats_merge	stats.h	/^stats_merge(struct move_stats *dest, struct move_stats *src)$/;"	f
+stats_reverse_parity	stats.h	/^stats_reverse_parity(struct move_stats *s)$/;"	f
+stats_rm_result	stats.h	/^stats_rm_result(struct move_stats *s, floating_t result, int playouts)$/;"	f
+stats_tally	distributed/merge.c	/^stats_tally(struct incr_stats *s, struct slave_state *sstate, int *bucket_count)$/;"	f	file:
+stone	stone.h	/^enum stone {$/;"	g
+stone2char	stone.h	/^stone2char(enum stone s)$/;"	f
+stone2str	stone.c	/^stone2str(enum stone s)$/;"	f
+stone_other	stone.h	/^stone_other(enum stone s)$/;"	f
+stones	board.h	/^	coord_t      stones[BOARD_MAX_MOVES];  \/\/ TODO try small array$/;"	m	struct:undo_enemy
+stones_all_connected	tactics/dragon.c	/^stones_all_connected(struct board *b, enum stone color, coord_t *stones, int n)$/;"	f	file:
+stones_all_connected_handler	tactics/dragon.c	/^stones_all_connected_handler(struct board *b,  enum stone color, coord_t c, void *data)$/;"	f	file:
+stop	engine.h	/^	engine_stop_t stop;$/;"	m	struct:engine
+stop	uct/search.h	/^	struct time_stop stop;$/;"	m	struct:uct_search_state	typeref:struct:uct_search_state::time_stop
+str2coord	move.c	/^str2coord(char *str, int size)$/;"	f
+str2feature	pattern.c	/^str2feature(char *str, struct feature *f)$/;"	f
+str2pattern	pattern.c	/^str2pattern(char *str, struct pattern *p)$/;"	f
+str2scoord	move.h	/^str2scoord(char *str, int size)$/;"	f
+str2stone	stone.c	/^str2stone(char *str)$/;"	f
+strcasestr	util.h	/^strcasestr(const char *haystack, const char *needle)$/;"	f
+streak_length	tools/twogtp.py	/^streak_length = -1$/;"	v
+subtree_ctx	uct/tree.c	/^struct subtree_ctx {$/;"	s	file:
+suicide_stats	replay/replay.c	/^suicide_stats(int suicide)$/;"	f	file:
+sure_win_threshold	uct/internal.h	/^	floating_t resign_threshold, sure_win_threshold;$/;"	m	struct:uct
+surrounded	tactics/dragon.c	/^	bool surrounded;$/;"	m	struct:surrounded_data	file:
+surrounded_check	tactics/dragon.c	/^surrounded_check(struct board *b,  enum stone color, coord_t lib, void *data)$/;"	f	file:
+surrounded_data	tactics/dragon.c	/^struct surrounded_data {$/;"	s	file:
+swap_players	tools/twogtp.py	/^    def swap_players(self):$/;"	m	class:GTP_game
+sylvain_rave	uct/policy/ucb1amaf.c	/^	bool sylvain_rave;$/;"	m	struct:ucb1_policy_amaf	file:
+t	Makefile	/^	.\/pachi -t =5000 no_tbook <tools\/genmove19.gtp$/;"	m
+t	timeinfo.h	/^		} t;$/;"	m	union:time_info::__anon1	typeref:struct:time_info::__anon1::__anon2
+t	uct/internal.h	/^	struct tree *t;$/;"	m	struct:uct	typeref:struct:uct::tree
+t	uct/search.h	/^	struct tree *t;$/;"	m	struct:uct_thread_ctx	typeref:struct:uct_thread_ctx::tree
+t	uct/tree.c	/^	struct tree *t;$/;"	m	struct:subtree_ctx	typeref:struct:subtree_ctx::tree	file:
+table	patternprob.h	/^	struct pattern_prob **table; \/* [pc->spat_dict->nspatials + 1] *\/$/;"	m	struct:pattern_pdict	typeref:struct:pattern_pdict::pattern_prob
+tag	mq.h	/^	unsigned char tag[MQL];$/;"	m	struct:move_queue
+tenuki_d	uct/internal.h	/^	int tenuki_d;$/;"	m	struct:uct
+tenuki_prob	playout/moggy.c	/^	double mq_prob[MQ_MAX], tenuki_prob;$/;"	m	struct:moggy_policy	file:
+terminator	distributed/merge.c	/^static struct incr_stats terminator = { .coord_path = INT64_MAX };$/;"	v	typeref:struct:incr_stats	file:
+territory_scoring	uct/internal.h	/^	bool territory_scoring;$/;"	m	struct:uct
+test_can_countercapture	t-unit/test.c	/^test_can_countercapture(struct board *b, char *arg)$/;"	f	file:
+test_ladder	t-unit/test.c	/^test_ladder(struct board *b, char *arg)$/;"	f	file:
+test_moggy_moves	t-unit/test.c	/^test_moggy_moves(struct board *b, char *arg)$/;"	f	file:
+test_moggy_status	t-unit/test.c	/^test_moggy_status(struct board *board, char *arg)$/;"	f	file:
+test_pattern3_here	playout/moggy.c	/^test_pattern3_here(struct playout_policy *p, struct board *b, struct move *m, bool middle_ladder, double *gamma)$/;"	f	file:
+test_sar	t-unit/test.c	/^test_sar(struct board *b, char *arg)$/;"	f	file:
+test_two_eyes	t-unit/test.c	/^test_two_eyes(struct board *b, char *arg)$/;"	f	file:
+test_undo	t-unit/test_undo.c	/^test_undo(struct board *orig, coord_t c, enum stone color)$/;"	f	file:
+test_useful_ladder	t-unit/test.c	/^test_useful_ladder(struct board *b, char *arg)$/;"	f	file:
+thread_id	distributed/protocol.h	/^	int thread_id;$/;"	m	struct:slave_state
+thread_manager	uct/search.c	/^static pthread_t thread_manager;$/;"	v	file:
+thread_manager_running	uct/search.c	/^bool thread_manager_running;$/;"	v
+thread_model	uct/internal.h	/^	} thread_model;$/;"	m	struct:uct	typeref:enum:uct::uct_thread_model
+threads	distributed/distributed.c	/^	int threads;$/;"	m	struct:distributed	file:
+threads	uct/internal.h	/^	int threads;$/;"	m	struct:uct
+threat_rave	uct/policy/ucb1amaf.c	/^	int threat_rave;$/;"	m	struct:ucb1_policy_amaf	file:
+three_liberty_suicide	tactics/selfatari.c	/^three_liberty_suicide(struct board *b, group_t g, enum stone color, coord_t to, struct selfatari_state *s)$/;"	f	file:
+thres	ownermap.h	/^	floating_t thres;$/;"	m	struct:group_judgement
+ti	uct/search.h	/^	struct time_info *ti;$/;"	m	struct:uct_thread_ctx	typeref:struct:uct_thread_ctx::time_info
+tid	uct/search.h	/^	int tid;$/;"	m	struct:uct_thread_ctx
+time	timeinfo.h	/^		double time; \/\/ TD_WALLTIME$/;"	m	union:time_stop::__anon3
+time	timeinfo.h	/^		double time; \/\/ TD_WALLTIME$/;"	m	union:time_stop::__anon4
+time_dimension	timeinfo.h	/^	enum time_dimension {$/;"	g	struct:time_info
+time_in_byoyomi	timeinfo.c	/^time_in_byoyomi(struct time_info *ti) {$/;"	f	file:
+time_info	timeinfo.h	/^struct time_info {$/;"	s
+time_left	timeinfo.c	/^time_left(struct time_info *ti, int time_left, int stones_left)$/;"	f
+time_now	timeinfo.c	/^time_now(void)$/;"	f
+time_parse	timeinfo.c	/^time_parse(struct time_info *ti, char *s)$/;"	f
+time_period	timeinfo.h	/^	enum time_period {$/;"	g	struct:time_info
+time_settings	timeinfo.c	/^time_settings(struct time_info *ti, int main_time, int byoyomi_time, int byoyomi_stones, int byoyomi_periods)$/;"	f
+time_sleep	timeinfo.c	/^time_sleep(double interval)$/;"	f
+time_start_timer	timeinfo.c	/^time_start_timer(struct time_info *ti)$/;"	f
+time_stop	timeinfo.h	/^struct time_stop {$/;"	s
+time_stop_conditions	timeinfo.c	/^time_stop_conditions(struct time_info *ti, struct board *b, int fuseki_end, int yose_start,$/;"	f
+time_stop_phase_adjust	timeinfo.c	/^time_stop_phase_adjust(struct board *b, int fuseki_end, int yose_start, struct time_stop *stop)$/;"	f	file:
+time_stop_set_remaining	timeinfo.c	/^time_stop_set_remaining(struct time_info *ti, struct board *b, double net_lag, struct time_stop *stop)$/;"	f	file:
+time_sub	timeinfo.c	/^time_sub(struct time_info *ti, double interval, bool new_move)$/;"	f
+timer_start	timeinfo.h	/^			double timer_start;$/;"	m	struct:time_info::__anon1::__anon2
+to_play	uct/prior.h	/^	enum stone to_play;$/;"	m	struct:prior_map	typeref:enum:prior_map::stone
+total	probdist.h	/^	fixp_t total; \/\/ sum of all items$/;"	m	struct:probdist
+trait_at	board.h	360;"	d
+tree	uct/tree.h	/^struct tree {$/;"	s
+tree	uct/walk.c	/^	struct tree *tree;$/;"	m	struct:uct_playout_callback	typeref:struct:uct_playout_callback::tree	file:
+tree_age_node	uct/tree.c	/^tree_age_node(struct tree *tree, struct tree_node *node)$/;"	f	file:
+tree_alloc_node	uct/tree.c	/^tree_alloc_node(struct tree *t, int count, bool fast_alloc)$/;"	f	file:
+tree_book_name	uct/tree.c	/^tree_book_name(struct board *b)$/;"	f	file:
+tree_done	uct/tree.c	/^tree_done(struct tree *t)$/;"	f
+tree_done_node	uct/tree.c	/^tree_done_node(struct tree *t, struct tree_node *n)$/;"	f	file:
+tree_done_node_detached	uct/tree.c	/^tree_done_node_detached(struct tree *t, struct tree_node *n)$/;"	f	file:
+tree_done_node_worker	uct/tree.c	/^tree_done_node_worker(void *ctx_)$/;"	f	file:
+tree_dump	uct/tree.c	/^tree_dump(struct tree *tree, double thres)$/;"	f
+tree_expand_node	uct/tree.c	/^tree_expand_node(struct tree *t, struct tree_node *node, struct board *b, enum stone color, struct uct *u, int parity)$/;"	f
+tree_find_node	uct/slave.c	/^tree_find_node(struct tree *t, struct incr_stats *is, struct tree_node *prev)$/;"	f	file:
+tree_fix_node_symmetry	uct/tree.c	/^tree_fix_node_symmetry(struct board *b, struct tree_node *node,$/;"	f	file:
+tree_fix_symmetry	uct/tree.c	/^tree_fix_symmetry(struct tree *tree, struct board *b, coord_t c)$/;"	f	file:
+tree_garbage_collect	uct/tree.c	/^tree_garbage_collect(struct tree *tree, struct tree_node *node)$/;"	f
+tree_get_node	uct/tree.c	/^tree_get_node(struct tree *t, struct tree_node *parent, coord_t c, bool create)$/;"	f
+tree_hash	uct/slave.c	/^struct tree_hash {$/;"	s	file:
+tree_init	uct/tree.c	/^tree_init(struct board *board, enum stone color, unsigned long max_tree_size,$/;"	f
+tree_init_node	uct/tree.c	/^tree_init_node(struct tree *t, coord_t coord, int depth, bool fast_alloc)$/;"	f	file:
+tree_leaf_node	uct/tree.h	/^tree_leaf_node(struct tree_node *node)$/;"	f
+tree_lnode_for_node	uct/tree.c	/^tree_lnode_for_node(struct tree *tree, struct tree_node *ni, struct tree_node *lni, int tenuki_d)$/;"	f
+tree_load	uct/tree.c	/^tree_load(struct tree *tree, struct board *b)$/;"	f
+tree_node	uct/tree.h	/^struct tree_node {$/;"	s
+tree_node_criticality	uct/tree.h	/^tree_node_criticality(const struct tree *t, const struct tree_node *node)$/;"	f
+tree_node_dump	uct/tree.c	/^tree_node_dump(struct tree *tree, struct tree_node *node, int treeparity, int l, int thres)$/;"	f	file:
+tree_node_get_value	uct/tree.h	178;"	d
+tree_node_load	uct/tree.c	/^tree_node_load(FILE *f, struct tree_node *node, int *num)$/;"	f
+tree_node_parity	uct/tree.h	170;"	d
+tree_node_save	uct/tree.c	/^tree_node_save(FILE *f, struct tree_node *node, int thres)$/;"	f	file:
+tree_parity	uct/tree.h	174;"	d
+tree_promote_at	uct/tree.c	/^tree_promote_at(struct tree *tree, struct board *b, coord_t c)$/;"	f
+tree_promote_node	uct/tree.c	/^tree_promote_node(struct tree *tree, struct tree_node **node)$/;"	f
+tree_prune	uct/tree.c	/^tree_prune(struct tree *dest, struct tree *src, struct tree_node *node,$/;"	f	file:
+tree_save	uct/tree.c	/^tree_save(struct tree *tree, struct board *b, int thres)$/;"	f
+tree_setup_node	uct/tree.c	/^tree_setup_node(struct tree *t, struct tree_node *n, coord_t coord, int depth)$/;"	f	file:
+tree_unlink_node	uct/tree.c	/^tree_unlink_node(struct tree_node *node)$/;"	f	file:
+two_stones_gap	tactics/dragon.c	/^two_stones_gap(struct board *b, enum stone color, coord_t lib, int *connected) $/;"	f	file:
+type	board.h	/^	enum e_sym type;$/;"	m	struct:board_symmetry	typeref:enum:board_symmetry::e_sym
+u	uct/search.h	/^	struct uct *u;$/;"	m	struct:uct_thread_ctx	typeref:struct:uct_thread_ctx::uct
+u	uct/tree.h	/^	struct move_stats u;$/;"	m	struct:tree_node	typeref:struct:tree_node::move_stats
+ucb1_descend	uct/policy/ucb1.c	/^ucb1_descend(struct uct_policy *p, struct tree *tree, struct uct_descent *descent, int parity, bool allow_pass)$/;"	f
+ucb1_done	uct/policy/ucb1.c	/^ucb1_done(struct uct_policy *p)$/;"	f
+ucb1_policy	uct/policy/ucb1.c	/^struct ucb1_policy {$/;"	s	file:
+ucb1_policy_amaf	uct/policy/ucb1amaf.c	/^struct ucb1_policy_amaf {$/;"	s	file:
+ucb1_update	uct/policy/ucb1.c	/^ucb1_update(struct uct_policy *p, struct tree *tree, struct tree_node *node, enum stone node_color, enum stone player_color, struct playout_amafmap *map, struct board *final_board, floating_t result)$/;"	f
+ucb1amaf_done	uct/policy/ucb1amaf.c	/^ucb1amaf_done(struct uct_policy *p)$/;"	f
+ucb1amaf_update	uct/policy/ucb1amaf.c	/^ucb1amaf_update(struct uct_policy *p, struct tree *tree, struct tree_node *node,$/;"	f
+ucb1rave_descend	uct/policy/ucb1amaf.c	/^ucb1rave_descend(struct uct_policy *p, struct tree *tree, struct uct_descent *descent, int parity, bool allow_pass)$/;"	f
+ucb1rave_evaluate	uct/policy/ucb1amaf.c	/^ucb1rave_evaluate(struct uct_policy *p, struct tree *tree, struct uct_descent *descent, int parity)$/;"	f	file:
+uct	uct/dynkomi.h	/^	struct uct *uct;$/;"	m	struct:uct_dynkomi	typeref:struct:uct_dynkomi::uct
+uct	uct/internal.h	/^	struct uct *uct;$/;"	m	struct:uct_policy	typeref:struct:uct_policy::uct
+uct	uct/internal.h	/^struct uct {$/;"	s
+uct	uct/walk.c	/^	struct uct *uct;$/;"	m	struct:uct_playout_callback	typeref:struct:uct_playout_callback::uct	file:
+uct_best_moves	uct/uct.c	/^uct_best_moves(struct engine *e, struct board *b, enum stone color)$/;"	f	file:
+uct_board_print	uct/uct.c	/^uct_board_print(struct engine *e, struct board *b, FILE *f)$/;"	f	file:
+uct_chat	uct/uct.c	/^uct_chat(struct engine *e, struct board *b, bool opponent, char *from, char *cmd)$/;"	f	file:
+uct_dead_group_list	uct/uct.c	/^uct_dead_group_list(struct engine *e, struct board *b, struct move_queue *mq)$/;"	f	file:
+uct_descent	uct/internal.h	/^struct uct_descent {$/;"	s
+uct_done	uct/uct.c	/^uct_done(struct engine *e)$/;"	f	file:
+uct_dumptbook	uct/uct.c	/^uct_dumptbook(struct engine *e, struct board *b, enum stone color)$/;"	f
+uct_dynkomi	uct/dynkomi.h	/^struct uct_dynkomi {$/;"	s
+uct_dynkomi_init_adaptive	uct/dynkomi.c	/^uct_dynkomi_init_adaptive(struct uct *u, char *arg, struct board *b)$/;"	f
+uct_dynkomi_init_linear	uct/dynkomi.c	/^uct_dynkomi_init_linear(struct uct *u, char *arg, struct board *b)$/;"	f
+uct_dynkomi_init_none	uct/dynkomi.c	/^uct_dynkomi_init_none(struct uct *u, char *arg, struct board *b)$/;"	f
+uct_evaluate	uct/uct.c	/^uct_evaluate(struct engine *e, struct board *b, struct time_info *ti, floating_t *vals, enum stone color)$/;"	f
+uct_evaluate_one	uct/uct.c	/^uct_evaluate_one(struct engine *e, struct board *b, struct time_info *ti, coord_t c, enum stone color)$/;"	f
+uct_genmove	uct/uct.c	/^uct_genmove(struct engine *e, struct board *b, struct time_info *ti, enum stone color, bool pass_all_alive)$/;"	f	file:
+uct_genmove_setup	uct/uct.c	/^uct_genmove_setup(struct uct *u, struct board *b, enum stone color)$/;"	f
+uct_genmoves	uct/slave.c	/^uct_genmoves(struct engine *e, struct board *b, struct time_info *ti, enum stone color,$/;"	f
+uct_gentbook	uct/uct.c	/^uct_gentbook(struct engine *e, struct board *b, struct time_info *ti, enum stone color)$/;"	f
+uct_halt	uct/search.c	/^volatile sig_atomic_t uct_halt = 0;$/;"	v
+uct_htable_alloc	uct/slave.c	/^uct_htable_alloc(int hbits)$/;"	f
+uct_htable_reset	uct/slave.c	/^void uct_htable_reset(struct tree *t)$/;"	f
+uct_leaf_node	uct/walk.c	/^uct_leaf_node(struct uct *u, struct board *b, enum stone player_color,$/;"	f	file:
+uct_live_gfx_hook	uct/uct.c	/^uct_live_gfx_hook(struct engine *e)$/;"	f	file:
+uct_notify	uct/slave.c	/^uct_notify(struct engine *e, struct board *b, int id, char *cmd, char *args, char **reply)$/;"	f
+uct_notify_play	uct/uct.c	/^uct_notify_play(struct engine *e, struct board *b, struct move *m, char *enginearg)$/;"	f	file:
+uct_owner_map	uct/uct.c	/^uct_owner_map(struct engine *e, struct board *b, coord_t c)$/;"	f	file:
+uct_pass_is_safe	uct/uct.c	/^uct_pass_is_safe(struct uct *u, struct board *b, enum stone color, bool pass_all_alive)$/;"	f
+uct_playout	uct/walk.c	/^uct_playout(struct uct *u, struct board *b, enum stone player_color, struct tree *t)$/;"	f
+uct_playout_callback	uct/walk.c	/^struct uct_playout_callback {$/;"	s	file:
+uct_playout_hook	uct/walk.c	/^uct_playout_hook(struct playout_policy *playout, struct playout_setup *setup, struct board *b, enum stone color, int mode)$/;"	f	file:
+uct_playout_postpolicy	uct/walk.c	/^uct_playout_postpolicy(struct playout_policy *playout, struct playout_setup *setup, struct board *b, enum stone color)$/;"	f	file:
+uct_playout_prepolicy	uct/walk.c	/^uct_playout_prepolicy(struct playout_policy *playout, struct playout_setup *setup, struct board *b, enum stone color)$/;"	f	file:
+uct_playouts	uct/walk.c	/^uct_playouts(struct uct *u, struct board *b, enum stone color, struct tree *t, struct time_info *ti)$/;"	f
+uct_pluginset	uct/plugins.c	/^struct uct_pluginset {$/;"	s	file:
+uct_policy	uct/internal.h	/^struct uct_policy {$/;"	s
+uct_pondering_start	uct/uct.c	/^uct_pondering_start(struct uct *u, struct board *b0, struct tree *t, enum stone color)$/;"	f	file:
+uct_pondering_stop	uct/uct.c	/^uct_pondering_stop(struct uct *u)$/;"	f
+uct_prepare_move	uct/uct.c	/^uct_prepare_move(struct uct *u, struct board *b, enum stone color)$/;"	f
+uct_prior	uct/prior.c	/^struct uct_prior {$/;"	s	file:
+uct_prior	uct/prior.c	/^uct_prior(struct uct *u, struct tree_node *node, struct prior_map *map)$/;"	f
+uct_prior_b19	uct/prior.c	/^uct_prior_b19(struct uct *u, struct tree_node *node, struct prior_map *map)$/;"	f
+uct_prior_cfgd	uct/prior.c	/^uct_prior_cfgd(struct uct *u, struct tree_node *node, struct prior_map *map)$/;"	f
+uct_prior_dcnn	uct/prior.c	/^uct_prior_dcnn(struct uct *u, struct tree_node *node, struct prior_map *map)$/;"	f	file:
+uct_prior_dcnn	uct/prior.c	100;"	d	file:
+uct_prior_done	uct/prior.c	/^uct_prior_done(struct uct_prior *p)$/;"	f
+uct_prior_even	uct/prior.c	/^uct_prior_even(struct uct *u, struct tree_node *node, struct prior_map *map)$/;"	f
+uct_prior_eye	uct/prior.c	/^uct_prior_eye(struct uct *u, struct tree_node *node, struct prior_map *map)$/;"	f
+uct_prior_init	uct/prior.c	/^uct_prior_init(char *arg, struct board *b, struct uct *u)$/;"	f
+uct_prior_joseki	uct/prior.c	/^uct_prior_joseki(struct uct *u, struct tree_node *node, struct prior_map *map)$/;"	f
+uct_prior_ko	uct/prior.c	/^uct_prior_ko(struct uct *u, struct tree_node *node, struct prior_map *map)$/;"	f
+uct_prior_pattern	uct/prior.c	/^uct_prior_pattern(struct uct *u, struct tree_node *node, struct prior_map *map)$/;"	f
+uct_prior_playout	uct/prior.c	/^uct_prior_playout(struct uct *u, struct tree_node *node, struct prior_map *map)$/;"	f
+uct_progress_gogui_candidates	uct/walk.c	/^uct_progress_gogui_candidates(struct uct *u, struct tree *t, enum stone color, int playouts)$/;"	f	file:
+uct_progress_gogui_sequence	uct/walk.c	/^uct_progress_gogui_sequence(struct uct *u, struct tree *t, enum stone color, int playouts)$/;"	f	file:
+uct_progress_gogui_winrates	uct/walk.c	/^uct_progress_gogui_winrates(struct uct *u, struct tree *t, enum stone color, int playouts)$/;"	f	file:
+uct_progress_json	uct/walk.c	/^uct_progress_json(struct uct *u, struct tree *t, enum stone color, int playouts, coord_t *final, bool big)$/;"	f
+uct_progress_status	uct/walk.c	/^uct_progress_status(struct uct *u, struct tree *t, enum stone color, int playouts, coord_t *final)$/;"	f
+uct_progress_text	uct/walk.c	/^uct_progress_text(struct uct *u, struct tree *t, enum stone color, int playouts)$/;"	f
+uct_reporting	uct/internal.h	/^	enum uct_reporting {$/;"	g	struct:uct
+uct_result	uct/uct.c	/^uct_result(struct engine *e, struct board *b)$/;"	f	file:
+uct_search	uct/uct.c	/^uct_search(struct uct *u, struct board *b, struct time_info *ti, enum stone color, struct tree *t, bool print_progress)$/;"	f	file:
+uct_search_check_stop	uct/search.c	/^uct_search_check_stop(struct uct *u, struct board *b, enum stone color,$/;"	f
+uct_search_games	uct/search.c	/^uct_search_games(struct uct_search_state *s)$/;"	f
+uct_search_keep_looking	uct/search.c	/^uct_search_keep_looking(struct uct *u, struct tree *t, struct board *b,$/;"	f	file:
+uct_search_progress	uct/search.c	/^uct_search_progress(struct uct *u, struct board *b, enum stone color,$/;"	f
+uct_search_result	uct/search.c	/^uct_search_result(struct uct *u, struct board *b, enum stone color,$/;"	f
+uct_search_start	uct/search.c	/^uct_search_start(struct uct *u, struct board *b, enum stone color,$/;"	f
+uct_search_state	uct/search.h	/^struct uct_search_state {$/;"	s
+uct_search_stop	uct/search.c	/^uct_search_stop(void)$/;"	f
+uct_search_stop_early	uct/search.c	/^uct_search_stop_early(struct uct *u, struct tree *t, struct board *b,$/;"	f	file:
+uct_state_init	uct/uct.c	/^uct_state_init(char *arg, struct board *b)$/;"	f
+uct_stop	uct/uct.c	/^uct_stop(struct engine *e)$/;"	f	file:
+uct_thread_ctx	uct/search.h	/^struct uct_thread_ctx {$/;"	s
+uct_thread_model	uct/internal.h	/^	enum uct_thread_model {$/;"	g	struct:uct
+uct_undo	uct/uct.c	/^uct_undo(struct engine *e, struct board *b)$/;"	f	file:
+uctd_debug	uct/policy/generic.h	22;"	d
+uctd_done	uct/dynkomi.h	/^typedef void (*uctd_done)(struct uct_dynkomi *d);$/;"	t
+uctd_get_best_child	uct/policy/generic.h	76;"	d
+uctd_permove	uct/dynkomi.h	/^typedef floating_t (*uctd_permove)(struct uct_dynkomi *d, struct board *b, struct tree *tree);$/;"	t
+uctd_persim	uct/dynkomi.h	/^typedef floating_t (*uctd_persim)(struct uct_dynkomi *d, struct board *b, struct tree *tree, struct tree_node *node);$/;"	t
+uctd_set_best_child	uct/policy/generic.h	55;"	d
+uctd_try_node_children	uct/policy/generic.h	25;"	d
+uctp_choose	uct/internal.h	/^typedef struct tree_node *(*uctp_choose)(struct uct_policy *p, struct tree_node *node, struct board *b, enum stone color, coord_t exclude);$/;"	t	typeref:struct:uctp_choose
+uctp_descend	uct/internal.h	/^typedef void (*uctp_descend)(struct uct_policy *p, struct tree *tree, struct uct_descent *descent, int parity, bool allow_pass);$/;"	t
+uctp_done	uct/internal.h	/^typedef void (*uctp_done)(struct uct_policy *p);$/;"	t
+uctp_evaluate	uct/internal.h	/^typedef floating_t (*uctp_evaluate)(struct uct_policy *p, struct tree *tree, struct uct_descent *descent, int parity);$/;"	t
+uctp_generic_choose	uct/policy/generic.c	/^uctp_generic_choose(struct uct_policy *p, struct tree_node *node, struct board *b, enum stone color, coord_t exclude)$/;"	f
+uctp_generic_winner	uct/policy/generic.c	/^uctp_generic_winner(struct uct_policy *p, struct tree *tree, struct uct_descent *descent)$/;"	f
+uctp_prior	uct/internal.h	/^typedef void (*uctp_prior)(struct uct_policy *p, struct tree *tree, struct tree_node *node, struct board *b, enum stone color, int parity);$/;"	t
+uctp_update	uct/internal.h	/^typedef void (*uctp_update)(struct uct_policy *p, struct tree *tree, struct tree_node *node, enum stone node_color, enum stone player_color, struct playout_amafmap *amaf, struct board *final_board, floating_t result);$/;"	t
+uctp_winner	uct/internal.h	/^typedef void (*uctp_winner)(struct uct_policy *p, struct tree *tree, struct uct_descent *descent);$/;"	t
+undo	engine.h	/^	engine_undo_t undo;$/;"	m	struct:engine
+undo_enemy	board.h	/^struct undo_enemy {$/;"	s
+undo_init	board.c	/^undo_init(struct board *b, struct move *m, struct board_undo *u)$/;"	f	file:
+undo_merge	board.c	/^undo_merge(struct board *b, struct board_undo *u, struct move *m)$/;"	f	file:
+undo_merge	board.h	/^struct undo_merge {$/;"	s
+undo_save_enemy	board.c	/^undo_save_enemy(struct board *b, struct board_undo *u, group_t g)$/;"	f	file:
+undo_save_group_info	board.c	/^undo_save_group_info(struct board *b, coord_t coord, enum stone color, struct board_undo *u)$/;"	f	file:
+undo_save_merge	board.c	/^undo_save_merge(struct board *b, struct board_undo *u, group_t g, coord_t c)$/;"	f	file:
+undo_save_suicide	board.c	/^undo_save_suicide(struct board *b, coord_t coord, enum stone color, struct board_undo *u)$/;"	f	file:
+unittest	t-unit/test.c	/^unittest(char *filename)$/;"	f
+unlikely	util.h	57;"	d
+unlimited_ti	uct/search.c	/^static const struct time_info unlimited_ti = {$/;"	v	typeref:struct:time_info	file:
+unreachable_lib_from_neighbors	tactics/selfatari.c	/^unreachable_lib_from_neighbors(struct board *b, enum stone color, coord_t to, struct selfatari_state *s,$/;"	f	file:
+untrustworthy_tree	uct/tree.h	/^	bool untrustworthy_tree;$/;"	m	struct:tree
+update	tools/sgflib/sgflib.py	/^	def update(self, dict):$/;"	m	class:Node
+update	tools/sgflib/typelib.py	/^	def update(self, dict):$/;"	m	class:Mapping
+update	uct/internal.h	/^	uctp_update update;$/;"	m	struct:uct_policy
+update_cmd	distributed/protocol.c	/^update_cmd(struct board *b, char *cmd, char *args, bool new_id)$/;"	f
+usage	pachi.c	/^static void usage(char *name)$/;"	f	file:
+usage	t-predict/predict	/^usage()$/;"	f
+usage	tools/twogtp.py	/^def usage():$/;"	f
+use_extra_komi	uct/tree.h	/^	bool use_extra_komi;$/;"	m	struct:tree
+use_komi_ratchet	uct/dynkomi.c	/^	bool use_komi_ratchet;$/;"	m	struct:dynkomi_adaptive	file:
+useful_ladder	tactics/ladder.c	/^useful_ladder(struct board *b, group_t laddered)$/;"	f
+useful_nakade_making_dead_shape	tactics/selfatari.c	/^useful_nakade_making_dead_shape(struct board *b, enum stone color, coord_t to, struct selfatari_state *s,$/;"	f	file:
+using_dcnn	dcnn.cpp	/^using_dcnn(struct board *b)$/;"	f
+using_dcnn	dcnn.h	24;"	d
+val_byavg	uct/internal.h	/^	bool val_byavg;$/;"	m	struct:uct
+val_bytemp	uct/internal.h	/^	bool val_bytemp;$/;"	m	struct:uct
+val_bytemp_min	uct/internal.h	/^	floating_t val_bytemp_min;$/;"	m	struct:uct
+val_extra	uct/internal.h	/^	bool val_extra;$/;"	m	struct:uct
+val_points	uct/internal.h	/^	int val_points;$/;"	m	struct:uct
+val_scale	uct/internal.h	/^	floating_t val_scale;$/;"	m	struct:uct
+value	distributed/distributed.c	/^	floating_t value; \/\/ BLACK wins\/playouts$/;"	m	struct:large_stats	file:
+value	pattern3.h	/^	unsigned char value;$/;"	m	struct:pattern2p
+value	stats.h	/^	floating_t value; \/\/ BLACK wins\/playouts$/;"	m	struct:move_stats
+value	uct/dynkomi.h	/^	struct move_stats value;$/;"	m	struct:uct_dynkomi	typeref:struct:uct_dynkomi::move_stats
+value	uct/internal.h	/^	struct move_stats value;$/;"	m	struct:uct_descent	typeref:struct:uct_descent::move_stats
+values	tools/sgflib/typelib.py	/^	def values(self):$/;"	m	class:Mapping
+verbose	tools/twogtp.py	/^verbose = 0$/;"	v
+verbose_logs	pachi.c	/^long verbose_logs = 0;$/;"	v
+vert_gap	tactics/dragon.c	626;"	d	file:
+virtual_connection_at	tactics/dragon.c	/^virtual_connection_at(struct board *b, enum stone color, coord_t lib, coord_t c2, group_t g1, group_t g2)$/;"	f	file:
+virtual_loss	uct/internal.h	/^	int virtual_loss;$/;"	m	struct:uct
+virtual_win	uct/policy/ucb1amaf.c	/^	int virtual_win;$/;"	m	struct:ucb1_policy_amaf	file:
+visited	tactics/dragon.c	/^	int *visited;$/;"	m	struct:foreach_lib_data	file:
+visited	tactics/dragon.c	/^	int *visited;$/;"	m	struct:safe_data	file:
+vloss_sqrt	uct/policy/ucb1amaf.c	/^	bool vloss_sqrt;$/;"	m	struct:ucb1_policy_amaf	file:
+vwin_min_playouts	uct/policy/ucb1amaf.c	/^	int vwin_min_playouts;$/;"	m	struct:ucb1_policy_amaf	file:
+want_pat	uct/internal.h	/^	bool want_pat;$/;"	m	struct:uct
+wants_amaf	uct/internal.h	/^	bool wants_amaf;$/;"	m	struct:uct_policy
+watermark_get	board.c	961;"	d	file:
+watermark_get	board.c	979;"	d	file:
+watermark_set	board.c	962;"	d	file:
+watermark_set	board.c	980;"	d	file:
+white	tools/twogtp.py	/^    def white(self, move):$/;"	m	class:GTP_player
+white	tools/twogtp.py	/^white    = ""$/;"	v
+win_black	tools/twogtp.py	/^    win_black = 0$/;"	v
+win_white	tools/twogtp.py	/^    win_white = 0$/;"	v
+winner	uct/internal.h	/^	uctp_winner winner;$/;"	m	struct:uct_policy
+winner_owner	uct/tree.h	/^	struct move_stats winner_owner; \/\/ owner == winner$/;"	m	struct:tree_node	typeref:struct:tree_node::move_stats
+wins	montecarlo/internal.h	/^	int wins;$/;"	m	struct:move_stat
+with_move	board.h	484;"	d
+with_move_return	board.h	497;"	d
+with_move_strict	board.h	501;"	d
+worst	timeinfo.h	/^	} worst;$/;"	m	struct:time_stop	typeref:union:time_stop::__anon4
+wouldbe_ladder	tactics/ladder.c	/^wouldbe_ladder(struct board *b, group_t group, coord_t escapelib, coord_t chaselib, enum stone lcolor)$/;"	f
+wouldbe_ladder_any	tactics/ladder.c	/^wouldbe_ladder_any(struct board *b, group_t group, coord_t escapelib, coord_t chaselib, enum stone lcolor)$/;"	f
+writesgf	tools/twogtp.py	/^    def writesgf(self, sgffilename):$/;"	m	class:GTP_game
+x	patternsp.h	/^struct ptcoord { short x, y; } ptcoords[MAX_PATTERN_AREA];$/;"	m	struct:ptcoord
+x1	board.h	/^	int x1, x2, y1, y2;$/;"	m	struct:board_symmetry
+x2	board.h	/^	int x1, x2, y1, y2;$/;"	m	struct:board_symmetry
+y	patternsp.h	/^struct ptcoord { short x, y; } ptcoords[MAX_PATTERN_AREA];$/;"	m	struct:ptcoord
+y1	board.h	/^	int x1, x2, y1, y2;$/;"	m	struct:board_symmetry
+y2	board.h	/^	int x1, x2, y1, y2;$/;"	m	struct:board_symmetry
+yose_start	uct/internal.h	/^	int yose_start;$/;"	m	struct:uct
+zone_green	uct/dynkomi.c	/^	floating_t zone_red, zone_green;$/;"	m	struct:dynkomi_adaptive	file:
+zone_red	uct/dynkomi.c	/^	floating_t zone_red, zone_green;$/;"	m	struct:dynkomi_adaptive	file:
